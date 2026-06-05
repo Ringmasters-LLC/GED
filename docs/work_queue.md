@@ -22,6 +22,8 @@
 | GED-P0-010 | P0 | DONE | Gemini | create docs/philosophy.md | file exists, caveman mode |
 | GED-P0-011 | P0 | DONE | Gemini | create docs/anti_patterns.md | file exists, caveman mode |
 | GED-P0-012 | P0 | DONE | Gemini | create docs/form_failures.md | file exists, caveman mode |
+| GED-P0-013 | P0 | DONE | Gemini | create docs/skillsets.md | file exists, defines agent roles |
+| GED-P0-014 | P0 | DONE | Gemini | create GEMINI.md | foundational mandates established |
 
 ## P1 Data Core
 | ID | Priority | Status | Owner | Task | Acceptance |
