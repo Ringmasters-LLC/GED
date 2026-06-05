@@ -1,11 +1,13 @@
 # Global Entry Data Spec
 
 ## 1. Purpose
-Normalize global reference data for entry forms. Provide stable, typed, local-first datasets. Support checkout, CRMs, and SaaS onboarding.
+GED is a **behavior metadata layer**. It normalizes global reference patterns into stable, typed, developer-facing entry models. It does not own "truth" but integrates domain authorities for checkout, CRMs, and SaaS onboarding.
 
 ## 2. Global Entry Philosophy
 Core thesis: Most global forms are domestic assumptions with international patches. This repo starts from global variance first.
-- No US-default address model.
+- **Synthesis Layer**: Normalize complex upstream standards (CLDR, libaddressinput, libphonenumber) into human-readable behavior.
+- **Integration over Ownership**: Use domain authorities where they exist; normalize for developers.
+- **No US-default address model.**
 - No forced postal-code requirement.
 - No forced state/province requirement.
 - No forced first-name/last-name assumption.
@@ -125,9 +127,11 @@ sortCountries(countries: Country[], options: SortOptions): Country[]
 - Every record requires source metadata and `updatedAt`.
 - **Fields**:
   - `iso2`, `iso3`, `numeric`, `territoryType`, `parentTerritory`, `commerceSelectable`
-  - `postalCode.used`, `postalCode.requiredForConsumerForms`, `postalCode.requiredForShipping`
-  - `address.order` (e.g., "L-S", "S-L"), `address.requiresAdministrativeArea`, `address.postalCodePosition`, `address.addressLinesRecommended`
-  - `name.supportsSingleName`, `name.requiresFamilyName`
+  - `phone.callingCodes` (array), `phone.recommendedLibrary`, `phone.normalizationTarget`
+  - `postalCode.used`, `postalCode.requiredForConsumerForms`, `postalCode.requiredForShipping`, `postalCode.label`, `postalCode.regex`, `postalCode.examples` (array)
+  - `address.requiredFields` (e.g. `["addressLine", "locality", "administrativeArea"]`), `address.fieldOrder` (array of strings)
+  - `address.order` (e.g., "L-S", "S-L"), `address.administrativeAreaLabel` (e.g. "State", "Province"), `address.postalCodePosition`, `address.addressLinesRecommended`
+  - `name.supportsSingleName`, `name.requiresFamilyName`, `name.nameOrder` (e.g. `given_family`)
   - `confidence` (0.0 - 1.0), `sources` (array)
 
 ## 9. Markdown Distribution Rules
@@ -153,10 +157,14 @@ sortCountries(countries: Country[], options: SortOptions): Country[]
   - `dist/md/anti-patterns.md`
 
 ## 10. Source and Attribution Policy
-- ISO 3166-compatible country codes.
-- Google libphonenumber-compatible phone metadata.
-- CLDR-compatible locale/territory data.
-- GeoNames-compatible postal data.
+- **ISO 3166-compatible** country codes and names.
+- **Google libphonenumber-compatible** phone metadata and discipline.
+- **Google libaddressinput-compatible** address templates and required fields.
+- **CLDR-compatible** locale, territory, language, and currency data.
+- **GeoNames-compatible** broad geographic baseline and attribution.
+- **OurAirports-compatible** open airport data discipline.
+- **WMO/ISC-compatible** hazard alert metadata models.
+- **Schema.org-compatible** semantic naming conventions.
 - Manually reviewed rules for gaps.
 - Use: "compatible with", "derived from", "normalized against".
 - Avoid: "official", "guaranteed", "authoritative".
@@ -245,7 +253,9 @@ global-entry-data/
 - Hardcoded provenance in data.
 - Version-locked data sources.
 
-- Developer can list scheduled-service airports.
+- Developer can filter scheduled-service airports.
+- Developer can look up phone calling codes and recommended parsers.
+- Developer can retrieve human-readable address templates for any country.
 - A developer can build a form without `firstName`/`lastName` assumption.
 - A developer can build a form without `state`/`province` assumption.
 - A developer can hide postal code where not used.

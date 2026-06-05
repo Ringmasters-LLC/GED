@@ -4,7 +4,13 @@ Most global forms are domestic assumptions with international patches. This proj
 
 ## Core Concepts
 
-### 1. No US-Default Address Model
+### 1. The Synthesis Layer
+Normalize complex upstream standards (CLDR, libaddressinput, libphonenumber) into human-readable developer behavior. We do not expose raw complexity; we expose product intent.
+
+### 2. Integration over Ownership
+Use domain authorities where they exist (e.g., ISO, Google, WMO). Do not own the "truth"—own the integration and normalization for developers.
+
+### 3. No US-Default Address Model
 Do not assume every address has a "State" or "Zip Code". US structures are the exception, not the rule.
 
 ### 2. No Forced Postal-Code Requirement
