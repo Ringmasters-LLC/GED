@@ -82,6 +82,7 @@ Web forms. Booking systems. WordPress plugins. Mobile apps. Admin tools. Offline
 ```ts
 getCountries(): Country[]
 getCountry(iso2: string): Country | null
+getCountryByIso3(iso3: string): Country | null
 searchCountries(query: string): Country[]
 
 getCallingCode(iso2: string): string | null

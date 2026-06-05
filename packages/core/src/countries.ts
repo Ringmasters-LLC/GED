@@ -9,6 +9,10 @@ export const getCountry = (iso2: string): Country | null => {
   return countries.find(c => c.iso2.toUpperCase() === iso2.toUpperCase()) || null;
 };
 
+export const getCountryByIso3 = (iso3: string): Country | null => {
+  return countries.find(c => c.iso3.toUpperCase() === iso3.toUpperCase()) || null;
+};
+
 export const searchCountries = (query: string): Country[] => {
   const q = query.toLowerCase();
   return countries.filter(c => 
