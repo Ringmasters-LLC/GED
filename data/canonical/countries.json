@@ -1,0 +1,2264 @@
+[
+  {
+    "iso2": "AF",
+    "name": "Afghanistan",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "AX",
+    "name": "Åland Islands",
+    "territoryType": "dependent",
+    "parentTerritory": "FI",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "AL",
+    "name": "Albania",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "DZ",
+    "name": "Algeria",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "AS",
+    "name": "American Samoa",
+    "territoryType": "dependent",
+    "parentTerritory": "US",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "AD",
+    "name": "Andorra",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "AO",
+    "name": "Angola",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "AI",
+    "name": "Anguilla",
+    "territoryType": "dependent",
+    "parentTerritory": "GB",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "AQ",
+    "name": "Antarctica",
+    "territoryType": "administrative",
+    "commerceSelectable": false,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "AG",
+    "name": "Antigua and Barbuda",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "AR",
+    "name": "Argentina",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "AM",
+    "name": "Armenia",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "AW",
+    "name": "Aruba",
+    "territoryType": "dependent",
+    "parentTerritory": "NL",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "AU",
+    "name": "Australia",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "AT",
+    "name": "Austria",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "AZ",
+    "name": "Azerbaijan",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "BS",
+    "name": "Bahamas",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "BH",
+    "name": "Bahrain",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "BD",
+    "name": "Bangladesh",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "BB",
+    "name": "Barbados",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "BY",
+    "name": "Belarus",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "BE",
+    "name": "Belgium",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "BZ",
+    "name": "Belize",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "BJ",
+    "name": "Benin",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "BM",
+    "name": "Bermuda",
+    "territoryType": "dependent",
+    "parentTerritory": "GB",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "BT",
+    "name": "Bhutan",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "BO",
+    "name": "Bolivia",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "BA",
+    "name": "Bosnia and Herzegovina",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "BW",
+    "name": "Botswana",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "BR",
+    "name": "Brazil",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "BN",
+    "name": "Brunei Darussalam",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "BG",
+    "name": "Bulgaria",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "BF",
+    "name": "Burkina Faso",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "BI",
+    "name": "Burundi",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "KH",
+    "name": "Cambodia",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "CM",
+    "name": "Cameroon",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "CA",
+    "name": "Canada",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "CV",
+    "name": "Cape Verde",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "KY",
+    "name": "Cayman Islands",
+    "territoryType": "dependent",
+    "parentTerritory": "GB",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "CF",
+    "name": "Central African Republic",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "TD",
+    "name": "Chad",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "CL",
+    "name": "Chile",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "CN",
+    "name": "China",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "CX",
+    "name": "Christmas Island",
+    "territoryType": "dependent",
+    "parentTerritory": "AU",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "CC",
+    "name": "Cocos (Keeling) Islands",
+    "territoryType": "dependent",
+    "parentTerritory": "AU",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "CO",
+    "name": "Colombia",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "KM",
+    "name": "Comoros",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "CG",
+    "name": "Congo",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "CD",
+    "name": "Congo (Democratic Republic of the)",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "CK",
+    "name": "Cook Islands",
+    "territoryType": "dependent",
+    "parentTerritory": "NZ",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "CR",
+    "name": "Costa Rica",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "CI",
+    "name": "Côte d'Ivoire",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "HR",
+    "name": "Croatia",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "CU",
+    "name": "Cuba",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "CW",
+    "name": "Curaçao",
+    "territoryType": "dependent",
+    "parentTerritory": "NL",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "CY",
+    "name": "Cyprus",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "CZ",
+    "name": "Czech Republic",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "DK",
+    "name": "Denmark",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "DJ",
+    "name": "Djibouti",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "DM",
+    "name": "Dominica",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "DO",
+    "name": "Dominican Republic",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "EC",
+    "name": "Ecuador",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "EG",
+    "name": "Egypt",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "SV",
+    "name": "El Salvador",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "GQ",
+    "name": "Equatorial Guinea",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "ER",
+    "name": "Eritrea",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "EE",
+    "name": "Estonia",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "ET",
+    "name": "Ethiopia",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "FK",
+    "name": "Falkland Islands (Malvinas)",
+    "territoryType": "dependent",
+    "parentTerritory": "GB",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "FO",
+    "name": "Faroe Islands",
+    "territoryType": "dependent",
+    "parentTerritory": "DK",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "FJ",
+    "name": "Fiji",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "FI",
+    "name": "Finland",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "FR",
+    "name": "France",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "GF",
+    "name": "French Guiana",
+    "territoryType": "dependent",
+    "parentTerritory": "FR",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "PF",
+    "name": "French Polynesia",
+    "territoryType": "dependent",
+    "parentTerritory": "FR",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "TF",
+    "name": "French Southern Territories",
+    "territoryType": "dependent",
+    "parentTerritory": "FR",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "GA",
+    "name": "Gabon",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "GM",
+    "name": "Gambia",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "GE",
+    "name": "Georgia",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "DE",
+    "name": "Germany",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "GH",
+    "name": "Ghana",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "GI",
+    "name": "Gibraltar",
+    "territoryType": "dependent",
+    "parentTerritory": "GB",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "GR",
+    "name": "Greece",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "GL",
+    "name": "Greenland",
+    "territoryType": "dependent",
+    "parentTerritory": "DK",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "GD",
+    "name": "Grenada",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "GP",
+    "name": "Guadeloupe",
+    "territoryType": "dependent",
+    "parentTerritory": "FR",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "GU",
+    "name": "Guam",
+    "territoryType": "dependent",
+    "parentTerritory": "US",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "GT",
+    "name": "Guatemala",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "GG",
+    "name": "Guernsey",
+    "territoryType": "dependent",
+    "parentTerritory": "GB",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "GN",
+    "name": "Guinea",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "GW",
+    "name": "Guinea-Bissau",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "GY",
+    "name": "Guyana",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "HT",
+    "name": "Haiti",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "HM",
+    "name": "Heard Island and McDonald Islands",
+    "territoryType": "dependent",
+    "parentTerritory": "AU",
+    "commerceSelectable": false,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "VA",
+    "name": "Holy See (Vatican City State)",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "HN",
+    "name": "Honduras",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "HK",
+    "name": "Hong Kong",
+    "territoryType": "dependent",
+    "parentTerritory": "CN",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "HU",
+    "name": "Hungary",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "IS",
+    "name": "Iceland",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "IN",
+    "name": "India",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "ID",
+    "name": "Indonesia",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "IR",
+    "name": "Iran (Islamic Republic of)",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "IQ",
+    "name": "Iraq",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "IE",
+    "name": "Ireland",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "IM",
+    "name": "Isle of Man",
+    "territoryType": "dependent",
+    "parentTerritory": "GB",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "IL",
+    "name": "Israel",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "IT",
+    "name": "Italy",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "JM",
+    "name": "Jamaica",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "JP",
+    "name": "Japan",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "JE",
+    "name": "Jersey",
+    "territoryType": "dependent",
+    "parentTerritory": "GB",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "JO",
+    "name": "Jordan",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "KZ",
+    "name": "Kazakhstan",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "KE",
+    "name": "Kenya",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "KI",
+    "name": "Kiribati",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "KP",
+    "name": "Korea (Democratic People's Republic of)",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "KR",
+    "name": "Korea (Republic of)",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "KW",
+    "name": "Kuwait",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "KG",
+    "name": "Kyrgyzstan",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "LA",
+    "name": "Lao People's Democratic Republic",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "LV",
+    "name": "Latvia",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "LB",
+    "name": "Lebanon",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "LS",
+    "name": "Lesotho",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "LR",
+    "name": "Liberia",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "LY",
+    "name": "Libya",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "LI",
+    "name": "Liechtenstein",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "LT",
+    "name": "Lithuania",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "LU",
+    "name": "Luxembourg",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "MO",
+    "name": "Macao",
+    "territoryType": "dependent",
+    "parentTerritory": "CN",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "MK",
+    "name": "North Macedonia",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "MG",
+    "name": "Madagascar",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "MW",
+    "name": "Malawi",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "MY",
+    "name": "Malaysia",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "MV",
+    "name": "Maldives",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "ML",
+    "name": "Mali",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "MT",
+    "name": "Malta",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "MH",
+    "name": "Marshall Islands",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "MQ",
+    "name": "Martinique",
+    "territoryType": "dependent",
+    "parentTerritory": "FR",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "MR",
+    "name": "Mauritania",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "MU",
+    "name": "Mauritius",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "YT",
+    "name": "Mayotte",
+    "territoryType": "dependent",
+    "parentTerritory": "FR",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "MX",
+    "name": "Mexico",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "FM",
+    "name": "Micronesia (Federated States of)",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "MD",
+    "name": "Moldova (Republic of)",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "MC",
+    "name": "Monaco",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "MN",
+    "name": "Mongolia",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "ME",
+    "name": "Montenegro",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "MS",
+    "name": "Montserrat",
+    "territoryType": "dependent",
+    "parentTerritory": "GB",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "MA",
+    "name": "Morocco",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "MZ",
+    "name": "Mozambique",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "MM",
+    "name": "Myanmar",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "NA",
+    "name": "Namibia",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "NR",
+    "name": "Nauru",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "NP",
+    "name": "Nepal",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "NL",
+    "name": "Netherlands",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "NC",
+    "name": "New Caledonia",
+    "territoryType": "dependent",
+    "parentTerritory": "FR",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "NZ",
+    "name": "New Zealand",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "NI",
+    "name": "Nicaragua",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "NE",
+    "name": "Niger",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "NG",
+    "name": "Nigeria",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "NU",
+    "name": "Niue",
+    "territoryType": "dependent",
+    "parentTerritory": "NZ",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "NF",
+    "name": "Norfolk Island",
+    "territoryType": "dependent",
+    "parentTerritory": "AU",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "MP",
+    "name": "Northern Mariana Islands",
+    "territoryType": "dependent",
+    "parentTerritory": "US",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "NO",
+    "name": "Norway",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "OM",
+    "name": "Oman",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "PK",
+    "name": "Pakistan",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "PW",
+    "name": "Palau",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "PS",
+    "name": "Palestine, State of",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "PA",
+    "name": "Panama",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "PG",
+    "name": "Papua New Guinea",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "PY",
+    "name": "Paraguay",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "PE",
+    "name": "Peru",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "PH",
+    "name": "Philippines",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "PN",
+    "name": "Pitcairn",
+    "territoryType": "dependent",
+    "parentTerritory": "GB",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "PL",
+    "name": "Poland",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "PT",
+    "name": "Portugal",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "PR",
+    "name": "Puerto Rico",
+    "territoryType": "dependent",
+    "parentTerritory": "US",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "QA",
+    "name": "Qatar",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "RE",
+    "name": "Réunion",
+    "territoryType": "dependent",
+    "parentTerritory": "FR",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "RO",
+    "name": "Romania",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "RU",
+    "name": "Russian Federation",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "RW",
+    "name": "Rwanda",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "BL",
+    "name": "Saint Barthélemy",
+    "territoryType": "dependent",
+    "parentTerritory": "FR",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "SH",
+    "name": "Saint Helena, Ascension and Tristan da Cunha",
+    "territoryType": "dependent",
+    "parentTerritory": "GB",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "KN",
+    "name": "Saint Kitts and Nevis",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "LC",
+    "name": "Saint Lucia",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "MF",
+    "name": "Saint Martin (French part)",
+    "territoryType": "dependent",
+    "parentTerritory": "FR",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "PM",
+    "name": "Saint Pierre and Miquelon",
+    "territoryType": "dependent",
+    "parentTerritory": "FR",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "VC",
+    "name": "Saint Vincent and the Grenadines",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "WS",
+    "name": "Samoa",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "SM",
+    "name": "San Marino",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "ST",
+    "name": "Sao Tome and Principe",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "SA",
+    "name": "Saudi Arabia",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "SN",
+    "name": "Senegal",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "RS",
+    "name": "Serbia",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "SC",
+    "name": "Seychelles",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "SL",
+    "name": "Sierra Leone",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "SG",
+    "name": "Singapore",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "SX",
+    "name": "Sint Maarten (Dutch part)",
+    "territoryType": "dependent",
+    "parentTerritory": "NL",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "SK",
+    "name": "Slovakia",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "SI",
+    "name": "Slovenia",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "SB",
+    "name": "Solomon Islands",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "SO",
+    "name": "Somalia",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "ZA",
+    "name": "South Africa",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "GS",
+    "name": "South Georgia and the South Sandwich Islands",
+    "territoryType": "dependent",
+    "parentTerritory": "GB",
+    "commerceSelectable": false,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "SS",
+    "name": "South Sudan",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "ES",
+    "name": "Spain",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "LK",
+    "name": "Sri Lanka",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "SD",
+    "name": "Sudan",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "SR",
+    "name": "Suriname",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "SJ",
+    "name": "Svalbard and Jan Mayen",
+    "territoryType": "dependent",
+    "parentTerritory": "NO",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "SZ",
+    "name": "Swaziland",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "SE",
+    "name": "Sweden",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "CH",
+    "name": "Switzerland",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "SY",
+    "name": "Syrian Arab Republic",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "TW",
+    "name": "Taiwan, Province of China",
+    "territoryType": "disputed",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "TJ",
+    "name": "Tajikistan",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "TZ",
+    "name": "Tanzania, United Republic of",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "TH",
+    "name": "Thailand",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "TL",
+    "name": "Timor-Leste",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "TG",
+    "name": "Togo",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "TK",
+    "name": "Tokelau",
+    "territoryType": "dependent",
+    "parentTerritory": "NZ",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "TO",
+    "name": "Tonga",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "TT",
+    "name": "Trinidad and Tobago",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "TN",
+    "name": "Tunisia",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "TR",
+    "name": "Turkey",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "TM",
+    "name": "Turkmenistan",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "TC",
+    "name": "Turks and Caicos Islands",
+    "territoryType": "dependent",
+    "parentTerritory": "GB",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "TV",
+    "name": "Tuvalu",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "UG",
+    "name": "Uganda",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "UA",
+    "name": "Ukraine",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "AE",
+    "name": "United Arab Emirates",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "GB",
+    "name": "United Kingdom",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "US",
+    "name": "United States",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "UM",
+    "name": "United States Minor Outlying Islands",
+    "territoryType": "dependent",
+    "parentTerritory": "US",
+    "commerceSelectable": false,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "UY",
+    "name": "Uruguay",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "UZ",
+    "name": "Uzbekistan",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "VU",
+    "name": "Vanuatu",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "VE",
+    "name": "Venezuela (Bolivarian Republic of)",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "VN",
+    "name": "Viet Nam",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "VG",
+    "name": "Virgin Islands (British)",
+    "territoryType": "dependent",
+    "parentTerritory": "GB",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "VI",
+    "name": "Virgin Islands (U.S.)",
+    "territoryType": "dependent",
+    "parentTerritory": "US",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "WF",
+    "name": "Wallis and Futuna",
+    "territoryType": "dependent",
+    "parentTerritory": "FR",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "EH",
+    "name": "Western Sahara",
+    "territoryType": "disputed",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "YE",
+    "name": "Yemen",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "ZM",
+    "name": "Zambia",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "ZW",
+    "name": "Zimbabwe",
+    "territoryType": "sovereign",
+    "commerceSelectable": true,
+    "confidence": 1.0,
+    "sources": ["iso3166", "cldr"],
+    "updatedAt": "2026-06-05"
+  }
+]
