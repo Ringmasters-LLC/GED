@@ -82,7 +82,7 @@ getPostalCodeBehavior(iso2: string, profile: string): PostalBehavior
 - Generated files must have deterministic row ordering.
 - Every record requires source metadata and `updatedAt`.
 - **Fields**:
-  - `territoryType`, `parentTerritory`, `commerceSelectable`
+  - `iso2`, `iso3`, `numeric`, `territoryType`, `parentTerritory`, `commerceSelectable`
   - `postalCode.used`, `postalCode.requiredForConsumerForms`, `postalCode.requiredForShipping`
   - `address.order` (e.g., "L-S", "S-L"), `address.requiresAdministrativeArea`, `address.postalCodePosition`, `address.addressLinesRecommended`
   - `name.supportsSingleName`, `name.requiresFamilyName`
@@ -203,6 +203,20 @@ global-entry-data/
 - User can open `countries.md` on GitHub and inspect the table.
 - User can copy a raw GitHub URL and fetch `countries.md`.
 - AI agent can read `postal-rules.md` as context.
+- Scripts prefer TSV or JSON, not MD.
+- Developer can detect that Hong Kong should not force postal code.
+- Developer can detect that Japan uses large-to-small address order.
+- Developer can detect that +1 maps to multiple territories.
+- Developer can build a booking form without assuming US address fields.
+- Developer can build a checkout form with stricter rules than a CRM form.
+- User can open Markdown docs and understand why global forms fail.
+hould not force postal code.
+- Developer can detect that Japan uses large-to-small address order.
+- Developer can detect that +1 maps to multiple territories.
+- Developer can build a booking form without assuming US address fields.
+- Developer can build a checkout form with stricter rules than a CRM form.
+- User can open Markdown docs and understand why global forms fail.
+ead `postal-rules.md` as context.
 - Scripts prefer TSV or JSON, not MD.
 - Developer can detect that Hong Kong should not force postal code.
 - Developer can detect that Japan uses large-to-small address order.

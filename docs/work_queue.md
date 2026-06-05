@@ -38,6 +38,9 @@
 | GED-P1-012 | P1 | TODO | Gemini | create canonical entry-profiles.json | CRM vs Checkout rules |
 | GED-P1-008 | P1 | TODO | Gemini | add source metadata to every row | every row has sources array |
 | GED-P1-009 | P1 | TODO | Gemini | add updatedAt and confidence | every row has meta |
+| GED-P1-013 | P1 | DONE | Gemini | verify every country record has iso2 | unique alpha-2 code |
+| GED-P1-014 | P1 | DONE | Gemini | verify every country record has iso3 | unique alpha-3 code |
+| GED-P1-015 | P1 | DONE | Gemini | verify every country record has numeric code | unique numeric string |
 
 ## P2 Build Outputs
 | ID | Priority | Status | Owner | Task | Acceptance |
@@ -130,6 +133,16 @@
 | GED-P7-008 | P7 | DEFERRED | Gemini | add WordPress usage example | implementation guide |
 | GED-P7-009 | P7 | DEFERRED | Gemini | add no-code import examples | Airtable/Excel usage |
 | GED-P7-010 | P7 | DEFERRED | Gemini | add public demo page | interactive explorer |
+| GED-P7-011 | P7 | DEFERRED | Gemini | create @ringmasters/global-entry-airports package | separate package |
+| GED-P7-012 | P7 | DEFERRED | Gemini | import open-compatible airport dataset | data ingestion |
+| GED-P7-013 | P7 | DEFERRED | Gemini | add IATA code lookup | getAirportByIata |
+| GED-P7-014 | P7 | DEFERRED | Gemini | add ICAO code lookup | getAirportByIcao |
+| GED-P7-015 | P7 | DEFERRED | Gemini | add airport country lookup by ISO2 | getAirportsByCountry |
+| GED-P7-016 | P7 | DEFERRED | Gemini | add scheduled-service airport filter | boolean filter |
+| GED-P7-017 | P7 | DEFERRED | Gemini | add airport source and confidence metadata | metadata per row |
+| GED-P7-018 | P7 | DEFERRED | Gemini | generate airport JSON TSV CSV SQL SQLite outputs | build distribution |
+| GED-P7-019 | P7 | DEFERRED | Gemini | document IATA licensing boundary | legal clarification |
+| GED-P7-020 | P7 | DEFERRED | Gemini | document airport data non-goals | scope clarification |
 
 ## Agent Commit Policy
 
@@ -163,6 +176,7 @@ docs
 data
 build
 test
+feat
 feat
 fix
 chore

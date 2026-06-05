@@ -8,6 +8,8 @@ export interface SourceMetadata {
 
 export interface Country {
   iso2: string;
+  iso3: string;
+  numeric: string;
   name: string;
   territoryType: TerritoryType;
   parentTerritory?: string;
