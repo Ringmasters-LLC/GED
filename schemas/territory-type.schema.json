@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "label", "description", "sources", "updatedAt"],
+    "properties": {
+      "id": { "type": "string" },
+      "label": { "type": "string" },
+      "description": { "type": "string" },
+      "sources": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "updatedAt": { "type": "string", "format": "date" }
+    }
+  }
+}

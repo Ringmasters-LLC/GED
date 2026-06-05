@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "label", "description", "strictness", "requiredFields", "updatedAt"],
+    "properties": {
+      "id": { "type": "string" },
+      "label": { "type": "string" },
+      "description": { "type": "string" },
+      "strictness": { "enum": ["loose", "medium", "strict"] },
+      "requiredFields": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "updatedAt": { "type": "string", "format": "date" }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["iso2", "updatedAt"],
+    "properties": {
+      "iso2": { "type": "string", "pattern": "^[A-Z]{2}$" },
+      "updatedAt": { "type": "string", "format": "date" },
+      "name": {
+        "type": "object",
+        "properties": {
+          "supportsSingleName": { "type": "boolean" },
+          "requiresFamilyName": { "type": "boolean" },
+          "nameOrder": { "enum": ["given_family", "family_given"] }
+        }
+      },
+      "address": {
+        "type": "object",
+        "properties": {
+          "addressLinesRecommended": { "type": "integer" },
+          "streetAddressCentral": { "type": "boolean" }
+        }
+      }
+    }
+  }
+}

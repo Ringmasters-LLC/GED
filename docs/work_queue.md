@@ -27,15 +27,15 @@
 | ID | Priority | Status | Owner | Task | Acceptance |
 |---|---:|---|---|---|---|
 | GED-P1-001 | P1 | DONE | Gemini | create canonical countries.json | includes territoryType, parentTerritory |
-| GED-P1-002 | P1 | TODO | Gemini | create canonical phone-codes.json | mapping for all territories |
+| GED-P1-002 | P1 | DONE | Gemini | create canonical phone-codes.json | mapping for all territories |
 | GED-P1-003 | P1 | TODO | Gemini | create canonical postal-rules.json | includes requiredForShipping, requiredForConsumer |
 | GED-P1-004 | P1 | TODO | Gemini | create canonical currencies.json | file exists, rows sorted |
 | GED-P1-005 | P1 | TODO | Gemini | create canonical languages.json | file exists, rows sorted |
 | GED-P1-006 | P1 | TODO | Gemini | create canonical timezone-defaults.json | file exists, rows sorted |
 | GED-P1-007 | P1 | TODO | Gemini | create canonical address-formats.json | includes order, postalCodePosition |
 | GED-P1-010 | P1 | TODO | Gemini | create canonical form-behavior.json | name support, address lines |
-| GED-P1-011 | P1 | TODO | Gemini | create canonical territory-types.json | sovereign vs dependent vs admin |
-| GED-P1-012 | P1 | TODO | Gemini | create canonical entry-profiles.json | CRM vs Checkout rules |
+| GED-P1-011 | P1 | DONE | Gemini | create canonical territory-types.json | sovereign vs dependent vs admin |
+| GED-P1-012 | P1 | DONE | Gemini | create canonical entry-profiles.json | CRM vs Checkout rules |
 | GED-P1-016 | P1 | TODO | Gemini | create canonical name-formats.json | cultural ordering, single name |
 | GED-P1-017 | P1 | TODO | Gemini | create canonical locale-writing.json | script, direction (LTR/RTL) |
 | GED-P1-018 | P1 | TODO | Gemini | create canonical country-locales.json | official and default locales |
@@ -87,15 +87,15 @@
 ## P4 Validation
 | ID | Priority | Status | Owner | Task | Acceptance |
 |---|---:|---|---|---|---|
-| GED-P4-001 | P4 | TODO | Gemini | create country schema | valid JSON schema |
+| GED-P4-001 | P4 | DONE | Gemini | create country schema | valid JSON schema |
 | GED-P4-002 | P4 | TODO | Gemini | create phone schema | valid JSON schema |
 | GED-P4-003 | P4 | TODO | Gemini | create postal-rule schema | valid JSON schema |
 | GED-P4-004 | P4 | TODO | Gemini | create currency schema | valid JSON schema |
 | GED-P4-005 | P4 | TODO | Gemini | create language schema | valid JSON schema |
 | GED-P4-006 | P4 | TODO | Gemini | create timezone schema | valid JSON schema |
 | GED-P4-007 | P4 | TODO | Gemini | create address-format schema | valid JSON schema |
-| GED-P4-014 | P4 | TODO | Gemini | create territory-type schema | valid JSON schema |
-| GED-P4-015 | P4 | TODO | Gemini | create form-behavior schema | valid JSON schema |
+| GED-P4-014 | P4 | DONE | Gemini | create territory-type schema | valid JSON schema |
+| GED-P4-015 | P4 | DONE | Gemini | create form-behavior schema | valid JSON schema |
 | GED-P4-008 | P4 | TODO | Codex | add schema validation script | fails on schema mismatch |
 | GED-P4-009 | P4 | TODO | Codex | add uniqueness validation | fails on duplicate iso2 |
 | GED-P4-010 | P4 | TODO | Codex | add postal regex validation | regex compile and pass |

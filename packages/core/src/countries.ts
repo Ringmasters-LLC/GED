@@ -16,3 +16,9 @@ export const searchCountries = (query: string): Country[] => {
     c.iso2.toLowerCase() === q
   );
 };
+
+export const getTerritoryType = (iso2: string): string | null => {
+  const country = getCountry(iso2);
+  return country ? country.territoryType : null;
+};
+
