@@ -36,6 +36,17 @@
 | GED-P1-010 | P1 | TODO | Gemini | create canonical form-behavior.json | name support, address lines |
 | GED-P1-011 | P1 | TODO | Gemini | create canonical territory-types.json | sovereign vs dependent vs admin |
 | GED-P1-012 | P1 | TODO | Gemini | create canonical entry-profiles.json | CRM vs Checkout rules |
+| GED-P1-016 | P1 | TODO | Gemini | create canonical name-formats.json | cultural ordering, single name |
+| GED-P1-017 | P1 | TODO | Gemini | create canonical locale-writing.json | script, direction (LTR/RTL) |
+| GED-P1-018 | P1 | TODO | Gemini | create canonical country-locales.json | official and default locales |
+| GED-P1-019 | P1 | TODO | Gemini | create canonical administrative-levels.json | hierarchy labels and requirements |
+| GED-P1-020 | P1 | TODO | Gemini | create canonical address-components.json | granular field ordering |
+| GED-P1-021 | P1 | TODO | Gemini | create canonical currency-behavior.json | multi-currency, minor units |
+| GED-P1-022 | P1 | TODO | Gemini | create canonical measurement-systems.json | metric, imperial per country |
+| GED-P1-023 | P1 | TODO | Gemini | create canonical date-time-formats.json | patterns, week start |
+| GED-P1-024 | P1 | TODO | Gemini | create canonical market-behavior.json | shipping, billing, phone flags |
+| GED-P1-025 | P1 | TODO | Gemini | create canonical localized-country-names.json | multi-language translations |
+| GED-P1-026 | P1 | TODO | Gemini | create canonical country-display-order.json | sorting rules |
 | GED-P1-008 | P1 | TODO | Gemini | add source metadata to every row | every row has sources array |
 | GED-P1-009 | P1 | TODO | Gemini | add updatedAt and confidence | every row has meta |
 | GED-P1-013 | P1 | DONE | Gemini | verify every country record has iso2 | unique alpha-2 code |
@@ -143,6 +154,20 @@
 | GED-P7-018 | P7 | DEFERRED | Gemini | generate airport JSON TSV CSV SQL SQLite outputs | build distribution |
 | GED-P7-019 | P7 | DEFERRED | Gemini | document IATA licensing boundary | legal clarification |
 | GED-P7-020 | P7 | DEFERRED | Gemini | document airport data non-goals | scope clarification |
+| GED-P7-021 | P7 | DEFERRED | Gemini | create @ringmasters/global-entry-hazards package | separate package |
+| GED-P7-022 | P7 | DEFERRED | Gemini | add hazard type taxonomy | UNDRR/ISC compatible |
+| GED-P7-023 | P7 | DEFERRED | Gemini | add CAP-compatible field metadata | WMO/OASIS standard |
+| GED-P7-024 | P7 | DEFERRED | Gemini | add tropical cyclone and typhoon records | meteorological hazards |
+| GED-P7-025 | P7 | DEFERRED | Gemini | add earthquake tsunami volcano flood wildfire records | geological/hydro hazards |
+| GED-P7-026 | P7 | DEFERRED | Gemini | add country alert-system metadata | local authority mapping |
+| GED-P7-027 | P7 | DEFERRED | Gemini | add hazard source and confidence metadata | metadata per row |
+| GED-P7-028 | P7 | DEFERRED | Gemini | generate hazard JSON TSV CSV TXT MD SQL SQLite outputs | build distribution |
+| GED-P7-029 | P7 | DEFERRED | Gemini | document disaster metadata non-goals | life-safety disclaimer |
+| GED-P7-030 | P7 | DEFERRED | Gemini | document emergency warning liability boundary | legal clarification |
+| GED-P7-031 | P7 | DEFERRED | Gemini | create @ringmasters/global-entry-identity package | identity documents |
+| GED-P7-032 | P7 | DEFERRED | Gemini | create @ringmasters/global-entry-commerce package | commerce metadata |
+| GED-P7-033 | P7 | DEFERRED | Gemini | create @ringmasters/global-entry-locales package | localized data |
+
 
 ## Agent Commit Policy
 
