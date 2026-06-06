@@ -1,0 +1,40 @@
+[
+  {
+    "iso2": "CA",
+    "locales": [
+      {
+        "locale": "en-CA",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "fr-CA",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "JP",
+    "locales": [
+      {
+        "locale": "ja-JP",
+        "official": true,
+        "default": true
+      }
+    ],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "US",
+    "locales": [
+      {
+        "locale": "en-US",
+        "official": true,
+        "default": true
+      }
+    ],
+    "updatedAt": "2026-06-05"
+  }
+]

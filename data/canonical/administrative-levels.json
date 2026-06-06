@@ -1,0 +1,46 @@
+[
+  {
+    "iso2": "CA",
+    "levels": [
+      {
+        "level": 1,
+        "key": "province",
+        "label": "Province"
+      }
+    ],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "GB",
+    "levels": [
+      {
+        "level": 1,
+        "key": "county",
+        "label": "County"
+      }
+    ],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "JP",
+    "levels": [
+      {
+        "level": 1,
+        "key": "prefecture",
+        "label": "Prefecture"
+      }
+    ],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "US",
+    "levels": [
+      {
+        "level": 1,
+        "key": "state",
+        "label": "State"
+      }
+    ],
+    "updatedAt": "2026-06-05"
+  }
+]

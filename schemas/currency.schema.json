@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["code", "name", "symbol", "updatedAt"],
+    "properties": {
+      "code": { "type": "string", "pattern": "^[A-Z]{3}$" },
+      "name": { "type": "string" },
+      "symbol": { "type": "string" },
+      "minorUnit": { "type": "integer" },
+      "updatedAt": { "type": "string", "format": "date" }
+    }
+  }
+}

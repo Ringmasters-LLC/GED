@@ -1,0 +1,52 @@
+[
+  {
+    "iso2": "AU",
+    "priority": 10,
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "BR",
+    "priority": 10,
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "CA",
+    "priority": 10,
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "CN",
+    "priority": 10,
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "DE",
+    "priority": 10,
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "FR",
+    "priority": 10,
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "GB",
+    "priority": 2,
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "IN",
+    "priority": 10,
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "JP",
+    "priority": 3,
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "US",
+    "priority": 1,
+    "updatedAt": "2026-06-05"
+  }
+]

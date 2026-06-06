@@ -1,0 +1,17 @@
+[
+  {
+    "locale": "en-GB",
+    "dateFormat": "DD/MM/YYYY",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "locale": "en-US",
+    "dateFormat": "MM/DD/YYYY",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "locale": "ja-JP",
+    "dateFormat": "YYYY/MM/DD",
+    "updatedAt": "2026-06-05"
+  }
+]

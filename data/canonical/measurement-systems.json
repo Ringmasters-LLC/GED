@@ -1,0 +1,17 @@
+[
+  {
+    "iso2": "GB",
+    "measurementSystem": "metric",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "JP",
+    "measurementSystem": "metric",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "US",
+    "measurementSystem": "us_customary",
+    "updatedAt": "2026-06-05"
+  }
+]

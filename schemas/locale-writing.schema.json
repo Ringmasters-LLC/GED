@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["locale", "script", "direction", "updatedAt"],
+    "properties": {
+      "locale": { "type": "string" },
+      "script": { "type": "string" },
+      "direction": { "enum": ["ltr", "rtl"] },
+      "latinFallbackCommon": { "type": "boolean" },
+      "nativeScriptRecommended": { "type": "boolean" },
+      "updatedAt": { "type": "string", "format": "date" }
+    }
+  }
+}

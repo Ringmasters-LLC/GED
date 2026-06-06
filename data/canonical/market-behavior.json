@@ -1,0 +1,38 @@
+[
+  {
+    "iso2": "CA",
+    "selectableAsCountry": true,
+    "selectableAsBillingCountry": true,
+    "selectableAsShippingCountry": true,
+    "selectableAsPhoneCountry": true,
+    "selectableAsResidence": true,
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "GB",
+    "selectableAsCountry": true,
+    "selectableAsBillingCountry": true,
+    "selectableAsShippingCountry": true,
+    "selectableAsPhoneCountry": true,
+    "selectableAsResidence": true,
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "JP",
+    "selectableAsCountry": true,
+    "selectableAsBillingCountry": true,
+    "selectableAsShippingCountry": true,
+    "selectableAsPhoneCountry": true,
+    "selectableAsResidence": true,
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "US",
+    "selectableAsCountry": true,
+    "selectableAsBillingCountry": true,
+    "selectableAsShippingCountry": true,
+    "selectableAsPhoneCountry": true,
+    "selectableAsResidence": true,
+    "updatedAt": "2026-06-05"
+  }
+]

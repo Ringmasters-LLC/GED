@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["iso2", "locales", "updatedAt"],
+    "properties": {
+      "iso2": { "type": "string", "pattern": "^[A-Z]{2}$" },
+      "locales": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": ["locale", "official"],
+          "properties": {
+            "locale": { "type": "string" },
+            "official": { "type": "boolean" },
+            "default": { "type": "boolean" }
+          }
+        }
+      },
+      "updatedAt": { "type": "string", "format": "date" }
+    }
+  }
+}

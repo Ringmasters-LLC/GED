@@ -1,224 +1,288 @@
 [
   {
-    "iso2": "AF",
-    "callingCodes": ["93"],
-    "recommendedLibrary": "libphonenumber-compatible",
-    "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
-  },
-  {
-    "iso2": "AL",
-    "callingCodes": ["355"],
-    "recommendedLibrary": "libphonenumber-compatible",
-    "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
-  },
-  {
-    "iso2": "DZ",
-    "callingCodes": ["213"],
-    "recommendedLibrary": "libphonenumber-compatible",
-    "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
-  },
-  {
-    "iso2": "AS",
-    "callingCodes": ["1"],
-    "recommendedLibrary": "libphonenumber-compatible",
-    "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
-  },
-  {
     "iso2": "AD",
-    "callingCodes": ["376"],
-    "recommendedLibrary": "libphonenumber-compatible",
-    "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
-  },
-  {
-    "iso2": "AO",
-    "callingCodes": ["244"],
-    "recommendedLibrary": "libphonenumber-compatible",
-    "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
-  },
-  {
-    "iso2": "AR",
-    "callingCodes": ["54"],
-    "recommendedLibrary": "libphonenumber-compatible",
-    "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
-  },
-  {
-    "iso2": "AU",
-    "callingCodes": ["61"],
-    "recommendedLibrary": "libphonenumber-compatible",
-    "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
-  },
-  {
-    "iso2": "AT",
-    "callingCodes": ["43"],
-    "recommendedLibrary": "libphonenumber-compatible",
-    "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
-  },
-  {
-    "iso2": "BE",
-    "callingCodes": ["32"],
-    "recommendedLibrary": "libphonenumber-compatible",
-    "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
-  },
-  {
-    "iso2": "BR",
-    "callingCodes": ["55"],
-    "recommendedLibrary": "libphonenumber-compatible",
-    "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
-  },
-  {
-    "iso2": "CA",
-    "callingCodes": ["1"],
-    "recommendedLibrary": "libphonenumber-compatible",
-    "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
-  },
-  {
-    "iso2": "CN",
-    "callingCodes": ["86"],
-    "recommendedLibrary": "libphonenumber-compatible",
-    "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
-  },
-  {
-    "iso2": "FR",
-    "callingCodes": ["33"],
-    "recommendedLibrary": "libphonenumber-compatible",
-    "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
-  },
-  {
-    "iso2": "DE",
-    "callingCodes": ["49"],
-    "recommendedLibrary": "libphonenumber-compatible",
-    "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
-  },
-  {
-    "iso2": "IN",
-    "callingCodes": ["91"],
-    "recommendedLibrary": "libphonenumber-compatible",
-    "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
-  },
-  {
-    "iso2": "ID",
-    "callingCodes": ["62"],
-    "recommendedLibrary": "libphonenumber-compatible",
-    "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
-  },
-  {
-    "iso2": "IT",
-    "callingCodes": ["39"],
-    "recommendedLibrary": "libphonenumber-compatible",
-    "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
-  },
-  {
-    "iso2": "JP",
-    "callingCodes": ["81"],
-    "recommendedLibrary": "libphonenumber-compatible",
-    "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
-  },
-  {
-    "iso2": "MX",
-    "callingCodes": ["52"],
-    "recommendedLibrary": "libphonenumber-compatible",
-    "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
-  },
-  {
-    "iso2": "NL",
-    "callingCodes": ["31"],
-    "recommendedLibrary": "libphonenumber-compatible",
-    "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
-  },
-  {
-    "iso2": "NZ",
-    "callingCodes": ["64"],
-    "recommendedLibrary": "libphonenumber-compatible",
-    "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
-  },
-  {
-    "iso2": "RU",
-    "callingCodes": ["7"],
-    "recommendedLibrary": "libphonenumber-compatible",
-    "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
-  },
-  {
-    "iso2": "SA",
-    "callingCodes": ["966"],
-    "recommendedLibrary": "libphonenumber-compatible",
-    "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
-  },
-  {
-    "iso2": "SG",
-    "callingCodes": ["65"],
-    "recommendedLibrary": "libphonenumber-compatible",
-    "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
-  },
-  {
-    "iso2": "ZA",
-    "callingCodes": ["27"],
-    "recommendedLibrary": "libphonenumber-compatible",
-    "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
-  },
-  {
-    "iso2": "ES",
-    "callingCodes": ["34"],
-    "recommendedLibrary": "libphonenumber-compatible",
-    "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
-  },
-  {
-    "iso2": "CH",
-    "callingCodes": ["41"],
-    "recommendedLibrary": "libphonenumber-compatible",
-    "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
-  },
-  {
-    "iso2": "TR",
-    "callingCodes": ["90"],
+    "callingCodes": [
+      "376"
+    ],
     "recommendedLibrary": "libphonenumber-compatible",
     "normalizationTarget": "E.164",
     "updatedAt": "2026-06-05"
   },
   {
     "iso2": "AE",
-    "callingCodes": ["971"],
+    "callingCodes": [
+      "971"
+    ],
+    "recommendedLibrary": "libphonenumber-compatible",
+    "normalizationTarget": "E.164",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "AF",
+    "callingCodes": [
+      "93"
+    ],
+    "recommendedLibrary": "libphonenumber-compatible",
+    "normalizationTarget": "E.164",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "AL",
+    "callingCodes": [
+      "355"
+    ],
+    "recommendedLibrary": "libphonenumber-compatible",
+    "normalizationTarget": "E.164",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "AO",
+    "callingCodes": [
+      "244"
+    ],
+    "recommendedLibrary": "libphonenumber-compatible",
+    "normalizationTarget": "E.164",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "AR",
+    "callingCodes": [
+      "54"
+    ],
+    "recommendedLibrary": "libphonenumber-compatible",
+    "normalizationTarget": "E.164",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "AS",
+    "callingCodes": [
+      "1"
+    ],
+    "recommendedLibrary": "libphonenumber-compatible",
+    "normalizationTarget": "E.164",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "AT",
+    "callingCodes": [
+      "43"
+    ],
+    "recommendedLibrary": "libphonenumber-compatible",
+    "normalizationTarget": "E.164",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "AU",
+    "callingCodes": [
+      "61"
+    ],
+    "recommendedLibrary": "libphonenumber-compatible",
+    "normalizationTarget": "E.164",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "BE",
+    "callingCodes": [
+      "32"
+    ],
+    "recommendedLibrary": "libphonenumber-compatible",
+    "normalizationTarget": "E.164",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "BR",
+    "callingCodes": [
+      "55"
+    ],
+    "recommendedLibrary": "libphonenumber-compatible",
+    "normalizationTarget": "E.164",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "CA",
+    "callingCodes": [
+      "1"
+    ],
+    "recommendedLibrary": "libphonenumber-compatible",
+    "normalizationTarget": "E.164",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "CH",
+    "callingCodes": [
+      "41"
+    ],
+    "recommendedLibrary": "libphonenumber-compatible",
+    "normalizationTarget": "E.164",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "CN",
+    "callingCodes": [
+      "86"
+    ],
+    "recommendedLibrary": "libphonenumber-compatible",
+    "normalizationTarget": "E.164",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "DE",
+    "callingCodes": [
+      "49"
+    ],
+    "recommendedLibrary": "libphonenumber-compatible",
+    "normalizationTarget": "E.164",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "DZ",
+    "callingCodes": [
+      "213"
+    ],
+    "recommendedLibrary": "libphonenumber-compatible",
+    "normalizationTarget": "E.164",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "ES",
+    "callingCodes": [
+      "34"
+    ],
+    "recommendedLibrary": "libphonenumber-compatible",
+    "normalizationTarget": "E.164",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "FR",
+    "callingCodes": [
+      "33"
+    ],
     "recommendedLibrary": "libphonenumber-compatible",
     "normalizationTarget": "E.164",
     "updatedAt": "2026-06-05"
   },
   {
     "iso2": "GB",
-    "callingCodes": ["44"],
+    "callingCodes": [
+      "44"
+    ],
+    "recommendedLibrary": "libphonenumber-compatible",
+    "normalizationTarget": "E.164",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "ID",
+    "callingCodes": [
+      "62"
+    ],
+    "recommendedLibrary": "libphonenumber-compatible",
+    "normalizationTarget": "E.164",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "IN",
+    "callingCodes": [
+      "91"
+    ],
+    "recommendedLibrary": "libphonenumber-compatible",
+    "normalizationTarget": "E.164",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "IT",
+    "callingCodes": [
+      "39"
+    ],
+    "recommendedLibrary": "libphonenumber-compatible",
+    "normalizationTarget": "E.164",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "JP",
+    "callingCodes": [
+      "81"
+    ],
+    "recommendedLibrary": "libphonenumber-compatible",
+    "normalizationTarget": "E.164",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "MX",
+    "callingCodes": [
+      "52"
+    ],
+    "recommendedLibrary": "libphonenumber-compatible",
+    "normalizationTarget": "E.164",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "NL",
+    "callingCodes": [
+      "31"
+    ],
+    "recommendedLibrary": "libphonenumber-compatible",
+    "normalizationTarget": "E.164",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "NZ",
+    "callingCodes": [
+      "64"
+    ],
+    "recommendedLibrary": "libphonenumber-compatible",
+    "normalizationTarget": "E.164",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "RU",
+    "callingCodes": [
+      "7"
+    ],
+    "recommendedLibrary": "libphonenumber-compatible",
+    "normalizationTarget": "E.164",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "SA",
+    "callingCodes": [
+      "966"
+    ],
+    "recommendedLibrary": "libphonenumber-compatible",
+    "normalizationTarget": "E.164",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "SG",
+    "callingCodes": [
+      "65"
+    ],
+    "recommendedLibrary": "libphonenumber-compatible",
+    "normalizationTarget": "E.164",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "TR",
+    "callingCodes": [
+      "90"
+    ],
     "recommendedLibrary": "libphonenumber-compatible",
     "normalizationTarget": "E.164",
     "updatedAt": "2026-06-05"
   },
   {
     "iso2": "US",
-    "callingCodes": ["1"],
+    "callingCodes": [
+      "1"
+    ],
+    "recommendedLibrary": "libphonenumber-compatible",
+    "normalizationTarget": "E.164",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "ZA",
+    "callingCodes": [
+      "27"
+    ],
     "recommendedLibrary": "libphonenumber-compatible",
     "normalizationTarget": "E.164",
     "updatedAt": "2026-06-05"

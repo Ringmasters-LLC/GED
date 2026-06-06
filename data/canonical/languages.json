@@ -1,0 +1,50 @@
+[
+  {
+    "code": "de",
+    "name": "German",
+    "nativeName": "Deutsch",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "code": "en",
+    "name": "English",
+    "nativeName": "English",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "code": "es",
+    "name": "Spanish",
+    "nativeName": "Español",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "code": "fr",
+    "name": "French",
+    "nativeName": "Français",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "code": "hi",
+    "name": "Hindi",
+    "nativeName": "हिन्दी",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "code": "ja",
+    "name": "Japanese",
+    "nativeName": "日本語",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "code": "pt",
+    "name": "Portuguese",
+    "nativeName": "Português",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "code": "zh",
+    "name": "Chinese",
+    "nativeName": "中文",
+    "updatedAt": "2026-06-05"
+  }
+]

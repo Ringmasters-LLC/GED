@@ -14,45 +14,7 @@
       "commerceSelectable": { "type": "boolean" },
       "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
       "sources": { "type": "array", "items": { "type": "string" } },
-      "updatedAt": { "type": "string", "format": "date" },
-      "phone": {
-        "type": "object",
-        "properties": {
-          "callingCodes": { "type": "array", "items": { "type": "string" } },
-          "recommendedLibrary": { "type": "string" },
-          "normalizationTarget": { "type": "string" }
-        }
-      },
-      "postalCode": {
-        "type": "object",
-        "properties": {
-          "used": { "type": "boolean" },
-          "requiredForConsumerForms": { "type": "boolean" },
-          "requiredForShipping": { "type": "boolean" },
-          "label": { "type": "string" },
-          "regex": { "type": "string" },
-          "examples": { "type": "array", "items": { "type": "string" } }
-        }
-      },
-      "address": {
-        "type": "object",
-        "properties": {
-          "requiredFields": { "type": "array", "items": { "type": "string" } },
-          "fieldOrder": { "type": "array", "items": { "type": "string" } },
-          "order": { "type": "string" },
-          "administrativeAreaLabel": { "type": "string" },
-          "postalCodePosition": { "type": "string" },
-          "addressLinesRecommended": { "type": "integer" }
-        }
-      },
-      "name": {
-        "type": "object",
-        "properties": {
-          "supportsSingleName": { "type": "boolean" },
-          "requiresFamilyName": { "type": "boolean" },
-          "nameOrder": { "type": "string" }
-        }
-      }
+      "updatedAt": { "type": "string", "format": "date" }
     }
   }
 }

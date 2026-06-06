@@ -1,0 +1,52 @@
+[
+  {
+    "iso2": "AU",
+    "primaryZone": "Australia/Sydney",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "BR",
+    "primaryZone": "America/Sao_Paulo",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "CA",
+    "primaryZone": "America/Toronto",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "CN",
+    "primaryZone": "Asia/Shanghai",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "DE",
+    "primaryZone": "Europe/Berlin",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "FR",
+    "primaryZone": "Europe/Paris",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "GB",
+    "primaryZone": "Europe/London",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "IN",
+    "primaryZone": "Asia/Kolkata",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "JP",
+    "primaryZone": "Asia/Tokyo",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "US",
+    "primaryZone": "America/New_York",
+    "updatedAt": "2026-06-05"
+  }
+]

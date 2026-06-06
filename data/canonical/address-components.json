@@ -1,0 +1,28 @@
+[
+  {
+    "iso2": "JP",
+    "components": [
+      "postalCode",
+      "state",
+      "city",
+      "addressLine1",
+      "addressLine2"
+    ],
+    "order": "large_to_small",
+    "streetAddressCentral": false,
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "US",
+    "components": [
+      "addressLine1",
+      "addressLine2",
+      "city",
+      "state",
+      "postalCode"
+    ],
+    "order": "small_to_large",
+    "streetAddressCentral": true,
+    "updatedAt": "2026-06-05"
+  }
+]

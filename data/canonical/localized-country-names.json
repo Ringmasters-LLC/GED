@@ -1,0 +1,18 @@
+[
+  {
+    "iso2": "JP",
+    "names": {
+      "en": "Japan",
+      "ja": "日本"
+    },
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "US",
+    "names": {
+      "en": "United States",
+      "ja": "アメリカ合衆国"
+    },
+    "updatedAt": "2026-06-05"
+  }
+]

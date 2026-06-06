@@ -1,30 +1,39 @@
 [
   {
-    "id": "sovereign",
-    "label": "Sovereign State",
-    "description": "A state with its own institutions and populations that has a permanent population, territory, and government.",
-    "sources": ["undrr", "iso3166"],
+    "id": "administrative",
+    "label": "Administrative Area",
+    "description": "A geographic area defined for administrative purposes (e.g., Antarctica).",
+    "sources": [
+      "iso3166"
+    ],
     "updatedAt": "2026-06-05"
   },
   {
     "id": "dependent",
     "label": "Dependent Territory",
     "description": "A territory that does not possess full political independence or sovereignty as a separate state.",
-    "sources": ["iso3166"],
+    "sources": [
+      "iso3166"
+    ],
     "updatedAt": "2026-06-05"
   },
   {
     "id": "disputed",
     "label": "Disputed Territory",
     "description": "A territory whose sovereignty is subject to a dispute between two or more states.",
-    "sources": ["iso3166"],
+    "sources": [
+      "iso3166"
+    ],
     "updatedAt": "2026-06-05"
   },
   {
-    "id": "administrative",
-    "label": "Administrative Area",
-    "description": "A geographic area defined for administrative purposes (e.g., Antarctica).",
-    "sources": ["iso3166"],
+    "id": "sovereign",
+    "label": "Sovereign State",
+    "description": "A state with its own institutions and populations that has a permanent population, territory, and government.",
+    "sources": [
+      "undrr",
+      "iso3166"
+    ],
     "updatedAt": "2026-06-05"
   }
 ]

@@ -6,7 +6,8 @@
   "scripts": {
     "build": "pnpm -r run build",
     "test": "pnpm -r run test",
-    "lint": "pnpm -r run lint"
+    "lint": "pnpm -r run lint",
+    "validate": "tsx scripts/validate.ts"
   },
   "keywords": [
     "country",
@@ -18,5 +19,17 @@
     "internationalization"
   ],
   "author": "Ringmasters",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.9.2",
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1",
+    "fast-glob": "^3.3.3",
+    "glob": "^13.0.6",
+    "tsx": "^4.22.4",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  }
 }

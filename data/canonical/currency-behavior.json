@@ -1,0 +1,27 @@
+[
+  {
+    "iso2": "CA",
+    "primaryCurrency": "CAD",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "DE",
+    "primaryCurrency": "EUR",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "FR",
+    "primaryCurrency": "EUR",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "JP",
+    "primaryCurrency": "JPY",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "US",
+    "primaryCurrency": "USD",
+    "updatedAt": "2026-06-05"
+  }
+]

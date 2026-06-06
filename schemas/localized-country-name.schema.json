@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["iso2", "names", "updatedAt"],
+    "properties": {
+      "iso2": { "type": "string", "pattern": "^[A-Z]{2}$" },
+      "names": {
+        "type": "object",
+        "additionalProperties": { "type": "string" }
+      },
+      "updatedAt": { "type": "string", "format": "date" }
+    }
+  }
+}

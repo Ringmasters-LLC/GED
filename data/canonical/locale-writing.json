@@ -1,0 +1,20 @@
+[
+  {
+    "locale": "ar-SA",
+    "script": "Arab",
+    "direction": "rtl",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "locale": "en-US",
+    "script": "Latn",
+    "direction": "ltr",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "locale": "ja-JP",
+    "script": "Jpan",
+    "direction": "ltr",
+    "updatedAt": "2026-06-05"
+  }
+]

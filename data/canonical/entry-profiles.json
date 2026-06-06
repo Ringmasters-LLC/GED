@@ -1,10 +1,26 @@
 [
   {
+    "id": "booking",
+    "label": "Booking / Event",
+    "description": "Balanced validation for travel and attendance. Requires city and country.",
+    "strictness": "medium",
+    "requiredFields": [
+      "locality",
+      "administrativeArea"
+    ],
+    "updatedAt": "2026-06-05"
+  },
+  {
     "id": "checkout",
     "label": "Checkout",
     "description": "Strict validation for commerce and shipping. Requires precise postal and address data.",
     "strictness": "strict",
-    "requiredFields": ["addressLine", "locality", "administrativeArea", "postalCode"],
+    "requiredFields": [
+      "addressLine",
+      "locality",
+      "administrativeArea",
+      "postalCode"
+    ],
     "updatedAt": "2026-06-05"
   },
   {
@@ -12,15 +28,9 @@
     "label": "CRM / Marketing",
     "description": "Loose validation for lead capture and profile building. Minimizes friction.",
     "strictness": "loose",
-    "requiredFields": ["locality"],
-    "updatedAt": "2026-06-05"
-  },
-  {
-    "id": "booking",
-    "label": "Booking / Event",
-    "description": "Balanced validation for travel and attendance. Requires city and country.",
-    "strictness": "medium",
-    "requiredFields": ["locality", "administrativeArea"],
+    "requiredFields": [
+      "locality"
+    ],
     "updatedAt": "2026-06-05"
   }
 ]

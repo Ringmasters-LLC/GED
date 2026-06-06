@@ -1,0 +1,167 @@
+[
+  {
+    "iso2": "AU",
+    "requiredFields": [
+      "addressLine1",
+      "city",
+      "state",
+      "postalCode"
+    ],
+    "fieldOrder": [
+      "addressLine1",
+      "addressLine2",
+      "city",
+      "state",
+      "postalCode"
+    ],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "BR",
+    "requiredFields": [
+      "addressLine1",
+      "city",
+      "state",
+      "postalCode"
+    ],
+    "fieldOrder": [
+      "addressLine1",
+      "addressLine2",
+      "neighborhood",
+      "city",
+      "state",
+      "postalCode"
+    ],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "CA",
+    "requiredFields": [
+      "addressLine1",
+      "city",
+      "state",
+      "postalCode"
+    ],
+    "fieldOrder": [
+      "addressLine1",
+      "addressLine2",
+      "city",
+      "state",
+      "postalCode"
+    ],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "CN",
+    "requiredFields": [
+      "addressLine1",
+      "city",
+      "state",
+      "postalCode"
+    ],
+    "fieldOrder": [
+      "state",
+      "city",
+      "addressLine1",
+      "addressLine2",
+      "postalCode"
+    ],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "DE",
+    "requiredFields": [
+      "addressLine1",
+      "city",
+      "postalCode"
+    ],
+    "fieldOrder": [
+      "addressLine1",
+      "addressLine2",
+      "postalCode",
+      "city"
+    ],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "FR",
+    "requiredFields": [
+      "addressLine1",
+      "city",
+      "postalCode"
+    ],
+    "fieldOrder": [
+      "addressLine1",
+      "addressLine2",
+      "postalCode",
+      "city"
+    ],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "GB",
+    "requiredFields": [
+      "addressLine1",
+      "city",
+      "postalCode"
+    ],
+    "fieldOrder": [
+      "addressLine1",
+      "addressLine2",
+      "city",
+      "postalCode"
+    ],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "IN",
+    "requiredFields": [
+      "addressLine1",
+      "city",
+      "state",
+      "postalCode"
+    ],
+    "fieldOrder": [
+      "addressLine1",
+      "addressLine2",
+      "city",
+      "state",
+      "postalCode"
+    ],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "JP",
+    "requiredFields": [
+      "addressLine1",
+      "city",
+      "state",
+      "postalCode"
+    ],
+    "fieldOrder": [
+      "postalCode",
+      "state",
+      "city",
+      "addressLine1",
+      "addressLine2"
+    ],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "US",
+    "requiredFields": [
+      "addressLine1",
+      "city",
+      "state",
+      "postalCode"
+    ],
+    "fieldOrder": [
+      "addressLine1",
+      "addressLine2",
+      "city",
+      "state",
+      "postalCode"
+    ],
+    "updatedAt": "2026-06-05"
+  }
+]

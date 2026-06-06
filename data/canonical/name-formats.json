@@ -1,0 +1,37 @@
+[
+  {
+    "iso2": "DE",
+    "nameOrder": "given_family",
+    "supportsSingleName": false,
+    "requiresFamilyName": true,
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "FR",
+    "nameOrder": "given_family",
+    "supportsSingleName": false,
+    "requiresFamilyName": true,
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "GB",
+    "nameOrder": "given_family",
+    "supportsSingleName": false,
+    "requiresFamilyName": true,
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "JP",
+    "nameOrder": "family_given",
+    "supportsSingleName": false,
+    "requiresFamilyName": true,
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "US",
+    "nameOrder": "given_family",
+    "supportsSingleName": false,
+    "requiresFamilyName": true,
+    "updatedAt": "2026-06-05"
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["iso2", "levels", "updatedAt"],
+    "properties": {
+      "iso2": { "type": "string", "pattern": "^[A-Z]{2}$" },
+      "levels": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": ["level", "key", "label"],
+          "properties": {
+            "level": { "type": "integer" },
+            "key": { "type": "string" },
+            "label": { "type": "string" },
+            "requiredForAddress": { "type": "boolean" }
+          }
+        }
+      },
+      "updatedAt": { "type": "string", "format": "date" }
+    }
+  }
+}

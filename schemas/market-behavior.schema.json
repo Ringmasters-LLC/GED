@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["iso2", "updatedAt"],
+    "properties": {
+      "iso2": { "type": "string", "pattern": "^[A-Z]{2}$" },
+      "selectableAsCountry": { "type": "boolean" },
+      "selectableAsBillingCountry": { "type": "boolean" },
+      "selectableAsShippingCountry": { "type": "boolean" },
+      "selectableAsPhoneCountry": { "type": "boolean" },
+      "selectableAsResidence": { "type": "boolean" },
+      "updatedAt": { "type": "string", "format": "date" }
+    }
+  }
+}

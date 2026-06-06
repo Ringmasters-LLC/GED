@@ -1,0 +1,106 @@
+[
+  {
+    "iso2": "AE",
+    "used": false,
+    "requiredForConsumerForms": false,
+    "requiredForShipping": false,
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "AU",
+    "used": true,
+    "requiredForConsumerForms": true,
+    "requiredForShipping": true,
+    "format": "####",
+    "regex": "^\\d{4}$",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "BR",
+    "used": true,
+    "requiredForConsumerForms": true,
+    "requiredForShipping": true,
+    "format": "#####-###",
+    "regex": "^\\d{5}-\\d{3}$",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "CA",
+    "used": true,
+    "requiredForConsumerForms": true,
+    "requiredForShipping": true,
+    "format": "@#@ #@#",
+    "regex": "^[A-Z]\\d[A-Z] \\d[A-Z]\\d$",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "CN",
+    "used": true,
+    "requiredForConsumerForms": true,
+    "requiredForShipping": true,
+    "format": "######",
+    "regex": "^\\d{6}$",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "DE",
+    "used": true,
+    "requiredForConsumerForms": true,
+    "requiredForShipping": true,
+    "format": "#####",
+    "regex": "^\\d{5}$",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "FR",
+    "used": true,
+    "requiredForConsumerForms": true,
+    "requiredForShipping": true,
+    "format": "#####",
+    "regex": "^\\d{5}$",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "GB",
+    "used": true,
+    "requiredForConsumerForms": true,
+    "requiredForShipping": true,
+    "format": "@@## #@@",
+    "regex": "^[A-Z]{1,2}\\d[A-Z\\d]? \\d[A-Z]{2}$",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "HK",
+    "used": false,
+    "requiredForConsumerForms": false,
+    "requiredForShipping": false,
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "IN",
+    "used": true,
+    "requiredForConsumerForms": true,
+    "requiredForShipping": true,
+    "format": "######",
+    "regex": "^\\d{6}$",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "JP",
+    "used": true,
+    "requiredForConsumerForms": true,
+    "requiredForShipping": true,
+    "format": "###-####",
+    "regex": "^\\d{3}-\\d{4}$",
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "US",
+    "used": true,
+    "requiredForConsumerForms": true,
+    "requiredForShipping": true,
+    "format": "#####-####",
+    "regex": "^\\d{5}(-\\d{4})?$",
+    "updatedAt": "2026-06-05"
+  }
+]

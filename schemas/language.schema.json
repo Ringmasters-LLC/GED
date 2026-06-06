@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["code", "name", "updatedAt"],
+    "properties": {
+      "code": { "type": "string", "pattern": "^[a-z]{2,3}$" },
+      "name": { "type": "string" },
+      "nativeName": { "type": "string" },
+      "updatedAt": { "type": "string", "format": "date" }
+    }
+  }
+}
