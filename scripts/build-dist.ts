@@ -3,6 +3,7 @@ import path from 'path';
 import { globSync } from 'fast-glob';
 import Database from 'better-sqlite3';
 import { Parser } from 'json2csv';
+import { ContractMap } from './contracts';
 
 const canonicalDir = path.resolve(process.cwd(), 'data/canonical');
 const distDir = path.resolve(process.cwd(), 'dist');
@@ -22,9 +23,24 @@ const db = new Database(dbPath);
 
 for (const file of dataFiles) {
   const basename = path.basename(file, '.json');
-  const data = JSON.parse(fs.readFileSync(path.join(canonicalDir, file), 'utf8'));
+  const rawData = JSON.parse(fs.readFileSync(path.join(canonicalDir, file), 'utf8'));
   
-  if (!Array.isArray(data)) continue; // We only process array files
+  if (!Array.isArray(rawData)) continue;
+
+  const schema = ContractMap[file];
+  if (!schema) {
+    console.error(`Warning: No Zod contract found for ${file}, skipping dist generation.`);
+    continue;
+  }
+
+  const result = schema.safeParse(rawData);
+  if (!result.success) {
+    console.error(`Build error: ${file} failed Zod validation.`);
+    console.error(JSON.stringify(result.error.flatten(), null, 2));
+    process.exit(1);
+  }
+
+  const data = result.data;
 
   // 1. JSON
   fs.writeFileSync(path.join(distDir, 'json', file), JSON.stringify(data, null, 2) + '\n');
@@ -35,7 +51,7 @@ for (const file of dataFiles) {
   const keys = Object.keys(data[0]);
 
   // Transform data to flat strings for CSV/TSV
-  const flatData = data.map(row => {
+  const flatData = data.map((row: any) => {
     const flat: any = {};
     for (const key of keys) {
       if (typeof row[key] === 'object' && row[key] !== null) {
@@ -66,8 +82,8 @@ for (const file of dataFiles) {
   }
 
   // 4. TXT (simple list of primary keys)
-  const pkField = keys.includes('iso2') ? 'iso2' : (keys.includes('code') ? 'code' : keys[0]);
-  const txt = data.map(r => r[pkField]).join('\n');
+  const pkField = keys.includes('iso2') ? 'iso2' : (keys.includes('code') ? 'code' : (keys.includes('id') ? 'id' : (keys.includes('locale') ? 'locale' : keys[0])));
+  const txt = data.map((r: any) => r[pkField]).join('\n');
   fs.writeFileSync(path.join(distDir, 'txt', `${basename}.txt`), txt + '\n');
 
   // 5. MD
@@ -99,7 +115,6 @@ for (const file of dataFiles) {
   db.exec(createSql);
   const placeholders = keys.map(() => '?').join(', ');
   const stmt = db.prepare(`INSERT INTO ${tableName} (${keys.map(k => `"${k}"`).join(', ')}) VALUES (${placeholders})`);
-
   
   db.transaction(() => {
     for (const row of flatData) {

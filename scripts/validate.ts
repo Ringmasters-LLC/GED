@@ -1,33 +1,13 @@
 import fs from 'fs';
 import path from 'path';
-import Ajv from 'ajv';
-import addFormats from 'ajv-formats';
 import { globSync } from 'fast-glob';
+import { ContractMap } from './contracts';
 
-const ajv = new Ajv({ allErrors: true, strict: false });
-addFormats(ajv);
-
-const schemasDir = path.resolve(process.cwd(), 'schemas');
 const dataDir = path.resolve(process.cwd(), 'data/canonical');
 
 let hasErrors = false;
 
-// 1. Load schemas
-const schemaFiles = globSync('*.schema.json', { cwd: schemasDir });
-for (const file of schemaFiles) {
-  const schemaPath = path.join(schemasDir, file);
-  const schemaStr = fs.readFileSync(schemaPath, 'utf8');
-  try {
-    const schema = JSON.parse(schemaStr);
-    ajv.addSchema(schema, file);
-    console.log(`Loaded schema: ${file}`);
-  } catch (err: any) {
-    console.error(`Failed to parse schema ${file}:`, err.message);
-    hasErrors = true;
-  }
-}
-
-// 2. Validate data
+// 1. Validate data using Zod
 const dataFiles = globSync('*.json', { cwd: dataDir });
 for (const file of dataFiles) {
   const dataPath = path.join(dataDir, file);
@@ -41,47 +21,23 @@ for (const file of dataFiles) {
     continue;
   }
 
-  // Derive schema name from data file name. E.g., address-formats.json -> address-format.schema.json
-  // For plural to singular, we just define an explicit mapping if needed, or simple rules.
-  let schemaName = file.replace('.json', '.schema.json');
-  if (file === 'countries.json') schemaName = 'country.schema.json';
-  if (file === 'phone-codes.json') schemaName = 'phone.schema.json';
-  if (file === 'postal-rules.json') schemaName = 'postal-rule.schema.json';
-  if (file === 'currencies.json') schemaName = 'currency.schema.json';
-  if (file === 'languages.json') schemaName = 'language.schema.json';
-  if (file === 'timezone-defaults.json') schemaName = 'timezone.schema.json';
-  if (file === 'address-formats.json') schemaName = 'address-format.schema.json';
-  if (file === 'name-formats.json') schemaName = 'name-format.schema.json';
-  if (file === 'locale-writing.json') schemaName = 'locale-writing.schema.json';
-  if (file === 'country-locales.json') schemaName = 'country-locale.schema.json';
-  if (file === 'administrative-levels.json') schemaName = 'administrative-level.schema.json';
-  if (file === 'address-components.json') schemaName = 'address-component.schema.json';
-  if (file === 'currency-behavior.json') schemaName = 'currency-behavior.schema.json';
-  if (file === 'measurement-systems.json') schemaName = 'measurement-system.schema.json';
-  if (file === 'date-time-formats.json') schemaName = 'date-time-format.schema.json';
-  if (file === 'market-behavior.json') schemaName = 'market-behavior.schema.json';
-  if (file === 'localized-country-names.json') schemaName = 'localized-country-name.schema.json';
-  if (file === 'country-display-order.json') schemaName = 'country-display-order.schema.json';
-  if (file === 'territory-types.json') schemaName = 'territory-type.schema.json';
-  if (file === 'entry-profiles.json') schemaName = 'entry-profile.schema.json';
-
-  const validate = ajv.getSchema(schemaName);
-  if (!validate) {
-    console.error(`Warning: No schema found for ${file} (expected ${schemaName})`);
+  const schema = ContractMap[file];
+  if (!schema) {
+    console.error(`Warning: No Zod contract found for ${file}`);
     continue;
   }
 
-  const valid = validate(data);
-  if (!valid) {
-    console.error(`Validation failed for ${file}:`);
-    console.error(ajv.errorsText(validate.errors));
+  const result = schema.safeParse(data);
+  if (!result.success) {
+    console.error(`Zod validation failed for ${file}:`);
+    console.error(JSON.stringify(result.error.flatten(), null, 2));
     hasErrors = true;
   } else {
-    console.log(`Validated: ${file}`);
+    console.log(`Validated (Zod): ${file}`);
   }
 }
 
-// 3. Custom validations (uniqueness, provenance, postal regex, deterministic sort, LF, UTF-8)
+// 2. Custom validations (uniqueness, provenance, postal regex, deterministic sort, LF, UTF-8)
 for (const file of dataFiles) {
   const dataPath = path.join(dataDir, file);
   const dataRaw = fs.readFileSync(dataPath);
@@ -108,14 +64,9 @@ for (const file of dataFiles) {
   if (Array.isArray(data)) {
     // Uniqueness of primary key (usually iso2 or code)
     const keys = new Set();
-    let hasSourcesField = false;
-
-    // Check deterministic sort by stringifying and comparing to a sorted stringified version?
-    // We can just verify if the array is sorted by its primary key.
+    let hasSourcesField = (data.length > 0 && data[0].sources !== undefined);
 
     for (const row of data) {
-      if (row.sources !== undefined) hasSourcesField = true;
-
       // Provenance validation
       if (hasSourcesField && (!Array.isArray(row.sources) || row.sources.length === 0)) {
         console.error(`Provenance validation failed in ${file}: row is missing sources.`);

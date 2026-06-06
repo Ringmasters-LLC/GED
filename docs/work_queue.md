@@ -89,6 +89,7 @@ Risk estimates measure maintenance, licensing, and supply-chain exposure.
 | GED-P4-011 | P4 | P4 | L | MEDIUM | DONE | Codex | add provenance validation | every row has source |
 | GED-P4-012 | P4 | P4 | M | MEDIUM | DONE | Codex | add deterministic build validation | binary diff stable |
 | GED-P4-013 | P4 | P4 | M | MEDIUM | DONE | Codex | add line-ending validation | LF and UTF-8 only |
+| GED-P4-016 | P4 | P4 | M | MEDIUM | DONE | Gemini | introduce Zod contracts for build scripts | prevent weird mistakes |
 | GED-P2-001 | P2 | P2 | M | MEDIUM | DONE | Gemini | generate dist/json outputs | outputs from canonical JSON |
 | GED-P2-002 | P2 | P2 | M | MEDIUM | DONE | Gemini | generate dist/tsv outputs | outputs from canonical JSON |
 | GED-P2-003 | P2 | P2 | M | MEDIUM | DONE | Gemini | generate dist/csv outputs | outputs from canonical JSON |
