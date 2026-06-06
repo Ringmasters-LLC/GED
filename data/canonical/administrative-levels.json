@@ -1,5 +1,27 @@
 [
   {
+    "iso2": "AU",
+    "levels": [
+      {
+        "level": 1,
+        "key": "state_territory",
+        "label": "State/Territory"
+      }
+    ],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "BR",
+    "levels": [
+      {
+        "level": 1,
+        "key": "state",
+        "label": "Estado"
+      }
+    ],
+    "updatedAt": "2026-06-05"
+  },
+  {
     "iso2": "CA",
     "levels": [
       {
@@ -11,12 +33,61 @@
     "updatedAt": "2026-06-05"
   },
   {
+    "iso2": "CN",
+    "levels": [
+      {
+        "level": 1,
+        "key": "province",
+        "label": "Province"
+      }
+    ],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "DE",
+    "levels": [
+      {
+        "level": 1,
+        "key": "state",
+        "label": "Bundesland"
+      }
+    ],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "FR",
+    "levels": [
+      {
+        "level": 1,
+        "key": "department",
+        "label": "Département"
+      }
+    ],
+    "updatedAt": "2026-06-05"
+  },
+  {
     "iso2": "GB",
     "levels": [
       {
         "level": 1,
         "key": "county",
         "label": "County"
+      },
+      {
+        "level": 2,
+        "key": "city_town",
+        "label": "City/Town"
+      }
+    ],
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "IN",
+    "levels": [
+      {
+        "level": 1,
+        "key": "state_union_territory",
+        "label": "State/Union Territory"
       }
     ],
     "updatedAt": "2026-06-05"

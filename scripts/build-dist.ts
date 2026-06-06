@@ -24,7 +24,7 @@ const db = new Database(dbPath);
 for (const file of dataFiles) {
   const basename = path.basename(file, '.json');
   const rawData = JSON.parse(fs.readFileSync(path.join(canonicalDir, file), 'utf8'));
-  
+
   if (!Array.isArray(rawData)) continue;
 
   const schema = ContractMap[file];
@@ -82,7 +82,15 @@ for (const file of dataFiles) {
   }
 
   // 4. TXT (simple list of primary keys)
-  const pkField = keys.includes('iso2') ? 'iso2' : (keys.includes('code') ? 'code' : (keys.includes('id') ? 'id' : (keys.includes('locale') ? 'locale' : keys[0])));
+  const pkField = keys.includes('iso2')
+    ? 'iso2'
+    : keys.includes('code')
+      ? 'code'
+      : keys.includes('id')
+        ? 'id'
+        : keys.includes('locale')
+          ? 'locale'
+          : keys[0];
   const txt = data.map((r: any) => r[pkField]).join('\n');
   fs.writeFileSync(path.join(distDir, 'txt', `${basename}.txt`), txt + '\n');
 
@@ -91,34 +99,38 @@ for (const file of dataFiles) {
   md += `| ${keys.join(' | ')} |\n`;
   md += `|${keys.map(() => '---').join('|')}|\n`;
   for (const row of flatData) {
-    md += `| ${keys.map(k => (row[k] === undefined || row[k] === null) ? '' : String(row[k]).replace(/\\|/g, '&#124;')).join(' | ')} |\n`;
+    md += `| ${keys.map((k) => (row[k] === undefined || row[k] === null ? '' : String(row[k]).replace(/\\|/g, '&#124;'))).join(' | ')} |\n`;
   }
   fs.writeFileSync(path.join(distDir, 'md', `${basename}.md`), md);
 
   // 6. SQL
   const tableName = basename.replace(/-/g, '_');
   let sql = `CREATE TABLE IF NOT EXISTS ${tableName} (\n`;
-  sql += keys.map(k => `  "${k}" TEXT`).join(',\n');
+  sql += keys.map((k) => `  "${k}" TEXT`).join(',\n');
   sql += `\n);\n\n`;
 
   for (const row of flatData) {
-    const values = keys.map(k => {
+    const values = keys.map((k) => {
       if (row[k] === undefined || row[k] === null) return 'NULL';
       return `'${String(row[k]).replace(/'/g, "''")}'`;
     });
-    sql += `INSERT INTO ${tableName} (${keys.map(k => `"${k}"`).join(', ')}) VALUES (${values.join(', ')});\n`;
+    sql += `INSERT INTO ${tableName} (${keys.map((k) => `"${k}"`).join(', ')}) VALUES (${values.join(', ')});\n`;
   }
   fs.writeFileSync(path.join(distDir, 'sql', `${basename}.sql`), sql);
 
   // 7. SQLite
-  const createSql = `CREATE TABLE IF NOT EXISTS ${tableName} (${keys.map(k => `"${k}" TEXT`).join(', ')})`;
+  const createSql = `CREATE TABLE IF NOT EXISTS ${tableName} (${keys.map((k) => `"${k}" TEXT`).join(', ')})`;
   db.exec(createSql);
   const placeholders = keys.map(() => '?').join(', ');
-  const stmt = db.prepare(`INSERT INTO ${tableName} (${keys.map(k => `"${k}"`).join(', ')}) VALUES (${placeholders})`);
-  
+  const stmt = db.prepare(
+    `INSERT INTO ${tableName} (${keys.map((k) => `"${k}"`).join(', ')}) VALUES (${placeholders})`,
+  );
+
   db.transaction(() => {
     for (const row of flatData) {
-      const vals = keys.map(k => (row[k] === undefined || row[k] === null) ? null : String(row[k]));
+      const vals = keys.map((k) =>
+        row[k] === undefined || row[k] === null ? null : String(row[k]),
+      );
       stmt.run(...vals);
     }
   })();

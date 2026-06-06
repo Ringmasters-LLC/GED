@@ -4,7 +4,7 @@ import { PostalRule } from './types';
 export const postalRules: PostalRule[] = postalData as PostalRule[];
 
 export const getPostalRule = (iso2: string): PostalRule | null => {
-  return postalRules.find(p => p.iso2.toUpperCase() === iso2.toUpperCase()) || null;
+  return postalRules.find((p) => p.iso2.toUpperCase() === iso2.toUpperCase()) || null;
 };
 
 export const validatePostalCode = (iso2: string, value: string): boolean => {

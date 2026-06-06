@@ -8,7 +8,7 @@ const dataFiles = globSync('*.json', { cwd: dataDir });
 for (const file of dataFiles) {
   const dataPath = path.join(dataDir, file);
   const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
-  
+
   if (Array.isArray(data)) {
     data.sort((a, b) => {
       const pkA = a.iso2 || a.code || a.id || a.locale;
@@ -17,7 +17,7 @@ for (const file of dataFiles) {
       if (pkA > pkB) return 1;
       return 0;
     });
-    
+
     fs.writeFileSync(dataPath, JSON.stringify(data, null, 2) + '\n', 'utf8');
     console.log(`Sorted ${file}`);
   }

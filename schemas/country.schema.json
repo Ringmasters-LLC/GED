@@ -3,7 +3,17 @@
   "type": "array",
   "items": {
     "type": "object",
-    "required": ["iso2", "iso3", "numeric", "name", "territoryType", "commerceSelectable", "confidence", "sources", "updatedAt"],
+    "required": [
+      "iso2",
+      "iso3",
+      "numeric",
+      "name",
+      "territoryType",
+      "commerceSelectable",
+      "confidence",
+      "sources",
+      "updatedAt"
+    ],
     "properties": {
       "iso2": { "type": "string", "pattern": "^[A-Z]{2}$" },
       "iso3": { "type": "string", "pattern": "^[A-Z]{3}$" },

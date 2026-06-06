@@ -41,7 +41,7 @@ for (const file of dataFiles) {
 for (const file of dataFiles) {
   const dataPath = path.join(dataDir, file);
   const dataRaw = fs.readFileSync(dataPath);
-  
+
   // LF & UTF-8
   if (dataRaw.includes(Buffer.from('\\r\\n', 'utf-8'))) {
     console.error(`Error: ${file} contains CRLF line endings.`);
@@ -50,9 +50,10 @@ for (const file of dataFiles) {
   // Try utf-8
   try {
     const text = dataRaw.toString('utf-8');
-    if (text.includes('\\uFFFD')) { // Replacement character
-       console.error(`Error: ${file} may not be valid UTF-8.`);
-       hasErrors = true;
+    if (text.includes('\\uFFFD')) {
+      // Replacement character
+      console.error(`Error: ${file} may not be valid UTF-8.`);
+      hasErrors = true;
     }
   } catch (e) {
     console.error(`Error: ${file} is not valid UTF-8.`);
@@ -60,11 +61,11 @@ for (const file of dataFiles) {
   }
 
   const data = JSON.parse(dataRaw.toString('utf-8'));
-  
+
   if (Array.isArray(data)) {
     // Uniqueness of primary key (usually iso2 or code)
     const keys = new Set();
-    let hasSourcesField = (data.length > 0 && data[0].sources !== undefined);
+    let hasSourcesField = data.length > 0 && data[0].sources !== undefined;
 
     for (const row of data) {
       // Provenance validation
@@ -87,14 +88,16 @@ for (const file of dataFiles) {
         try {
           new RegExp(row.regex);
         } catch (e: any) {
-           console.error(`Regex validation failed in ${file} for ${row.iso2}: ${e.message}`);
-           hasErrors = true;
+          console.error(`Regex validation failed in ${file} for ${row.iso2}: ${e.message}`);
+          hasErrors = true;
         }
         if (row.examples && Array.isArray(row.examples)) {
           const re = new RegExp(row.regex);
           for (const ex of row.examples) {
             if (!re.test(ex)) {
-              console.error(`Example validation failed in ${file} for ${row.iso2}: "${ex}" does not match ${row.regex}`);
+              console.error(
+                `Example validation failed in ${file} for ${row.iso2}: "${ex}" does not match ${row.regex}`,
+              );
               hasErrors = true;
             }
           }
@@ -104,17 +107,21 @@ for (const file of dataFiles) {
 
     if (keys.size > 0) {
       // Check sorting
-      const originalKeys = data.map((r: any) => r.iso2 || r.code || r.id || r.locale).filter(Boolean);
+      const originalKeys = data
+        .map((r: any) => r.iso2 || r.code || r.id || r.locale)
+        .filter(Boolean);
       const sortedKeys = [...originalKeys].sort();
       let sorted = true;
-      for (let i=0; i<originalKeys.length; i++) {
+      for (let i = 0; i < originalKeys.length; i++) {
         if (originalKeys[i] !== sortedKeys[i]) {
           sorted = false;
           break;
         }
       }
       if (!sorted) {
-        console.error(`Sort validation failed in ${file}: File is not deterministically sorted by primary key.`);
+        console.error(
+          `Sort validation failed in ${file}: File is not deterministically sorted by primary key.`,
+        );
         hasErrors = true;
       }
     }

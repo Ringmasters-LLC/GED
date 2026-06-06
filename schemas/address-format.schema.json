@@ -10,7 +10,9 @@
       "fieldOrder": { "type": "array", "items": { "type": "string" } },
       "administrativeAreaLabel": { "type": "string" },
       "postalCodeLabel": { "type": "string" },
-      "postalCodePosition": { "enum": ["before_city", "after_city", "after_admin_area", "top", "bottom"] },
+      "postalCodePosition": {
+        "enum": ["before_city", "after_city", "after_admin_area", "top", "bottom"]
+      },
       "addressLinesRecommended": { "type": "integer" },
       "updatedAt": { "type": "string", "format": "date" }
     }

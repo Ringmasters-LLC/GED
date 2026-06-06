@@ -8,19 +8,19 @@ export const entryProfiles: EntryProfile[] = entryProfilesData as EntryProfile[]
 const localPostalRules: PostalRule[] = postalData as PostalRule[];
 
 export const getFormBehavior = (iso2: string): FormBehavior | null => {
-  return formBehaviors.find(f => f.iso2.toUpperCase() === iso2.toUpperCase()) || null;
+  return formBehaviors.find((f) => f.iso2.toUpperCase() === iso2.toUpperCase()) || null;
 };
 
 export const getEntryRules = (iso2: string, profile: string): string[] => {
-  const prof = entryProfiles.find(p => p.id === profile);
+  const prof = entryProfiles.find((p) => p.id === profile);
   return prof ? prof.requiredFields : [];
 };
 
 export const getPostalCodeBehavior = (iso2: string, profile: string): PostalBehavior | null => {
-  const rule = localPostalRules.find(p => p.iso2.toUpperCase() === iso2.toUpperCase());
+  const rule = localPostalRules.find((p) => p.iso2.toUpperCase() === iso2.toUpperCase());
   if (!rule) return null;
 
-  const prof = entryProfiles.find(p => p.id === profile);
+  const prof = entryProfiles.find((p) => p.id === profile);
   const strictness = prof ? prof.strictness : 'loose';
 
   let required = false;
@@ -33,6 +33,6 @@ export const getPostalCodeBehavior = (iso2: string, profile: string): PostalBeha
   return {
     used: rule.used,
     required,
-    regex: rule.regex
+    regex: rule.regex,
   };
 };

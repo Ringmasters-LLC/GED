@@ -60,7 +60,9 @@ export const AddressFormatSchema = z.object({
   fieldOrder: z.array(z.string()),
   administrativeAreaLabel: z.string().optional(),
   postalCodeLabel: z.string().optional(),
-  postalCodePosition: z.enum(['before_city', 'after_city', 'after_admin_area', 'top', 'bottom']).optional(),
+  postalCodePosition: z
+    .enum(['before_city', 'after_city', 'after_admin_area', 'top', 'bottom'])
+    .optional(),
   addressLinesRecommended: z.number().optional(),
   updatedAt: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
 });
@@ -78,22 +80,26 @@ export const NameFormatSchema = z.object({
 
 export const CountryLocaleSchema = z.object({
   iso2: z.string().length(2),
-  locales: z.array(z.object({
-    locale: z.string(),
-    official: z.boolean(),
-    default: z.boolean().optional(),
-  })),
+  locales: z.array(
+    z.object({
+      locale: z.string(),
+      official: z.boolean(),
+      default: z.boolean().optional(),
+    }),
+  ),
   updatedAt: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
 });
 
 export const AdministrativeLevelSchema = z.object({
   iso2: z.string().length(2),
-  levels: z.array(z.object({
-    level: z.number(),
-    key: z.string(),
-    label: z.string(),
-    requiredForAddress: z.boolean().optional(),
-  })),
+  levels: z.array(
+    z.object({
+      level: z.number(),
+      key: z.string(),
+      label: z.string(),
+      requiredForAddress: z.boolean().optional(),
+    }),
+  ),
   updatedAt: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
 });
 
@@ -184,15 +190,19 @@ export const EntryProfileSchema = z.object({
 
 export const FormBehaviorSchema = z.object({
   iso2: z.string().length(2),
-  name: z.object({
-    supportsSingleName: z.boolean().optional(),
-    requiresFamilyName: z.boolean().optional(),
-    nameOrder: z.enum(['given_family', 'family_given']).optional(),
-  }).optional(),
-  address: z.object({
-    addressLinesRecommended: z.number().optional(),
-    streetAddressCentral: z.boolean().optional(),
-  }).optional(),
+  name: z
+    .object({
+      supportsSingleName: z.boolean().optional(),
+      requiresFamilyName: z.boolean().optional(),
+      nameOrder: z.enum(['given_family', 'family_given']).optional(),
+    })
+    .optional(),
+  address: z
+    .object({
+      addressLinesRecommended: z.number().optional(),
+      streetAddressCentral: z.boolean().optional(),
+    })
+    .optional(),
   updatedAt: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
 });
 

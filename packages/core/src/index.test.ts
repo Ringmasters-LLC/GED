@@ -1,5 +1,11 @@
 import { describe, it, expect } from 'vitest';
-import { getCountry, searchCountries, validatePostalCode, getCallingCode, getAddressFields } from './index';
+import {
+  getCountry,
+  searchCountries,
+  validatePostalCode,
+  getCallingCode,
+  getAddressFields,
+} from './index';
 
 describe('Global Entry Data Core API', () => {
   it('should find a country by iso2', () => {
@@ -11,7 +17,7 @@ describe('Global Entry Data Core API', () => {
   it('should search countries by name', () => {
     const results = searchCountries('United States');
     expect(results.length).toBeGreaterThan(0);
-    expect(results.some(c => c.iso2 === 'US')).toBe(true);
+    expect(results.some((c) => c.iso2 === 'US')).toBe(true);
   });
 
   it('should validate postal codes', () => {

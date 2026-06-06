@@ -1,20 +1,19 @@
 # Global Entry Data
 
-
 ## Purpose
 
 Global form entry is not one universal model.
 
-* territory status
-* phone numbering
-* postal-code behavior
-* address order
-* administrative areas
-* local scripts
-* currency defaults
-* language defaults
-* commerce availability
-* validation strictness
+- territory status
+- phone numbering
+- postal-code behavior
+- address order
+- administrative areas
+- local scripts
+- currency defaults
+- language defaults
+- commerce availability
+- validation strictness
 
 Most products treat localization as translation which is not enough.
 
@@ -26,29 +25,29 @@ Real localization is structural.
 
 Core datasets:
 
-* countries
-* phone country codes
-* postal-code rules
-* currencies
-* languages
-* timezone defaults
-* address formats
-* territory types
-* form behavior rules
-* entry profiles
+- countries
+- phone country codes
+- postal-code rules
+- currencies
+- languages
+- timezone defaults
+- address formats
+- territory types
+- form behavior rules
+- entry profiles
 
 Core outputs:
 
-* JSON
-* TSV
-* CSV
-* TXT
-* Markdown
-* SQL
-* SQLite
-* TypeScript helpers
-* ESM package
-* CJS package if supported
+- JSON
+- TSV
+- CSV
+- TXT
+- Markdown
+- SQL
+- SQLite
+- TypeScript helpers
+- ESM package
+- CJS package if supported
 
 ---
 
@@ -56,15 +55,15 @@ Core outputs:
 
 This package does not provide:
 
-* legal address verification
-* shipping-grade address validation
-* tax compliance
-* sanctions screening
-* geocoding
-* complete postal-code directories
-* paid address intelligence
-* official sovereignty positions
-* guaranteed telecom assignment validation
+- legal address verification
+- shipping-grade address validation
+- tax compliance
+- sanctions screening
+- geocoding
+- complete postal-code directories
+- paid address intelligence
+- official sovereignty positions
+- guaranteed telecom assignment validation
 
 Use an official provider for regulated shipping, tax, banking, legal, or government workflows.
 
@@ -139,19 +138,19 @@ import {
   getPostalRule,
   validatePostalCode,
   getAddressFields,
-  getEntryRules
-} from "@ringmasters/global-entry-data";
+  getEntryRules,
+} from '@ringmasters/global-entry-data';
 
-const japan = getCountry("JP");
+const japan = getCountry('JP');
 
-const callingCode = getCallingCode("JP");
+const callingCode = getCallingCode('JP');
 
-const postal = validatePostalCode("JP", "100-0001");
+const postal = validatePostalCode('JP', '100-0001');
 
-const addressFields = getAddressFields("JP");
+const addressFields = getAddressFields('JP');
 
-const bookingRules = getEntryRules("JP", {
-  profile: "booking"
+const bookingRules = getEntryRules('JP', {
+  profile: 'booking',
 });
 ```
 
@@ -173,27 +172,27 @@ Example result:
 Initial API:
 
 ```ts
-getCountries()
-getCountry(iso2)
-searchCountries(query)
+getCountries();
+getCountry(iso2);
+searchCountries(query);
 
-getCallingCode(iso2)
-getCountriesByCallingCode(code)
+getCallingCode(iso2);
+getCountriesByCallingCode(code);
 
-getPostalRule(iso2)
-validatePostalCode(iso2, value)
+getPostalRule(iso2);
+validatePostalCode(iso2, value);
 
-getCurrency(iso2)
-getLanguages(iso2)
-getTimezoneDefaults(iso2)
+getCurrency(iso2);
+getLanguages(iso2);
+getTimezoneDefaults(iso2);
 
-getAddressFormat(iso2)
-getAddressFields(iso2)
+getAddressFormat(iso2);
+getAddressFields(iso2);
 
-getEntryRules(iso2, profile)
-getTerritoryType(iso2)
-getFormBehavior(iso2)
-getPostalCodeBehavior(iso2, profile)
+getEntryRules(iso2, profile);
+getTerritoryType(iso2);
+getFormBehavior(iso2);
+getPostalCodeBehavior(iso2, profile);
 ```
 
 ---
@@ -220,8 +219,8 @@ wordpress
 Example:
 
 ```ts
-getEntryRules("HK", {
-  profile: "booking"
+getEntryRules('HK', {
+  profile: 'booking',
 });
 ```
 
@@ -494,12 +493,12 @@ This project uses public-compatible reference data.
 
 Source categories:
 
-* ISO 3166-compatible country code data
-* libphonenumber-compatible phone metadata
-* CLDR-compatible locale, territory, language, and currency data
-* public-compatible postal-code rule references
-* manually reviewed rules where no clean source exists
-* optional GeoNames-compatible postal directory data in later packages
+- ISO 3166-compatible country code data
+- libphonenumber-compatible phone metadata
+- CLDR-compatible locale, territory, language, and currency data
+- public-compatible postal-code rule references
+- manually reviewed rules where no clean source exists
+- optional GeoNames-compatible postal directory data in later packages
 
 Do not overclaim authority.
 
@@ -540,11 +539,7 @@ Example:
 
 ```json
 {
-  "sources": [
-    "iso3166-compatible",
-    "cldr-compatible",
-    "libphonenumber-compatible"
-  ],
+  "sources": ["iso3166-compatible", "cldr-compatible", "libphonenumber-compatible"],
   "updatedAt": "2026-06-05",
   "confidence": "high"
 }
@@ -596,18 +591,18 @@ Examples:
 
 Required checks:
 
-* every country has `iso2`
-* every `iso2` is unique
-* every calling code maps to at least one country or territory
-* every postal regex compiles
-* every postal example passes its regex
-* every JSON file validates against schema
-* every row has source metadata
-* every row has confidence metadata where applicable
-* generated files are deterministic
-* generated files use UTF-8
-* generated files use LF line endings
-* no manual edits inside `dist/`
+- every country has `iso2`
+- every `iso2` is unique
+- every calling code maps to at least one country or territory
+- every postal regex compiles
+- every postal example passes its regex
+- every JSON file validates against schema
+- every row has source metadata
+- every row has confidence metadata where applicable
+- generated files are deterministic
+- generated files use UTF-8
+- generated files use LF line endings
+- no manual edits inside `dist/`
 
 ---
 
@@ -625,14 +620,14 @@ pnpm validate
 
 CI must verify:
 
-* package builds
-* tests pass
-* schemas compile
-* generated outputs exist
-* generated outputs are deterministic
-* raw file paths are documented
-* package exports work
-* npm publish dry run works
+- package builds
+- tests pass
+- schemas compile
+- generated outputs exist
+- generated outputs are deterministic
+- raw file paths are documented
+- package exports work
+- npm publish dry run works
 
 ---
 
@@ -661,15 +656,15 @@ require review before merge
 
 Deferred:
 
-* full postal-code directory package
-* `@ringmasters/global-entry-postal-codes`
-* compressed postal-code release assets
-* localized country names
-* subdivisions
-* browser size budget
-* WordPress example
-* no-code import examples
-* public demo page
+- full postal-code directory package
+- `@ringmasters/global-entry-postal-codes`
+- compressed postal-code release assets
+- localized country names
+- subdivisions
+- browser size budget
+- WordPress example
+- no-code import examples
+- public demo page
 
 ---
 
@@ -677,17 +672,16 @@ Deferred:
 
 A developer can:
 
-* install the npm package
-* import typed helpers
-* fetch raw JSON from GitHub
-* fetch TSV without npm
-* open Markdown tables on GitHub
-* detect that Hong Kong should not force postal code
-* detect that Japan uses large-to-small address order
-* detect that `+1` maps to multiple territories
-* build a booking form without assuming US address fields
-* build a checkout form with stricter rules than a CRM form
-* understand source limitations
-* inspect attribution
-* validate all data locally
-
+- install the npm package
+- import typed helpers
+- fetch raw JSON from GitHub
+- fetch TSV without npm
+- open Markdown tables on GitHub
+- detect that Hong Kong should not force postal code
+- detect that Japan uses large-to-small address order
+- detect that `+1` maps to multiple territories
+- build a booking form without assuming US address fields
+- build a checkout form with stricter rules than a CRM form
+- understand source limitations
+- inspect attribution
+- validate all data locally

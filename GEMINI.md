@@ -5,14 +5,17 @@
 For this repository, the agent operates under two primary modes, respecting the boundaries defined in `docs/skillsets.md`.
 
 ### Gemini (Architect)
+
 - Responsible for: Spec writing, documentation, data modeling, source policy, and work queue planning.
 - Goal: Maintain the "Synthesis Layer" integrity and decouple from US-centric assumptions.
 
 ### Codex (Implementation)
+
 - Responsible for: Package setup, build scripts, schema validation, API implementation, unit testing, and CI workflows.
 - Goal: Ensure high-quality, typed, and deterministic artifacts.
 
 ### Manual (Governance)
+
 - **User (Daigo) only.**
 - Required for: License decisions, source approval, NPM publishing, branch protection, and final release approval.
 

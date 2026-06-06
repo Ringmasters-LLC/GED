@@ -1,10 +1,13 @@
 # Global Entry Data Spec
 
 ## 1. Purpose
+
 GED is a **behavior metadata layer**. It normalizes global reference patterns into stable, typed, developer-facing entry models. It does not own "truth" but integrates domain authorities for checkout, CRMs, and SaaS onboarding.
 
 ## 2. Global Entry Philosophy
+
 Core thesis: Most global forms are domestic assumptions with international patches. This repo starts from global variance first.
+
 - **Synthesis Layer**: Normalize complex upstream standards (CLDR, libaddressinput, libphonenumber) into human-readable behavior.
 - **Integration over Ownership**: Use domain authorities where they exist; normalize for developers.
 - **No US-default address model.**
@@ -20,7 +23,9 @@ Core thesis: Most global forms are domestic assumptions with international patch
 - Do not present uncertainty as certainty. Use confidence levels.
 
 ## 3. Decoupling From US Defaults
+
 Core principle: Do not start from a US address, identity, commerce, or naming model. Model global variation directly.
+
 - **Locale is not country.**
 - **Country is not market.**
 - **Country is not currency.**
@@ -37,12 +42,15 @@ Core principle: Do not start from a US address, identity, commerce, or naming mo
 - **One dropdown cannot serve shipping, billing, residence, citizenship, and phone country equally.**
 
 ## 4. Non-Goals
+
 No full global postal-code database in core. No geocoding. No address verification. No shipping-grade validation. No tax/legal compliance. No runtime network dependencies. No paid APIs.
 
 ## 4. Target Consumers
+
 Web forms. Booking systems. WordPress plugins. Mobile apps. Admin tools. Offline-first applications.
 
 ## 5. Data Sets
+
 - **Country Lists**: ISO 3166-1 alpha-2, names.
 - **Phone Codes**: E.164 calling codes.
 - **Postal Rules**: Format strings, regex validation.
@@ -66,6 +74,7 @@ Web forms. Booking systems. WordPress plugins. Mobile apps. Admin tools. Offline
 - **Country Display Order**: Sorting rules (alphabetical, popular, regional).
 
 ## 6. Package Outputs
+
 - NPM package (@ringmasters/global-entry-data).
 - JSON files (canonical source).
 - TSV files (machine-friendly web grab).
@@ -79,6 +88,7 @@ Web forms. Booking systems. WordPress plugins. Mobile apps. Admin tools. Offline
 - JSON Schemas.
 
 ## 7. Public API
+
 ```ts
 getCountries(): Country[]
 getCountry(iso2: string): Country | null
@@ -118,6 +128,7 @@ sortCountries(countries: Country[], options: SortOptions): Country[]
 ```
 
 ## 8. Schema Rules
+
 - Every country requires `iso2`.
 - `iso2` must be unique.
 - Calling codes must map to at least one country.
@@ -136,6 +147,7 @@ sortCountries(countries: Country[], options: SortOptions): Country[]
   - `confidence` (0.0 - 1.0), `sources` (array)
 
 ## 9. Markdown Distribution Rules
+
 - MD files are generated artifacts.
 - MD files are not canonical data.
 - MD files are not the primary machine format.
@@ -158,6 +170,7 @@ sortCountries(countries: Country[], options: SortOptions): Country[]
   - `dist/md/anti-patterns.md`
 
 ## 10. Source and Attribution Policy
+
 - **ISO 3166-compatible** country codes and names.
 - **Google libphonenumber-compatible** phone metadata and discipline.
 - **Google libaddressinput-compatible** address templates and required fields.
@@ -171,15 +184,18 @@ sortCountries(countries: Country[], options: SortOptions): Country[]
 - Avoid: "official", "guaranteed", "authoritative".
 
 ## 11. Licensing
+
 - **Code**: MIT.
 - **Data**: Source-dependent. Attribution required per source. No full CC0 claim.
 
 ## 12. Versioning
+
 - **MAJOR**: Breaking schema or API changes.
 - **MINOR**: New datasets or new fields.
 - **PATCH**: Data corrections or monthly refreshes.
 
 ## 13. Repository Structure
+
 ```text
 global-entry-data/
   data/
@@ -206,6 +222,7 @@ global-entry-data/
 ```
 
 ## 14. Build Pipeline
+
 1. Ingest raw data from sources to `data/canonical/*.json`.
 2. Normalize against schemas.
 3. Validate data integrity.
@@ -214,18 +231,21 @@ global-entry-data/
 6. Verify deterministic output.
 
 ## 15. CI Requirements
+
 - Lint code and schemas.
 - Run unit tests for API and data validation.
 - Verify every JSON file against its schema.
 - Fail on non-deterministic generation.
 
 ## 16. Data Refresh Policy
+
 - Monthly automated ingest.
 - Automated validation.
 - Manual review for major discrepancies.
 - Patch release for every refresh.
 
 ## 17. MVP Release Scope
+
 - Canonical JSON datasets (`countries.json`, `phone-codes.json`, etc.).
 - `address-formats.json`, `form-behavior.json`, `territory-types.json`, `entry-profiles.json`.
 - Generated outputs: JSON, TSV, CSV, TXT, MD, SQL, SQLite.
@@ -234,6 +254,7 @@ global-entry-data/
 - Basic tests and documentation.
 
 ## 18. Later Roadmap
+
 - `@ringmasters/global-entry-postal-codes` (large dataset).
 - `@ringmasters/global-entry-hazards` (separate package).
   - **Datasets**: `hazard-types.json`, `hazards.json`, `alert-categories.json`, `cap-fields.json`, `severity-levels.json`, `urgency-levels.json`, `certainty-levels.json`, `response-types.json`, `weather-events.json`, `tropical-cyclone-events.json`, `earthquake-events.json`, `tsunami-events.json`, `volcano-events.json`, `flood-events.json`, `wildfire-events.json`, `country-alert-systems.json`.
@@ -249,6 +270,7 @@ global-entry-data/
 - `@ringmasters/global-entry-locales` (localized names, scripts, date/time, units).
 
 ## 19. Risk Controls
+
 - No runtime network calls.
 - Small core package size.
 - Hardcoded provenance in data.
@@ -280,6 +302,7 @@ global-entry-data/
 - Clear attribution in `ATTRIBUTION.md`.
 
 ## 21. Non-Goals (Detailed)
+
 - No live disaster alerts or emergency dispatch.
 - No official warning authority or replacement for national services.
 - No legal safety guarantee or compliance claim.
@@ -289,12 +312,13 @@ global-entry-data/
 - No universal global form.
 
 hould not force postal code.
+
 - Developer can detect that Japan uses large-to-small address order.
 - Developer can detect that +1 maps to multiple territories.
 - Developer can build a booking form without assuming US address fields.
 - Developer can build a checkout form with stricter rules than a CRM form.
 - User can open Markdown docs and understand why global forms fail.
-ead `postal-rules.md` as context.
+  ead `postal-rules.md` as context.
 - Scripts prefer TSV or JSON, not MD.
 - Developer can detect that Hong Kong should not force postal code.
 - Developer can detect that Japan uses large-to-small address order.
