@@ -104,14 +104,14 @@ Risk estimates measure maintenance, licensing, and supply-chain exposure.
 | GED-P3-016 | P3 | P3 | M | MEDIUM | DONE | Codex | implement getTerritoryType | returns type string |
 | GED-P3-004 | P3 | P3 | M | MEDIUM | DONE | Codex | implement getCallingCode | returns E.164 code |
 | GED-P3-005 | P3 | P3 | M | MEDIUM | DONE | Codex | implement getCountriesByCallingCode | returns Country[] |
-| GED-P3-006 | P3 | P3 | M | MEDIUM | TODO | Codex | implement getPostalRule | returns PostalRule |
-| GED-P3-007 | P3 | P3 | M | MEDIUM | TODO | Codex | implement validatePostalCode | boolean validation |
-| GED-P3-014 | P3 | P3 | M | MEDIUM | TODO | Codex | implement getAddressFields | returns ordered fields |
-| GED-P3-015 | P3 | P3 | M | MEDIUM | TODO | Codex | implement getEntryRules | returns profile-specific rules |
-| GED-P3-017 | P3 | P3 | M | MEDIUM | TODO | Codex | implement getFormBehavior | returns UI rules |
-| GED-P3-018 | P3 | P3 | M | MEDIUM | TODO | Codex | implement getPostalCodeBehavior | returns behavior per profile |
-| GED-P3-012 | P3 | P3 | M | MEDIUM | TODO | Codex | configure package exports | ESM/CJS work |
-| GED-P3-013 | P3 | P3 | M | MEDIUM | TODO | Codex | verify tree-shakable imports | imports work per field |
+| GED-P3-006 | P3 | P3 | M | MEDIUM | DONE | Codex | implement getPostalRule | returns PostalRule |
+| GED-P3-007 | P3 | P3 | M | MEDIUM | DONE | Codex | implement validatePostalCode | boolean validation |
+| GED-P3-014 | P3 | P3 | M | MEDIUM | DONE | Codex | implement getAddressFields | returns ordered fields |
+| GED-P3-015 | P3 | P3 | M | MEDIUM | DONE | Codex | implement getEntryRules | returns profile-specific rules |
+| GED-P3-017 | P3 | P3 | M | MEDIUM | DONE | Codex | implement getFormBehavior | returns UI rules |
+| GED-P3-018 | P3 | P3 | M | MEDIUM | DONE | Codex | implement getPostalCodeBehavior | returns behavior per profile |
+| GED-P3-012 | P3 | P3 | M | MEDIUM | DONE | Codex | configure package exports | ESM/CJS work |
+| GED-P3-013 | P3 | P3 | M | MEDIUM | DONE | Codex | verify tree-shakable imports | imports work per field |
 | GED-P5-001 | P5 | P5 | S | LOW | TODO | Gemini | write README.md | file exists, intro clear |
 | GED-P5-002 | P5 | P5 | S | LOW | TODO | Gemini | document install | pnpm/npm instructions |
 | GED-P5-003 | P5 | P5 | S | LOW | TODO | Gemini | document API | methods explained |

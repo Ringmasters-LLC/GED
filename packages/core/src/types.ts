@@ -18,3 +18,53 @@ export interface Country {
   sources: string[];
   updatedAt: string;
 }
+export interface PostalRule {
+  iso2: string;
+  used: boolean;
+  requiredForConsumerForms: boolean;
+  requiredForShipping: boolean;
+  format?: string;
+  regex?: string;
+  examples?: string[];
+  updatedAt: string;
+}
+
+export interface AddressFormat {
+  iso2: string;
+  requiredFields: string[];
+  fieldOrder: string[];
+  administrativeAreaLabel?: string;
+  postalCodeLabel?: string;
+  postalCodePosition?: 'before_city' | 'after_city' | 'after_admin_area' | 'top' | 'bottom';
+  addressLinesRecommended?: number;
+  updatedAt: string;
+}
+
+export interface EntryProfile {
+  id: string;
+  label: string;
+  description: string;
+  strictness: 'loose' | 'medium' | 'strict';
+  requiredFields: string[];
+  updatedAt: string;
+}
+
+export interface FormBehavior {
+  iso2: string;
+  name: {
+    supportsSingleName: boolean;
+    requiresFamilyName: boolean;
+    nameOrder: 'given_family' | 'family_given';
+  };
+  address: {
+    addressLinesRecommended?: number;
+    streetAddressCentral?: boolean;
+  };
+  updatedAt: string;
+}
+
+export interface PostalBehavior {
+  used: boolean;
+  required: boolean;
+  regex?: string;
+}

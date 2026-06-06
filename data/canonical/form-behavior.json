@@ -1,0 +1,41 @@
+[
+  {
+    "iso2": "ID",
+    "name": {
+      "supportsSingleName": true,
+      "requiresFamilyName": false,
+      "nameOrder": "given_family"
+    },
+    "address": {
+      "addressLinesRecommended": 2,
+      "streetAddressCentral": true
+    },
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "JP",
+    "name": {
+      "supportsSingleName": false,
+      "requiresFamilyName": true,
+      "nameOrder": "family_given"
+    },
+    "address": {
+      "addressLinesRecommended": 3,
+      "streetAddressCentral": false
+    },
+    "updatedAt": "2026-06-05"
+  },
+  {
+    "iso2": "US",
+    "name": {
+      "supportsSingleName": false,
+      "requiresFamilyName": true,
+      "nameOrder": "given_family"
+    },
+    "address": {
+      "addressLinesRecommended": 2,
+      "streetAddressCentral": true
+    },
+    "updatedAt": "2026-06-05"
+  }
+]
