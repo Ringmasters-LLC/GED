@@ -6,6 +6,7 @@
 - **BLOCKED**: Task requires external resolution.
 - **DONE**: Task complete, verified.
 - **DEFERRED**: Task moved to later phase.
+- **PARTIAL**: Implementation exists but incomplete or placeholder.
 
 ## Priority Model
 
@@ -29,6 +30,10 @@ Risk estimates measure maintenance, licensing, and supply-chain exposure.
 - Do not import large datasets into core.
 - Do not claim official authority without licensed sources.
 - Do not merge generated files without deterministic build proof.
+
+## Audit Notes (2026-06-05)
+- **Data Refresh (GED-P6-007)**: Implementation is currently a placeholder (echo logic). Requires real ingestion logic.
+- **CI Risk**: `better-sqlite3` is a native dependency. CI environment must support build tools or use prebuilts.
 
 ## Execution Queue
 
@@ -74,6 +79,8 @@ Risk estimates measure maintenance, licensing, and supply-chain exposure.
 | GED-P1-026 | P1 | P1 | M | MEDIUM | DONE | Gemini | create canonical country-display-order.json | sorting rules |
 | GED-P1-008 | P1 | P1 | M | MEDIUM | DONE | Gemini | add source metadata to every row | every row has sources array |
 | GED-P1-009 | P1 | P1 | M | MEDIUM | DONE | Gemini | add updatedAt and confidence | every row has meta |
+| GED-P1-027 | P1 | P1 | M | MEDIUM | TODO | Gemini | Expand form-behavior sample coverage | covers more than US JP CA ID |
+| GED-P1-028 | P1 | P1 | M | MEDIUM | TODO | Gemini | Expand administrative-levels sample coverage | covers more than US JP CA ID |
 | GED-P4-001 | P4 | P4 | M | MEDIUM | DONE | Gemini | create country schema | valid JSON schema |
 | GED-P4-014 | P4 | P4 | M | MEDIUM | DONE | Gemini | create territory-type schema | valid JSON schema |
 | GED-P4-015 | P4 | P4 | M | MEDIUM | DONE | Gemini | create form-behavior schema | valid JSON schema |
@@ -129,10 +136,13 @@ Risk estimates measure maintenance, licensing, and supply-chain exposure.
 | GED-P6-004 | P6 | P6 | M | MEDIUM | DONE | Codex | add test check | verify unit tests |
 | GED-P6-005 | P6 | P6 | M | MEDIUM | DONE | Codex | add build check | verify artifacts generate |
 | GED-P6-006 | P6 | P6 | M | MEDIUM | DONE | Codex | add validation check | verify data integrity |
-| GED-P6-007 | P6 | P6 | L | HIGH | DONE | Codex | add data-refresh workflow | monthly refresh logic |
+| GED-P6-007 | P6 | P6 | L | HIGH | PARTIAL | Codex | add data-refresh workflow | placeholder echo logic only |
 | GED-P6-008 | P6 | P6 | L | HIGH | DONE | Manual | add release workflow | publishes to npm |
 | GED-P6-009 | P6 | P6 | L | HIGH | DONE | Codex | add npm publish dry run | verity package assets |
 | GED-P6-010 | P6 | P6 | S | HIGH | DONE | Manual | add changelog gate | verify release notes |
+| GED-P6-011 | P6 | P6 | M | MEDIUM | TODO | Codex | Add root pnpm lint script | pnpm lint exists and passes in CI |
+| GED-P6-012 | P6 | P6 | L | HIGH | TODO | Codex | Replace placeholder data-refresh workflow with real ingestion plan | workflow opens PR with results |
+| GED-P6-013 | P6 | P6 | M | MEDIUM | TODO | Codex | Verify better-sqlite3 CI portability | CI proves build on GH runner |
 | GED-P7-001 | P7 | P7 | XL | HIGH | DEFERRED | Gemini | create @ringmasters/global-entry-postal-codes package | separate large package |
 | GED-P7-002 | P7 | P7 | XL | HIGH | DEFERRED | Gemini | import GeoNames-compatible postal directory | data ingestion |
 | GED-P7-003 | P7 | P7 | L | MEDIUM | DEFERRED | Gemini | compress large postal data | reduced bundle size |
