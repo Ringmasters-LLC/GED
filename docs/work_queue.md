@@ -89,15 +89,15 @@ Risk estimates measure maintenance, licensing, and supply-chain exposure.
 | GED-P4-011 | P4 | P4 | L | MEDIUM | DONE | Codex | add provenance validation | every row has source |
 | GED-P4-012 | P4 | P4 | M | MEDIUM | DONE | Codex | add deterministic build validation | binary diff stable |
 | GED-P4-013 | P4 | P4 | M | MEDIUM | DONE | Codex | add line-ending validation | LF and UTF-8 only |
-| GED-P2-001 | P2 | P2 | M | MEDIUM | TODO | Gemini | generate dist/json outputs | outputs from canonical JSON |
-| GED-P2-002 | P2 | P2 | M | MEDIUM | TODO | Gemini | generate dist/tsv outputs | outputs from canonical JSON |
-| GED-P2-003 | P2 | P2 | M | MEDIUM | TODO | Gemini | generate dist/csv outputs | outputs from canonical JSON |
-| GED-P2-004 | P2 | P2 | M | MEDIUM | TODO | Gemini | generate dist/txt outputs | outputs from canonical JSON |
-| GED-P2-005 | P2 | P2 | M | MEDIUM | TODO | Gemini | generate dist/md outputs | includes form-behavior, anti-patterns |
-| GED-P2-006 | P2 | P2 | L | MEDIUM | TODO | Gemini | generate dist/sql outputs | valid SQL scripts |
-| GED-P2-007 | P2 | P2 | L | MEDIUM | TODO | Gemini | generate dist/sqlite output | valid SQLite file |
-| GED-P2-008 | P2 | P2 | M | MEDIUM | TODO | Codex | create build script | runs build, stable sort |
-| GED-P2-009 | P2 | P2 | M | MEDIUM | TODO | Gemini | enforce generated artifact rule | no hand edits in dist |
+| GED-P2-001 | P2 | P2 | M | MEDIUM | DONE | Gemini | generate dist/json outputs | outputs from canonical JSON |
+| GED-P2-002 | P2 | P2 | M | MEDIUM | DONE | Gemini | generate dist/tsv outputs | outputs from canonical JSON |
+| GED-P2-003 | P2 | P2 | M | MEDIUM | DONE | Gemini | generate dist/csv outputs | outputs from canonical JSON |
+| GED-P2-004 | P2 | P2 | M | MEDIUM | DONE | Gemini | generate dist/txt outputs | outputs from canonical JSON |
+| GED-P2-005 | P2 | P2 | M | MEDIUM | DONE | Gemini | generate dist/md outputs | includes form-behavior, anti-patterns |
+| GED-P2-006 | P2 | P2 | L | MEDIUM | DONE | Gemini | generate dist/sql outputs | valid SQL scripts |
+| GED-P2-007 | P2 | P2 | L | MEDIUM | DONE | Gemini | generate dist/sqlite output | valid SQLite file |
+| GED-P2-008 | P2 | P2 | M | MEDIUM | DONE | Codex | create build script | runs build, stable sort |
+| GED-P2-009 | P2 | P2 | M | MEDIUM | DONE | Gemini | enforce generated artifact rule | no hand edits in dist |
 | GED-P3-001 | P3 | P3 | M | MEDIUM | DONE | Codex | implement getCountries | typed API returns Country[] |
 | GED-P3-002 | P3 | P3 | M | MEDIUM | DONE | Codex | implement getCountry | typed API returns Country |
 | GED-P3-003 | P3 | P3 | M | MEDIUM | DONE | Codex | implement searchCountries | filters by name/iso2 |
