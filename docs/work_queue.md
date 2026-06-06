@@ -112,26 +112,26 @@ Risk estimates measure maintenance, licensing, and supply-chain exposure.
 | GED-P3-018 | P3 | P3 | M | MEDIUM | DONE | Codex | implement getPostalCodeBehavior | returns behavior per profile |
 | GED-P3-012 | P3 | P3 | M | MEDIUM | DONE | Codex | configure package exports | ESM/CJS work |
 | GED-P3-013 | P3 | P3 | M | MEDIUM | DONE | Codex | verify tree-shakable imports | imports work per field |
-| GED-P5-001 | P5 | P5 | S | LOW | TODO | Gemini | write README.md | file exists, intro clear |
-| GED-P5-002 | P5 | P5 | S | LOW | TODO | Gemini | document install | pnpm/npm instructions |
-| GED-P5-003 | P5 | P5 | S | LOW | TODO | Gemini | document API | methods explained |
-| GED-P5-004 | P5 | P5 | S | LOW | TODO | Gemini | document raw GitHub URLs | usage instructions |
-| GED-P5-005 | P5 | P5 | S | LOW | TODO | Gemini | document CDN URLs | jsDelivr links |
-| GED-P5-006 | P5 | P5 | S | HIGH | TODO | Manual | document source policy | source policy confirmed |
-| GED-P5-007 | P5 | P5 | S | HIGH | TODO | Manual | document license policy | license policy confirmed |
-| GED-P5-008 | P5 | P5 | S | LOW | TODO | Gemini | document non-goals | clarifies project scope |
-| GED-P5-009 | P5 | P5 | S | LOW | TODO | Gemini | document output formats | JSON/TSV/MD etc |
-| GED-P5-010 | P5 | P5 | S | LOW | TODO | Gemini | document AI-agent usage | explains MD context |
-| GED-P6-001 | P6 | P6 | M | MEDIUM | TODO | Codex | create GitHub Actions CI | workflow exists |
-| GED-P6-002 | P6 | P6 | M | MEDIUM | TODO | Codex | add pnpm install check | verify deps install |
-| GED-P6-003 | P6 | P6 | M | MEDIUM | TODO | Codex | add lint check | verify code style |
-| GED-P6-004 | P6 | P6 | M | MEDIUM | TODO | Codex | add test check | verify unit tests |
-| GED-P6-005 | P6 | P6 | M | MEDIUM | TODO | Codex | add build check | verify artifacts generate |
-| GED-P6-006 | P6 | P6 | M | MEDIUM | TODO | Codex | add validation check | verify data integrity |
-| GED-P6-007 | P6 | P6 | L | HIGH | TODO | Codex | add data-refresh workflow | monthly refresh logic |
-| GED-P6-008 | P6 | P6 | L | HIGH | TODO | Manual | add release workflow | publishes to npm |
-| GED-P6-009 | P6 | P6 | L | HIGH | TODO | Codex | add npm publish dry run | verity package assets |
-| GED-P6-010 | P6 | P6 | S | HIGH | TODO | Manual | add changelog gate | verify release notes |
+| GED-P5-001 | P5 | P5 | S | LOW | DONE | Gemini | write README.md | file exists, intro clear |
+| GED-P5-002 | P5 | P5 | S | LOW | DONE | Gemini | document install | pnpm/npm instructions |
+| GED-P5-003 | P5 | P5 | S | LOW | DONE | Gemini | document API | methods explained |
+| GED-P5-004 | P5 | P5 | S | LOW | DONE | Gemini | document raw GitHub URLs | usage instructions |
+| GED-P5-005 | P5 | P5 | S | LOW | DONE | Gemini | document CDN URLs | jsDelivr links |
+| GED-P5-006 | P5 | P5 | S | HIGH | DONE | Manual | document source policy | source policy confirmed |
+| GED-P5-007 | P5 | P5 | S | HIGH | DONE | Manual | document license policy | license policy confirmed |
+| GED-P5-008 | P5 | P5 | S | LOW | DONE | Gemini | document non-goals | clarifies project scope |
+| GED-P5-009 | P5 | P5 | S | LOW | DONE | Gemini | document output formats | JSON/TSV/MD etc |
+| GED-P5-010 | P5 | P5 | S | LOW | DONE | Gemini | document AI-agent usage | explains MD context |
+| GED-P6-001 | P6 | P6 | M | MEDIUM | DONE | Codex | create GitHub Actions CI | workflow exists |
+| GED-P6-002 | P6 | P6 | M | MEDIUM | DONE | Codex | add pnpm install check | verify deps install |
+| GED-P6-003 | P6 | P6 | M | MEDIUM | DONE | Codex | add lint check | verify code style |
+| GED-P6-004 | P6 | P6 | M | MEDIUM | DONE | Codex | add test check | verify unit tests |
+| GED-P6-005 | P6 | P6 | M | MEDIUM | DONE | Codex | add build check | verify artifacts generate |
+| GED-P6-006 | P6 | P6 | M | MEDIUM | DONE | Codex | add validation check | verify data integrity |
+| GED-P6-007 | P6 | P6 | L | HIGH | DONE | Codex | add data-refresh workflow | monthly refresh logic |
+| GED-P6-008 | P6 | P6 | L | HIGH | DONE | Manual | add release workflow | publishes to npm |
+| GED-P6-009 | P6 | P6 | L | HIGH | DONE | Codex | add npm publish dry run | verity package assets |
+| GED-P6-010 | P6 | P6 | S | HIGH | DONE | Manual | add changelog gate | verify release notes |
 | GED-P7-001 | P7 | P7 | XL | HIGH | DEFERRED | Gemini | create @ringmasters/global-entry-postal-codes package | separate large package |
 | GED-P7-002 | P7 | P7 | XL | HIGH | DEFERRED | Gemini | import GeoNames-compatible postal directory | data ingestion |
 | GED-P7-003 | P7 | P7 | L | MEDIUM | DEFERRED | Gemini | compress large postal data | reduced bundle size |
