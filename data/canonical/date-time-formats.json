@@ -1,17 +1,114 @@
 [
   {
+    "locale": "ar-AE",
+    "dateFormat": "DD/MM/YYYY",
+    "timeCycle": "h12",
+    "weekStart": "saturday",
+    "calendar": "gregorian",
+    "alternateCalendars": [
+      "islamic"
+    ],
+    "updatedAt": "2026-06-07"
+  },
+  {
     "locale": "en-GB",
     "dateFormat": "DD/MM/YYYY",
-    "updatedAt": "2026-06-05"
+    "timeCycle": "h23",
+    "weekStart": "monday",
+    "calendar": "gregorian",
+    "updatedAt": "2026-06-07"
   },
   {
     "locale": "en-US",
     "dateFormat": "MM/DD/YYYY",
-    "updatedAt": "2026-06-05"
+    "timeCycle": "h12",
+    "weekStart": "sunday",
+    "calendar": "gregorian",
+    "updatedAt": "2026-06-07"
+  },
+  {
+    "locale": "es-ES",
+    "dateFormat": "DD/MM/YYYY",
+    "timeCycle": "h23",
+    "weekStart": "monday",
+    "calendar": "gregorian",
+    "updatedAt": "2026-06-07"
+  },
+  {
+    "locale": "es-MX",
+    "dateFormat": "DD/MM/YYYY",
+    "timeCycle": "h12",
+    "weekStart": "sunday",
+    "calendar": "gregorian",
+    "updatedAt": "2026-06-07"
+  },
+  {
+    "locale": "it-IT",
+    "dateFormat": "DD/MM/YYYY",
+    "timeCycle": "h23",
+    "weekStart": "monday",
+    "calendar": "gregorian",
+    "updatedAt": "2026-06-07"
   },
   {
     "locale": "ja-JP",
     "dateFormat": "YYYY/MM/DD",
-    "updatedAt": "2026-06-05"
+    "timeCycle": "h23",
+    "weekStart": "sunday",
+    "calendar": "gregorian",
+    "alternateCalendars": [
+      "japanese"
+    ],
+    "updatedAt": "2026-06-07"
+  },
+  {
+    "locale": "ko-KR",
+    "dateFormat": "YYYY. MM. DD.",
+    "timeCycle": "h12",
+    "weekStart": "sunday",
+    "calendar": "gregorian",
+    "alternateCalendars": [
+      "dangi"
+    ],
+    "updatedAt": "2026-06-07"
+  },
+  {
+    "locale": "nl-NL",
+    "dateFormat": "DD-MM-YYYY",
+    "timeCycle": "h23",
+    "weekStart": "monday",
+    "calendar": "gregorian",
+    "updatedAt": "2026-06-07"
+  },
+  {
+    "locale": "sv-SE",
+    "dateFormat": "YYYY-MM-DD",
+    "timeCycle": "h23",
+    "weekStart": "monday",
+    "calendar": "gregorian",
+    "updatedAt": "2026-06-07"
+  },
+  {
+    "locale": "zh-HK",
+    "dateFormat": "DD/MM/YYYY",
+    "timeCycle": "h12",
+    "weekStart": "sunday",
+    "calendar": "gregorian",
+    "alternateCalendars": [
+      "chinese"
+    ],
+    "updatedAt": "2026-06-07"
+  },
+  {
+    "locale": "zh-TW",
+    "dateFormat": "YYYY/MM/DD",
+    "timeCycle": "h12",
+    "weekStart": "sunday",
+    "calendar": "gregorian",
+    "alternateCalendars": [
+      "chinese",
+      "roc"
+    ],
+    "updatedAt": "2026-06-07"
   }
 ]

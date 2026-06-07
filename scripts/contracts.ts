@@ -51,6 +51,7 @@ export const TimezoneSchema = z.object({
   iso2: z.string().length(2),
   primaryZone: z.string(),
   zones: z.array(z.string()).optional(),
+  observesDst: z.boolean().optional(),
   updatedAt: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
 });
 

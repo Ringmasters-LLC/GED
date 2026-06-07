@@ -4,3 +4,5 @@ export * from './phone';
 export * from './postal';
 export * from './address';
 export * from './forms';
+export * from './timezone';
+export * from './locales';

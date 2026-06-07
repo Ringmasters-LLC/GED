@@ -1,52 +1,228 @@
 [
   {
+    "iso2": "AE",
+    "primaryZone": "Asia/Dubai",
+    "zones": [
+      "Asia/Dubai"
+    ],
+    "observesDst": false,
+    "updatedAt": "2026-06-07"
+  },
+  {
     "iso2": "AU",
     "primaryZone": "Australia/Sydney",
-    "updatedAt": "2026-06-05"
+    "zones": [
+      "Australia/Adelaide",
+      "Australia/Brisbane",
+      "Australia/Darwin",
+      "Australia/Hobart",
+      "Australia/Melbourne",
+      "Australia/Perth",
+      "Australia/Sydney"
+    ],
+    "observesDst": true,
+    "updatedAt": "2026-06-07"
   },
   {
     "iso2": "BR",
     "primaryZone": "America/Sao_Paulo",
-    "updatedAt": "2026-06-05"
+    "zones": [
+      "America/Araguaina",
+      "America/Bahia",
+      "America/Belem",
+      "America/Boa_Vista",
+      "America/Campo_Grande",
+      "America/Cuiaba",
+      "America/Eirunepe",
+      "America/Fortaleza",
+      "America/Maceio",
+      "America/Manaus",
+      "America/Noronha",
+      "America/Porto_Velho",
+      "America/Recife",
+      "America/Rio_Branco",
+      "America/Santarem",
+      "America/Sao_Paulo"
+    ],
+    "observesDst": false,
+    "updatedAt": "2026-06-07"
   },
   {
     "iso2": "CA",
     "primaryZone": "America/Toronto",
-    "updatedAt": "2026-06-05"
+    "zones": [
+      "America/Edmonton",
+      "America/Halifax",
+      "America/Regina",
+      "America/St_Johns",
+      "America/Toronto",
+      "America/Vancouver",
+      "America/Winnipeg"
+    ],
+    "observesDst": true,
+    "updatedAt": "2026-06-07"
   },
   {
     "iso2": "CN",
     "primaryZone": "Asia/Shanghai",
-    "updatedAt": "2026-06-05"
+    "zones": [
+      "Asia/Shanghai",
+      "Asia/Urumqi"
+    ],
+    "observesDst": false,
+    "updatedAt": "2026-06-07"
   },
   {
     "iso2": "DE",
     "primaryZone": "Europe/Berlin",
-    "updatedAt": "2026-06-05"
+    "zones": [
+      "Europe/Berlin"
+    ],
+    "observesDst": true,
+    "updatedAt": "2026-06-07"
+  },
+  {
+    "iso2": "ES",
+    "primaryZone": "Europe/Madrid",
+    "zones": [
+      "Atlantic/Canary",
+      "Europe/Madrid"
+    ],
+    "observesDst": true,
+    "updatedAt": "2026-06-07"
   },
   {
     "iso2": "FR",
     "primaryZone": "Europe/Paris",
-    "updatedAt": "2026-06-05"
+    "zones": [
+      "Europe/Paris"
+    ],
+    "observesDst": true,
+    "updatedAt": "2026-06-07"
   },
   {
     "iso2": "GB",
     "primaryZone": "Europe/London",
-    "updatedAt": "2026-06-05"
+    "zones": [
+      "Europe/London"
+    ],
+    "observesDst": true,
+    "updatedAt": "2026-06-07"
+  },
+  {
+    "iso2": "HK",
+    "primaryZone": "Asia/Hong_Kong",
+    "zones": [
+      "Asia/Hong_Kong"
+    ],
+    "observesDst": false,
+    "updatedAt": "2026-06-07"
   },
   {
     "iso2": "IN",
     "primaryZone": "Asia/Kolkata",
-    "updatedAt": "2026-06-05"
+    "zones": [
+      "Asia/Kolkata"
+    ],
+    "observesDst": false,
+    "updatedAt": "2026-06-07"
+  },
+  {
+    "iso2": "IT",
+    "primaryZone": "Europe/Rome",
+    "zones": [
+      "Europe/Rome"
+    ],
+    "observesDst": true,
+    "updatedAt": "2026-06-07"
   },
   {
     "iso2": "JP",
     "primaryZone": "Asia/Tokyo",
-    "updatedAt": "2026-06-05"
+    "zones": [
+      "Asia/Tokyo"
+    ],
+    "observesDst": false,
+    "updatedAt": "2026-06-07"
+  },
+  {
+    "iso2": "KR",
+    "primaryZone": "Asia/Seoul",
+    "zones": [
+      "Asia/Seoul"
+    ],
+    "observesDst": false,
+    "updatedAt": "2026-06-07"
+  },
+  {
+    "iso2": "MX",
+    "primaryZone": "America/Mexico_City",
+    "zones": [
+      "America/Bahia_Banderas",
+      "America/Cancun",
+      "America/Chihuahua",
+      "America/Hermosillo",
+      "America/Matamoros",
+      "America/Mazatlan",
+      "America/Merida",
+      "America/Mexico_City",
+      "America/Monterrey",
+      "America/Ojinaga",
+      "America/Tijuana"
+    ],
+    "observesDst": false,
+    "updatedAt": "2026-06-07"
+  },
+  {
+    "iso2": "NL",
+    "primaryZone": "Europe/Amsterdam",
+    "zones": [
+      "Europe/Amsterdam"
+    ],
+    "observesDst": true,
+    "updatedAt": "2026-06-07"
+  },
+  {
+    "iso2": "SE",
+    "primaryZone": "Europe/Stockholm",
+    "zones": [
+      "Europe/Stockholm"
+    ],
+    "observesDst": true,
+    "updatedAt": "2026-06-07"
+  },
+  {
+    "iso2": "SG",
+    "primaryZone": "Asia/Singapore",
+    "zones": [
+      "Asia/Singapore"
+    ],
+    "observesDst": false,
+    "updatedAt": "2026-06-07"
+  },
+  {
+    "iso2": "TW",
+    "primaryZone": "Asia/Taipei",
+    "zones": [
+      "Asia/Taipei"
+    ],
+    "observesDst": false,
+    "updatedAt": "2026-06-07"
   },
   {
     "iso2": "US",
     "primaryZone": "America/New_York",
-    "updatedAt": "2026-06-05"
+    "zones": [
+      "America/Adak",
+      "America/Anchorage",
+      "America/Chicago",
+      "America/Denver",
+      "America/Los_Angeles",
+      "America/New_York",
+      "America/Phoenix",
+      "Pacific/Honolulu"
+    ],
+    "observesDst": true,
+    "updatedAt": "2026-06-07"
   }
 ]

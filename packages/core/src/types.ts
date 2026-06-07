@@ -68,3 +68,26 @@ export interface PostalBehavior {
   required: boolean;
   regex?: string;
 }
+
+export interface TimezoneMetadata {
+  iso2: string;
+  primaryZone: string;
+  zones?: string[];
+  observesDst?: boolean;
+  updatedAt: string;
+}
+
+export interface DateTimeFormat {
+  locale: string;
+  dateFormat: string;
+  timeCycle?: 'h11' | 'h12' | 'h23' | 'h24';
+  weekStart?: 'monday' | 'sunday' | 'saturday';
+  calendar?: string;
+  alternateCalendars?: string[];
+  updatedAt: string;
+}
+
+export interface CalendarPreferences {
+  calendar: string;
+  alternateCalendars?: string[];
+}

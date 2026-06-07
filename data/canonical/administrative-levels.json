@@ -1,5 +1,16 @@
 [
   {
+    "iso2": "AE",
+    "levels": [
+      {
+        "level": 1,
+        "key": "emirate",
+        "label": "Emirate"
+      }
+    ],
+    "updatedAt": "2026-06-07"
+  },
+  {
     "iso2": "AU",
     "levels": [
       {
@@ -8,7 +19,7 @@
         "label": "State/Territory"
       }
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-07"
   },
   {
     "iso2": "BR",
@@ -19,7 +30,7 @@
         "label": "Estado"
       }
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-07"
   },
   {
     "iso2": "CA",
@@ -30,7 +41,7 @@
         "label": "Province"
       }
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-07"
   },
   {
     "iso2": "CN",
@@ -41,7 +52,7 @@
         "label": "Province"
       }
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-07"
   },
   {
     "iso2": "DE",
@@ -52,7 +63,18 @@
         "label": "Bundesland"
       }
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-07"
+  },
+  {
+    "iso2": "ES",
+    "levels": [
+      {
+        "level": 1,
+        "key": "province",
+        "label": "Province"
+      }
+    ],
+    "updatedAt": "2026-06-07"
   },
   {
     "iso2": "FR",
@@ -63,7 +85,7 @@
         "label": "Département"
       }
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-07"
   },
   {
     "iso2": "GB",
@@ -79,7 +101,18 @@
         "label": "City/Town"
       }
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-07"
+  },
+  {
+    "iso2": "HK",
+    "levels": [
+      {
+        "level": 1,
+        "key": "district",
+        "label": "District"
+      }
+    ],
+    "updatedAt": "2026-06-07"
   },
   {
     "iso2": "IN",
@@ -90,7 +123,18 @@
         "label": "State/Union Territory"
       }
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-07"
+  },
+  {
+    "iso2": "IT",
+    "levels": [
+      {
+        "level": 1,
+        "key": "province",
+        "label": "Province"
+      }
+    ],
+    "updatedAt": "2026-06-07"
   },
   {
     "iso2": "JP",
@@ -101,7 +145,73 @@
         "label": "Prefecture"
       }
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-07"
+  },
+  {
+    "iso2": "KR",
+    "levels": [
+      {
+        "level": 1,
+        "key": "province_special_city",
+        "label": "Province/Special City"
+      }
+    ],
+    "updatedAt": "2026-06-07"
+  },
+  {
+    "iso2": "MX",
+    "levels": [
+      {
+        "level": 1,
+        "key": "state",
+        "label": "State"
+      }
+    ],
+    "updatedAt": "2026-06-07"
+  },
+  {
+    "iso2": "NL",
+    "levels": [
+      {
+        "level": 1,
+        "key": "province",
+        "label": "Province"
+      }
+    ],
+    "updatedAt": "2026-06-07"
+  },
+  {
+    "iso2": "SE",
+    "levels": [
+      {
+        "level": 1,
+        "key": "county",
+        "label": "County"
+      }
+    ],
+    "updatedAt": "2026-06-07"
+  },
+  {
+    "iso2": "SG",
+    "levels": [
+      {
+        "level": 1,
+        "key": "district",
+        "label": "District"
+      }
+    ],
+    "updatedAt": "2026-06-07"
+  },
+  {
+    "iso2": "TW",
+    "levels": [
+      {
+        "level": 1,
+        "key": "county_city",
+        "label": "County/City"
+      }
+    ],
+    "updatedAt": "2026-06-07"
   },
   {
     "iso2": "US",
@@ -112,6 +222,6 @@
         "label": "State"
       }
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-07"
   }
 ]

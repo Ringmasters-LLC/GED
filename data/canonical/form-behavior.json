@@ -1,5 +1,18 @@
 [
   {
+    "iso2": "AE",
+    "name": {
+      "supportsSingleName": false,
+      "requiresFamilyName": true,
+      "nameOrder": "given_family"
+    },
+    "address": {
+      "addressLinesRecommended": 2,
+      "streetAddressCentral": true
+    },
+    "updatedAt": "2026-06-07"
+  },
+  {
     "iso2": "AU",
     "name": {
       "supportsSingleName": false,
@@ -10,7 +23,7 @@
       "addressLinesRecommended": 2,
       "streetAddressCentral": true
     },
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-07"
   },
   {
     "iso2": "BR",
@@ -23,7 +36,7 @@
       "addressLinesRecommended": 2,
       "streetAddressCentral": true
     },
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-07"
   },
   {
     "iso2": "CN",
@@ -36,7 +49,7 @@
       "addressLinesRecommended": 2,
       "streetAddressCentral": true
     },
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-07"
   },
   {
     "iso2": "DE",
@@ -49,7 +62,20 @@
       "addressLinesRecommended": 2,
       "streetAddressCentral": true
     },
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-07"
+  },
+  {
+    "iso2": "ES",
+    "name": {
+      "supportsSingleName": false,
+      "requiresFamilyName": true,
+      "nameOrder": "given_family"
+    },
+    "address": {
+      "addressLinesRecommended": 2,
+      "streetAddressCentral": true
+    },
+    "updatedAt": "2026-06-07"
   },
   {
     "iso2": "FR",
@@ -62,7 +88,7 @@
       "addressLinesRecommended": 2,
       "streetAddressCentral": true
     },
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-07"
   },
   {
     "iso2": "GB",
@@ -75,7 +101,20 @@
       "addressLinesRecommended": 2,
       "streetAddressCentral": true
     },
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-07"
+  },
+  {
+    "iso2": "HK",
+    "name": {
+      "supportsSingleName": false,
+      "requiresFamilyName": true,
+      "nameOrder": "family_given"
+    },
+    "address": {
+      "addressLinesRecommended": 2,
+      "streetAddressCentral": true
+    },
+    "updatedAt": "2026-06-07"
   },
   {
     "iso2": "ID",
@@ -88,7 +127,7 @@
       "addressLinesRecommended": 2,
       "streetAddressCentral": true
     },
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-07"
   },
   {
     "iso2": "IN",
@@ -101,7 +140,20 @@
       "addressLinesRecommended": 2,
       "streetAddressCentral": true
     },
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-07"
+  },
+  {
+    "iso2": "IT",
+    "name": {
+      "supportsSingleName": false,
+      "requiresFamilyName": true,
+      "nameOrder": "given_family"
+    },
+    "address": {
+      "addressLinesRecommended": 2,
+      "streetAddressCentral": true
+    },
+    "updatedAt": "2026-06-07"
   },
   {
     "iso2": "JP",
@@ -114,7 +166,85 @@
       "addressLinesRecommended": 3,
       "streetAddressCentral": false
     },
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-07"
+  },
+  {
+    "iso2": "KR",
+    "name": {
+      "supportsSingleName": false,
+      "requiresFamilyName": true,
+      "nameOrder": "family_given"
+    },
+    "address": {
+      "addressLinesRecommended": 2,
+      "streetAddressCentral": true
+    },
+    "updatedAt": "2026-06-07"
+  },
+  {
+    "iso2": "MX",
+    "name": {
+      "supportsSingleName": false,
+      "requiresFamilyName": true,
+      "nameOrder": "given_family"
+    },
+    "address": {
+      "addressLinesRecommended": 2,
+      "streetAddressCentral": true
+    },
+    "updatedAt": "2026-06-07"
+  },
+  {
+    "iso2": "NL",
+    "name": {
+      "supportsSingleName": false,
+      "requiresFamilyName": true,
+      "nameOrder": "given_family"
+    },
+    "address": {
+      "addressLinesRecommended": 2,
+      "streetAddressCentral": true
+    },
+    "updatedAt": "2026-06-07"
+  },
+  {
+    "iso2": "SE",
+    "name": {
+      "supportsSingleName": false,
+      "requiresFamilyName": true,
+      "nameOrder": "given_family"
+    },
+    "address": {
+      "addressLinesRecommended": 2,
+      "streetAddressCentral": true
+    },
+    "updatedAt": "2026-06-07"
+  },
+  {
+    "iso2": "SG",
+    "name": {
+      "supportsSingleName": false,
+      "requiresFamilyName": true,
+      "nameOrder": "given_family"
+    },
+    "address": {
+      "addressLinesRecommended": 2,
+      "streetAddressCentral": true
+    },
+    "updatedAt": "2026-06-07"
+  },
+  {
+    "iso2": "TW",
+    "name": {
+      "supportsSingleName": false,
+      "requiresFamilyName": true,
+      "nameOrder": "family_given"
+    },
+    "address": {
+      "addressLinesRecommended": 2,
+      "streetAddressCentral": true
+    },
+    "updatedAt": "2026-06-07"
   },
   {
     "iso2": "US",
@@ -127,6 +257,6 @@
       "addressLinesRecommended": 2,
       "streetAddressCentral": true
     },
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-07"
   }
 ]
