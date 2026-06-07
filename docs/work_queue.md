@@ -80,8 +80,10 @@ Risk estimates measure maintenance, licensing, and supply-chain exposure.
 | GED-P1-025 |    P1 | P1       | M          | MEDIUM | DONE     | Gemini | create canonical localized-country-names.json                      | multi-language translations                       |
 | GED-P1-026 |    P1 | P1       | M          | MEDIUM | DONE     | Gemini | create canonical country-display-order.json                        | sorting rules                                     |
 | GED-P1-008 |    P1 | P1       | M          | MEDIUM | DONE     | Gemini | add source metadata to every row                                   | every row has sources array                       |
-| GED-P1-009 |    P1 | P1       | M          | MEDIUM | DONE     | Gemini | add updatedAt and confidence                                       | every row has meta                                |
-| GED-P1-027 |    P1 | P1       | M          | MEDIUM | DONE     | Gemini | Expand form-behavior sample coverage                               | covers more than US JP CA ID                      |
+| GED-P1-009 | P1 | P1 | M | MEDIUM | DONE | Gemini | add updatedAt and confidence | every row has meta |
+| GED-P1-TZ-001 | P1 | P1 | M | MEDIUM | TODO | Gemini | Expand timezone-defaults into country-timezone logic | countries with multiple timezones expose all IANA IDs and a default |
+| GED-P1-TZ-002 | P1 | P1 | M | MEDIUM | TODO | Gemini | Add date/time/week-start metadata | locale-aware date format, time cycle, and week start are queryable |
+| GED-P1-027 | P1 | P1 | M | MEDIUM | DONE | Gemini | Expand form-behavior sample coverage | covers more than US JP CA ID |
 | GED-P1-028 |    P1 | P1       | M          | MEDIUM | DONE     | Gemini | Expand administrative-levels sample coverage                       | covers more than US JP CA ID                      |
 | GED-P1-029 |    P1 | P1       | M          | MEDIUM | TODO     | Gemini | Expand form-behavior sample coverage                               | covers HK SG AE KR TW MX NL ES IT SE              |
 | GED-P1-030 |    P1 | P1       | M          | MEDIUM | TODO     | Gemini | Expand administrative-levels sample coverage                       | covers HK SG AE KR TW MX NL ES IT SE              |
@@ -121,8 +123,9 @@ Risk estimates measure maintenance, licensing, and supply-chain exposure.
 | GED-P3-014 |    P3 | P3       | M          | MEDIUM | DONE     | Codex  | implement getAddressFields                                         | returns ordered fields                            |
 | GED-P3-015 |    P3 | P3       | M          | MEDIUM | DONE     | Codex  | implement getEntryRules                                            | returns profile-specific rules                    |
 | GED-P3-017 |    P3 | P3       | M          | MEDIUM | DONE     | Codex  | implement getFormBehavior                                          | returns UI rules                                  |
-| GED-P3-018 |    P3 | P3       | M          | MEDIUM | DONE     | Codex  | implement getPostalCodeBehavior                                    | returns behavior per profile                      |
-| GED-P3-012 |    P3 | P3       | M          | MEDIUM | DONE     | Codex  | configure package exports                                          | ESM/CJS work                                      |
+| GED-P3-018 | P3 | P3 | M | MEDIUM | DONE | Codex | implement getPostalCodeBehavior | returns behavior per profile |
+| GED-P3-TZ-001 | P3 | P3 | M | MEDIUM | TODO | Codex | Implement timezone helper APIs | getTimezones, getDefaultTimezone, hasMultipleTimezones work |
+| GED-P3-012 | P3 | P3 | M | MEDIUM | DONE | Codex | configure package exports | ESM/CJS work |
 | GED-P3-013 |    P3 | P3       | M          | MEDIUM | DONE     | Codex  | verify tree-shakable imports                                       | imports work per field                            |
 | GED-P5-001 |    P5 | P5       | S          | LOW    | DONE     | Gemini | write README.md                                                    | file exists, intro clear                          |
 | GED-P5-002 |    P5 | P5       | S          | LOW    | DONE     | Gemini | document install                                                   | pnpm/npm instructions                             |
@@ -176,7 +179,10 @@ Risk estimates measure maintenance, licensing, and supply-chain exposure.
 | GED-P7-027 |    P7 | P7       | S          | MEDIUM | DEFERRED | Gemini | add hazard source and confidence metadata                          | metadata per row                                  |
 | GED-P7-028 |    P7 | P7       | M          | MEDIUM | DEFERRED | Gemini | generate hazard JSON TSV CSV TXT MD SQL SQLite outputs             | build distribution                                |
 | GED-P7-029 |    P7 | P7       | S          | LOW    | DEFERRED | Gemini | document disaster metadata non-goals                               | life-safety disclaimer                            |
-| GED-P7-030 |    P7 | P7       | S          | HIGH   | DEFERRED | Gemini | document emergency warning liability boundary                      | legal clarification                               |
+| GED-P7-030 | P7 | P7 | S | HIGH | DEFERRED | Gemini | document emergency warning liability boundary | legal clarification |
+| GED-P7-LIFE-001 | P7 | P7 | XL | MEDIUM | DEFERRED | Gemini | create @ringmasters/ged-lifestyle package | laundry and clothing metadata separated from core |
+| GED-P7-LIFE-002 | P7 | P7 | L | MEDIUM | DEFERRED | Gemini | Add laundry-symbol metadata | symbols, meanings, care categories, and source metadata exist |
+| GED-P7-LIFE-003 | P7 | P7 | XL | HIGH | DEFERRED | Gemini | Add clothing size conversion metadata | conversion rules include confidence and approximate flags |
 | GED-P7-031 |    P7 | P7       | XL         | HIGH   | DEFERRED | Gemini | create @ringmasters/global-entry-identity package                  | identity documents                                |
 | GED-P7-032 |    P7 | P7       | XL         | HIGH   | DEFERRED | Gemini | create @ringmasters/global-entry-commerce package                  | commerce metadata                                 |
 | GED-P7-033 |    P7 | P7       | XL         | HIGH   | DEFERRED | Gemini | create @ringmasters/global-entry-locales package                   | localized data                                    |

@@ -262,6 +262,10 @@ global-entry-data/
   - **Standards**: UNDRR/ISC taxonomy, WMO/OASIS CAP-compatible.
   - **API**: `getHazardTypes()`, `getHazard(id)`, `searchHazards(query)`, `getHazardsByType(type)`, `getHazardsByCountry(iso2)`, `getCapCategories()`, `getCapSeverityLevels()`, `getCapUrgencyLevels()`, `getCapCertaintyLevels()`, `getCapResponseTypes()`, `mapEventToHazard(eventName, options)`, `getCountryAlertSystems(iso2)`, `getWeatherEvents()`, `getTropicalCycloneTerms(region)`.
   - **Positioning**: Open hazard and alert metadata for disaster-aware localization. Metadata only, not emergency infrastructure.
+- `@ringmasters/ged-lifestyle` (separate package).
+  - **Datasets**: `laundry-symbols.json`, `care-labels.json`, `clothing-sizes.json`, `shoe-sizes.json`, `measurement-labels.json`, `size-conversion-rules.json`, `fabric-care.json`.
+  - **API**: `getLaundrySymbols()`, `getCareLabel(code)`, `getClothingSizes(category, region)`, `convertClothingSize(size, fromRegion, toRegion, category)`, `getShoeSize(size, fromRegion, toRegion)`, `getMeasurementLabels(locale)`, `getFabricCare(fabric)`.
+  - **Non-Goals**: No fit guarantees. No brand-specific guarantees. No liability for laundry care.
 - Localized country names.
 - Extended timezone metadata.
 - Administrative subdivision lists (states/provinces).
@@ -304,6 +308,10 @@ global-entry-data/
 ## 21. Non-Goals (Detailed)
 
 - No live disaster alerts or emergency dispatch.
+- No replacement for IANA database (use IDs only).
+- No calculation of legal holiday schedules in core.
+- No fit or brand-specific size guarantees.
+- No laundry-care liability claims.
 - No official warning authority or replacement for national services.
 - No legal safety guarantee or compliance claim.
 - No tax calculation or payment processing.
