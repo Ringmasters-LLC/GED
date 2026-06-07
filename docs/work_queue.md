@@ -32,7 +32,7 @@ Risk estimates measure maintenance, licensing, and supply-chain exposure.
 - Do not claim official authority without licensed sources.
 - Do not merge generated files without deterministic build proof.
 
-## Audit Notes (2026-06-05)
+## Audit Notes (2026-06-07)
 
 - **Data Refresh (GED-P6-007)**: Implementation is currently a placeholder (echo logic). Requires real ingestion logic.
 - **CI Risk**: `better-sqlite3` is a native dependency. CI environment must support build tools or use prebuilts.
@@ -83,6 +83,8 @@ Risk estimates measure maintenance, licensing, and supply-chain exposure.
 | GED-P1-009 |    P1 | P1       | M          | MEDIUM | DONE     | Gemini | add updatedAt and confidence                                       | every row has meta                                |
 | GED-P1-027 |    P1 | P1       | M          | MEDIUM | DONE     | Gemini | Expand form-behavior sample coverage                               | covers more than US JP CA ID                      |
 | GED-P1-028 |    P1 | P1       | M          | MEDIUM | DONE     | Gemini | Expand administrative-levels sample coverage                       | covers more than US JP CA ID                      |
+| GED-P1-029 |    P1 | P1       | M          | MEDIUM | TODO     | Gemini | Expand form-behavior sample coverage                               | covers HK SG AE KR TW MX NL ES IT SE              |
+| GED-P1-030 |    P1 | P1       | M          | MEDIUM | TODO     | Gemini | Expand administrative-levels sample coverage                       | covers HK SG AE KR TW MX NL ES IT SE              |
 | GED-P4-001 |    P4 | P4       | M          | MEDIUM | DONE     | Gemini | create country schema                                              | valid JSON schema                                 |
 | GED-P4-014 |    P4 | P4       | M          | MEDIUM | DONE     | Gemini | create territory-type schema                                       | valid JSON schema                                 |
 | GED-P4-015 |    P4 | P4       | M          | MEDIUM | DONE     | Gemini | create form-behavior schema                                        | valid JSON schema                                 |
@@ -140,7 +142,7 @@ Risk estimates measure maintenance, licensing, and supply-chain exposure.
 | GED-P6-006 |    P6 | P6       | M          | MEDIUM | DONE     | Codex  | add validation check                                               | verify data integrity                             |
 | GED-P6-007 |    P6 | P6       | L          | HIGH   | PARTIAL  | Codex  | add data-refresh workflow                                          | placeholder echo logic only                       |
 | GED-P6-008 |    P6 | P6       | L          | HIGH   | DONE     | Manual | add release workflow                                               | publishes to npm                                  |
-| GED-P6-009 |    P6 | P6       | L          | HIGH   | DONE     | Codex  | add npm publish dry run                                            | verity package assets                             |
+| GED-P6-009 |    P6 | P6       | L          | HIGH   | DONE     | Codex  | add npm publish dry run                                            | verify package assets                             |
 | GED-P6-010 |    P6 | P6       | S          | HIGH   | DONE     | Manual | add changelog gate                                                 | verify release notes                              |
 | GED-P6-011 |    P6 | P6       | M          | MEDIUM | DONE     | Codex  | Add root pnpm lint script                                          | pnpm lint exists and passes in CI                 |
 | GED-P6-012 |    P6 | P6       | L          | HIGH   | TODO     | Codex  | Replace placeholder data-refresh workflow with real ingestion plan | workflow opens PR with results                    |
