@@ -4,12 +4,12 @@ import { TimezoneMetadata } from './types';
 export const timezones: TimezoneMetadata[] = timezoneData as any as TimezoneMetadata[];
 
 export const getTimezones = (iso2: string): string[] => {
-  const data = timezones.find(t => t.iso2.toUpperCase() === iso2.toUpperCase());
+  const data = timezones.find((t) => t.iso2.toUpperCase() === iso2.toUpperCase());
   return data?.zones || (data?.primaryZone ? [data.primaryZone] : []);
 };
 
 export const getDefaultTimezone = (iso2: string): string | null => {
-  const data = timezones.find(t => t.iso2.toUpperCase() === iso2.toUpperCase());
+  const data = timezones.find((t) => t.iso2.toUpperCase() === iso2.toUpperCase());
   return data?.primaryZone || null;
 };
 
@@ -24,19 +24,19 @@ export const getTimezoneOffset = (timezone: string, date: Date = new Date()): nu
     timeZone: timezone,
     timeZoneName: 'longOffset',
   }).formatToParts(date);
-  
-  const offsetPart = parts.find(p => p.type === 'timeZoneName');
+
+  const offsetPart = parts.find((p) => p.type === 'timeZoneName');
   if (!offsetPart) return 0;
-  
+
   const offsetStr = offsetPart.value; // e.g. "GMT-07:00"
   if (offsetStr === 'GMT') return 0;
-  
+
   const match = offsetStr.match(/GMT([+-])(\d{1,2}):(\d{2})/);
   if (!match) return 0;
-  
+
   const sign = match[1] === '+' ? 1 : -1;
   const hours = parseInt(match[2], 10);
   const minutes = parseInt(match[3], 10);
-  
+
   return sign * (hours * 60 + minutes);
 };

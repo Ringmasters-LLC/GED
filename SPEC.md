@@ -146,7 +146,33 @@ sortCountries(countries: Country[], options: SortOptions): Country[]
   - `name.supportsSingleName`, `name.requiresFamilyName`, `name.nameOrder` (e.g. `given_family`)
   - `confidence` (0.0 - 1.0), `sources` (array)
 
-## 9. Markdown Distribution Rules
+## 9. Postal Source Matrix (Large Dataset)
+
+For `@ringmasters/global-entry-postal-codes`, we maintain a source matrix to track data provenance and licensing.
+
+### 9.1 Source Confidence Policy
+- **1.0**: Official government/postal authority API or verified download.
+- **0.8**: Official lookup tool (manually verified or scraped with permission).
+- **0.7**: High-quality open dataset (e.g., GeoNames).
+- **0.5**: Supplemental geospatial data (e.g., OpenStreetMap).
+- **0.3**: Community-maintained or unverified sources.
+- **0.0**: Placeholder or known unreliable data.
+
+### 9.2 Adapter Naming Convention
+Adapters must follow the pattern `<source_id>_<iso2>`.
+- Examples: `jppost_jp`, `geonames_global`, `osm_fr`.
+
+### 9.3 Coverage Status
+- `official_api_available`: Direct machine access to authority.
+- `official_download_available`: Authority provides bulk data.
+- `official_lookup_only`: Authority only provides web search.
+- `open_dataset_available`: Third-party open data exists.
+- `partial_open_dataset`: Incomplete or community-only data.
+- `commercial_only`: Data requires paid license.
+- `not_used`: Country does not use postal codes.
+- `unknown`: Status not yet determined.
+
+## 10. Markdown Distribution Rules
 
 - MD files are generated artifacts.
 - MD files are not canonical data.

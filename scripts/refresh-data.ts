@@ -8,9 +8,12 @@ const DATA_DIR = path.resolve(process.cwd(), 'data/canonical');
 const UPDATED_AT = new Date().toISOString().split('T')[0];
 
 const SOURCES = {
-  CLDR_CODE_MAPPINGS: 'https://raw.githubusercontent.com/unicode-org/cldr-json/main/cldr-json/cldr-core/supplemental/codeMappings.json',
-  CLDR_TERRITORIES_EN: 'https://raw.githubusercontent.com/unicode-org/cldr-json/main/cldr-json/cldr-localenames-full/main/en/territories.json',
-  LIBPHONENUMBER_XML: 'https://raw.githubusercontent.com/google/libphonenumber/master/resources/PhoneNumberMetadata.xml',
+  CLDR_CODE_MAPPINGS:
+    'https://raw.githubusercontent.com/unicode-org/cldr-json/main/cldr-json/cldr-core/supplemental/codeMappings.json',
+  CLDR_TERRITORIES_EN:
+    'https://raw.githubusercontent.com/unicode-org/cldr-json/main/cldr-json/cldr-localenames-full/main/en/territories.json',
+  LIBPHONENUMBER_XML:
+    'https://raw.githubusercontent.com/google/libphonenumber/master/resources/PhoneNumberMetadata.xml',
 };
 
 async function fetchJson(url: string) {
@@ -41,7 +44,7 @@ async function refresh() {
     fetchText(SOURCES.LIBPHONENUMBER_XML),
   ]);
 
-  const parser = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: "" });
+  const parser = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: '' });
   const phoneObj = parser.parse(phoneXml);
   const territories = phoneObj.phoneNumberMetadata.territories.territory;
 
@@ -92,7 +95,7 @@ async function refresh() {
   console.log('\nData refresh complete.');
 }
 
-refresh().catch(err => {
+refresh().catch((err) => {
   console.error('Refresh failed:', err);
   process.exit(1);
 });

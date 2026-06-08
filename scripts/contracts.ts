@@ -207,6 +207,40 @@ export const FormBehaviorSchema = z.object({
   updatedAt: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
 });
 
+export const PostalSourceMatrixSchema = z.object({
+  iso2: z.string(),
+  coverageStatus: z.enum([
+    'official_api_available',
+    'official_download_available',
+    'official_lookup_only',
+    'open_dataset_available',
+    'partial_open_dataset',
+    'commercial_only',
+    'not_used',
+    'unknown',
+  ]),
+  adapters: z.array(z.string()).optional(),
+  sources: z.array(
+    z.object({
+      id: z.string(),
+      type: z.enum([
+        'official_api',
+        'official_download',
+        'lookup_only',
+        'open_dataset',
+        'commercial_only',
+        'unknown',
+      ]),
+      url: z.string().url(),
+      license: z.string(),
+      redistributable: z.boolean(),
+      confidence: z.number().min(0).max(1).optional(),
+      notes: z.string().optional(),
+    }),
+  ),
+  updatedAt: z.string(),
+});
+
 export const ContractMap: Record<string, z.ZodTypeAny> = {
   'countries.json': z.array(CountrySchema),
   'phone-codes.json': z.array(PhoneCodeSchema),
@@ -229,4 +263,5 @@ export const ContractMap: Record<string, z.ZodTypeAny> = {
   'territory-types.json': z.array(TerritoryTypeSchema),
   'entry-profiles.json': z.array(EntryProfileSchema),
   'form-behavior.json': z.array(FormBehaviorSchema),
+  'postal-source-matrix.json': z.array(PostalSourceMatrixSchema),
 };

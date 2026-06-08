@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["iso2", "coverageStatus", "sources", "updatedAt"],
+    "properties": {
+      "iso2": { "type": "string", "pattern": "^[A-Z]{2}$" },
+      "coverageStatus": {
+        "type": "string",
+        "enum": [
+          "official_api_available",
+          "official_download_available",
+          "official_lookup_only",
+          "open_dataset_available",
+          "partial_open_dataset",
+          "commercial_only",
+          "not_used",
+          "unknown"
+        ]
+      },
+      "adapters": {
+        "type": "array",
+        "items": { "type": "string" },
+        "description": "Naming convention: <source_id>_<iso2> (e.g., jppost_jp, geonames_jp)"
+      },
+      "sources": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": ["id", "type", "url", "license", "redistributable"],
+          "properties": {
+            "id": { "type": "string" },
+            "type": {
+              "type": "string",
+              "enum": ["official_api", "official_download", "lookup_only", "open_dataset", "commercial_only", "unknown"]
+            },
+            "url": { "type": "string", "format": "uri" },
+            "license": { "type": "string" },
+            "redistributable": { "type": "boolean" },
+            "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+            "notes": { "type": "string" }
+          }
+        }
+      },
+      "updatedAt": { "type": "string", "format": "date-time" }
+    }
+  }
+}
