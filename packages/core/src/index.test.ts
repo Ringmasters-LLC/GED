@@ -7,6 +7,11 @@ import {
   getAddressFields,
   getMeasurementSystem,
   getPreferredUnits,
+  getLocalizedCountryName,
+  getLocalesByCountry,
+  getDefaultLocale,
+  getWritingSystem,
+  isRtlLocale,
 } from './index';
 
 describe('Global Entry Data Core API', () => {
@@ -61,6 +66,39 @@ describe('Global Entry Data Core API', () => {
       expect(units).toBeDefined();
       expect(units?.distance).toBe('mile');
       expect(units?.weight).toBe('kilogram'); // Based on my canonical data entry
+    });
+  });
+
+  describe('i18n Helpers', () => {
+    it('should get localized country names', () => {
+      expect(getLocalizedCountryName('JP', 'en')).toBe('Japan');
+      expect(getLocalizedCountryName('JP', 'ja')).toBe('日本');
+      expect(getLocalizedCountryName('US', 'en-US')).toBe('United States');
+      expect(getLocalizedCountryName('US', 'ja-JP')).toBe('アメリカ合衆国');
+    });
+
+    it('should get locales by country', () => {
+      const locales = getLocalesByCountry('CA');
+      expect(locales.length).toBeGreaterThan(1);
+      expect(locales.some((l) => l.locale === 'en-CA')).toBe(true);
+      expect(locales.some((l) => l.locale === 'fr-CA')).toBe(true);
+    });
+
+    it('should get default locale', () => {
+      expect(getDefaultLocale('JP')).toBe('ja-JP');
+      expect(getDefaultLocale('US')).toBe('en-US');
+    });
+
+    it('should detect RTL locales', () => {
+      expect(isRtlLocale('ar-SA')).toBe(true);
+      expect(isRtlLocale('en-US')).toBe(false);
+    });
+
+    it('should get writing system info', () => {
+      const ws = getWritingSystem('ja-JP');
+      expect(ws).toBeDefined();
+      expect(ws?.script).toBe('Jpan');
+      expect(ws?.direction).toBe('ltr');
     });
   });
 });

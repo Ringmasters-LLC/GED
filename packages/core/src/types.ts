@@ -115,3 +115,30 @@ export interface PreferredUnits {
   height: 'centimeter' | 'inch' | 'foot';
   paperSize: 'A-series' | 'Letter';
 }
+
+export interface LocaleMetadata {
+  locale: string;
+  official: boolean;
+  default?: boolean;
+}
+
+export interface CountryLocales {
+  iso2: string;
+  locales: LocaleMetadata[];
+  updatedAt: string;
+}
+
+export interface WritingSystem {
+  locale: string;
+  script: string;
+  direction: 'ltr' | 'rtl';
+  latinFallbackCommon?: boolean;
+  nativeScriptRecommended?: boolean;
+  updatedAt: string;
+}
+
+export interface LocalizedCountryNames {
+  iso2: string;
+  names: Record<string, string>;
+  updatedAt: string;
+}
