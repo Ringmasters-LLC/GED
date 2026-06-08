@@ -8,6 +8,7 @@ import {
   getMeasurementSystem,
   getPreferredUnits,
   getLocalizedCountryName,
+  getLocalizedLanguageName,
   getLocalesByCountry,
   getDefaultLocale,
   getWritingSystem,
@@ -75,30 +76,49 @@ describe('Global Entry Data Core API', () => {
       expect(getLocalizedCountryName('JP', 'ja')).toBe('日本');
       expect(getLocalizedCountryName('US', 'en-US')).toBe('United States');
       expect(getLocalizedCountryName('US', 'ja-JP')).toBe('アメリカ合衆国');
+      expect(getLocalizedCountryName('CH', 'de')).toBe('Schweiz');
+      expect(getLocalizedCountryName('BE', 'fr')).toBe('Belgique');
+    });
+
+    it('should get localized language names', () => {
+      expect(getLocalizedLanguageName('ja', 'en')).toBe('Japanese');
+      expect(getLocalizedLanguageName('ja', 'ja')).toBe('日本語');
+      expect(getLocalizedLanguageName('de', 'ja')).toBe('ドイツ語');
     });
 
     it('should get locales by country', () => {
-      const locales = getLocalesByCountry('CA');
-      expect(locales.length).toBeGreaterThan(1);
-      expect(locales.some((l) => l.locale === 'en-CA')).toBe(true);
-      expect(locales.some((l) => l.locale === 'fr-CA')).toBe(true);
+      const localesCA = getLocalesByCountry('CA');
+      expect(localesCA.length).toBeGreaterThan(1);
+      expect(localesCA.some((l) => l.locale === 'en-CA')).toBe(true);
+      expect(localesCA.some((l) => l.locale === 'fr-CA')).toBe(true);
+
+      const localesCH = getLocalesByCountry('CH');
+      expect(localesCH.length).toBe(4);
+      expect(localesCH.some((l) => l.locale === 'rm-CH')).toBe(true);
     });
 
     it('should get default locale', () => {
       expect(getDefaultLocale('JP')).toBe('ja-JP');
       expect(getDefaultLocale('US')).toBe('en-US');
+      expect(getDefaultLocale('HK')).toBe('zh-HK');
+      expect(getDefaultLocale('AE')).toBe('ar-AE');
     });
 
     it('should detect RTL locales', () => {
       expect(isRtlLocale('ar-SA')).toBe(true);
+      expect(isRtlLocale('ar-AE')).toBe(true);
+      expect(isRtlLocale('he-IL')).toBe(true);
       expect(isRtlLocale('en-US')).toBe(false);
     });
 
     it('should get writing system info', () => {
-      const ws = getWritingSystem('ja-JP');
-      expect(ws).toBeDefined();
-      expect(ws?.script).toBe('Jpan');
-      expect(ws?.direction).toBe('ltr');
+      const wsJP = getWritingSystem('ja-JP');
+      expect(wsJP?.script).toBe('Jpan');
+      expect(wsJP?.direction).toBe('ltr');
+
+      const wsIL = getWritingSystem('he-IL');
+      expect(wsIL?.script).toBe('Hebr');
+      expect(wsIL?.direction).toBe('rtl');
     });
   });
 });

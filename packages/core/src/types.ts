@@ -142,3 +142,9 @@ export interface LocalizedCountryNames {
   names: Record<string, string>;
   updatedAt: string;
 }
+
+export interface LocalizedLanguageNames {
+  code: string;
+  names: Record<string, string>;
+  updatedAt: string;
+}

@@ -47,6 +47,12 @@ export const LanguageSchema = z.object({
   updatedAt: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
 });
 
+export const LanguageNameSchema = z.object({
+  code: z.string().min(2).max(3),
+  names: z.record(z.string()),
+  updatedAt: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+});
+
 export const TimezoneSchema = z.object({
   iso2: z.string().length(2),
   primaryZone: z.string(),
@@ -252,6 +258,7 @@ export const ContractMap: Record<string, z.ZodTypeAny> = {
   'postal-rules.json': z.array(PostalRuleSchema),
   'currencies.json': z.array(CurrencySchema),
   'languages.json': z.array(LanguageSchema),
+  'language-names.json': z.array(LanguageNameSchema),
   'timezone-defaults.json': z.array(TimezoneSchema),
   'address-formats.json': z.array(AddressFormatSchema),
   'name-formats.json': z.array(NameFormatSchema),

@@ -1,52 +1,107 @@
 [
   {
+    "iso2": "AE",
+    "priority": 10,
+    "popular": true,
+    "region": "ME",
+    "updatedAt": "2026-06-08"
+  },
+  {
     "iso2": "AU",
     "priority": 10,
-    "updatedAt": "2026-06-05"
+    "popular": true,
+    "region": "OC",
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "BE",
+    "priority": 10,
+    "popular": false,
+    "region": "EU",
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "BR",
     "priority": 10,
-    "updatedAt": "2026-06-05"
+    "popular": true,
+    "region": "SA",
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "CA",
     "priority": 10,
-    "updatedAt": "2026-06-05"
+    "popular": true,
+    "region": "NA",
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "CH",
+    "priority": 10,
+    "popular": false,
+    "region": "EU",
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "CN",
     "priority": 10,
-    "updatedAt": "2026-06-05"
+    "popular": true,
+    "region": "AS",
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "DE",
     "priority": 10,
-    "updatedAt": "2026-06-05"
+    "popular": true,
+    "region": "EU",
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "FR",
     "priority": 10,
-    "updatedAt": "2026-06-05"
+    "popular": true,
+    "region": "EU",
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "GB",
     "priority": 2,
-    "updatedAt": "2026-06-05"
+    "popular": true,
+    "region": "EU",
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "HK",
+    "priority": 5,
+    "popular": true,
+    "region": "AS",
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "IL",
+    "priority": 10,
+    "popular": true,
+    "region": "ME",
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "IN",
     "priority": 10,
-    "updatedAt": "2026-06-05"
+    "popular": true,
+    "region": "AS",
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "JP",
     "priority": 3,
-    "updatedAt": "2026-06-05"
+    "popular": true,
+    "region": "AS",
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "US",
     "priority": 1,
-    "updatedAt": "2026-06-05"
+    "popular": true,
+    "region": "NA",
+    "updatedAt": "2026-06-08"
   }
 ]

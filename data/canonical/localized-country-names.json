@@ -1,11 +1,1835 @@
 [
   {
+    "iso2": "AD",
+    "names": {
+      "en": "Andorra",
+      "ja": "アンドラ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "AE",
+    "names": {
+      "en": "United Arab Emirates",
+      "ja": "アラブ首長国連邦"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "AF",
+    "names": {
+      "en": "Afghanistan",
+      "ja": "アフガニスタン"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "AG",
+    "names": {
+      "en": "Antigua & Barbuda",
+      "ja": "アンティグア・バーブーダ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "AI",
+    "names": {
+      "en": "Anguilla",
+      "ja": "アンギラ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "AL",
+    "names": {
+      "en": "Albania",
+      "ja": "アルバニア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "AM",
+    "names": {
+      "en": "Armenia",
+      "ja": "アルメニア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "AO",
+    "names": {
+      "en": "Angola",
+      "ja": "アンゴラ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "AQ",
+    "names": {
+      "en": "Antarctica",
+      "ja": "南極"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "AR",
+    "names": {
+      "en": "Argentina",
+      "ja": "アルゼンチン"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "AS",
+    "names": {
+      "en": "American Samoa",
+      "ja": "米領サモア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "AT",
+    "names": {
+      "en": "Austria",
+      "ja": "オーストリア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "AU",
+    "names": {
+      "en": "Australia",
+      "ja": "オーストラリア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "AW",
+    "names": {
+      "en": "Aruba",
+      "ja": "アルバ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "AX",
+    "names": {
+      "en": "Åland Islands",
+      "ja": "オーランド諸島"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "AZ",
+    "names": {
+      "en": "Azerbaijan",
+      "ja": "アゼルバイジャン"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "BA",
+    "names": {
+      "en": "Bosnia & Herzegovina",
+      "ja": "ボスニア・ヘルツェゴビナ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "BB",
+    "names": {
+      "en": "Barbados",
+      "ja": "バルバドス"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "BD",
+    "names": {
+      "en": "Bangladesh",
+      "ja": "バングラデシュ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "BE",
+    "names": {
+      "en": "Belgium",
+      "ja": "ベルギー"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "BF",
+    "names": {
+      "en": "Burkina Faso",
+      "ja": "ブルキナファソ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "BG",
+    "names": {
+      "en": "Bulgaria",
+      "ja": "ブルガリア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "BH",
+    "names": {
+      "en": "Bahrain",
+      "ja": "バーレーン"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "BI",
+    "names": {
+      "en": "Burundi",
+      "ja": "ブルンジ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "BJ",
+    "names": {
+      "en": "Benin",
+      "ja": "ベナン"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "BL",
+    "names": {
+      "en": "St. Barthélemy",
+      "ja": "サン・バルテルミー"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "BM",
+    "names": {
+      "en": "Bermuda",
+      "ja": "バミューダ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "BN",
+    "names": {
+      "en": "Brunei",
+      "ja": "ブルネイ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "BO",
+    "names": {
+      "en": "Bolivia",
+      "ja": "ボリビア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "BR",
+    "names": {
+      "en": "Brazil",
+      "ja": "ブラジル"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "BS",
+    "names": {
+      "en": "Bahamas",
+      "ja": "バハマ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "BT",
+    "names": {
+      "en": "Bhutan",
+      "ja": "ブータン"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "BW",
+    "names": {
+      "en": "Botswana",
+      "ja": "ボツワナ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "BY",
+    "names": {
+      "en": "Belarus",
+      "ja": "ベラルーシ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "BZ",
+    "names": {
+      "en": "Belize",
+      "ja": "ベリーズ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "CA",
+    "names": {
+      "en": "Canada",
+      "ja": "カナダ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "CC",
+    "names": {
+      "en": "Cocos (Keeling) Islands",
+      "ja": "ココス(キーリング)諸島"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "CD",
+    "names": {
+      "en": "Congo - Kinshasa",
+      "ja": "コンゴ民主共和国(キンシャサ)"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "CF",
+    "names": {
+      "en": "Central African Republic",
+      "ja": "中央アフリカ共和国"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "CG",
+    "names": {
+      "en": "Congo - Brazzaville",
+      "ja": "コンゴ共和国(ブラザビル)"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "CH",
+    "names": {
+      "en": "Switzerland",
+      "ja": "スイス"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "CI",
+    "names": {
+      "en": "Côte d’Ivoire",
+      "ja": "コートジボワール"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "CK",
+    "names": {
+      "en": "Cook Islands",
+      "ja": "クック諸島"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "CL",
+    "names": {
+      "en": "Chile",
+      "ja": "チリ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "CM",
+    "names": {
+      "en": "Cameroon",
+      "ja": "カメルーン"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "CN",
+    "names": {
+      "en": "China",
+      "ja": "中国"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "CO",
+    "names": {
+      "en": "Colombia",
+      "ja": "コロンビア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "CR",
+    "names": {
+      "en": "Costa Rica",
+      "ja": "コスタリカ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "CU",
+    "names": {
+      "en": "Cuba",
+      "ja": "キューバ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "CV",
+    "names": {
+      "en": "Cape Verde",
+      "ja": "カーボベルデ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "CW",
+    "names": {
+      "en": "Curaçao",
+      "ja": "キュラソー"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "CX",
+    "names": {
+      "en": "Christmas Island",
+      "ja": "クリスマス島"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "CY",
+    "names": {
+      "en": "Cyprus",
+      "ja": "キプロス"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "CZ",
+    "names": {
+      "en": "Czechia",
+      "ja": "チェコ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "DE",
+    "names": {
+      "en": "Germany",
+      "ja": "ドイツ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "DJ",
+    "names": {
+      "en": "Djibouti",
+      "ja": "ジブチ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "DK",
+    "names": {
+      "en": "Denmark",
+      "ja": "デンマーク"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "DM",
+    "names": {
+      "en": "Dominica",
+      "ja": "ドミニカ国"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "DO",
+    "names": {
+      "en": "Dominican Republic",
+      "ja": "ドミニカ共和国"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "DZ",
+    "names": {
+      "en": "Algeria",
+      "ja": "アルジェリア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "EC",
+    "names": {
+      "en": "Ecuador",
+      "ja": "エクアドル"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "EE",
+    "names": {
+      "en": "Estonia",
+      "ja": "エストニア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "EG",
+    "names": {
+      "en": "Egypt",
+      "ja": "エジプト"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "EH",
+    "names": {
+      "en": "Western Sahara",
+      "ja": "西サハラ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "ER",
+    "names": {
+      "en": "Eritrea",
+      "ja": "エリトリア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "ES",
+    "names": {
+      "en": "Spain",
+      "ja": "スペイン"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "ET",
+    "names": {
+      "en": "Ethiopia",
+      "ja": "エチオピア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "FI",
+    "names": {
+      "en": "Finland",
+      "ja": "フィンランド"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "FJ",
+    "names": {
+      "en": "Fiji",
+      "ja": "フィジー"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "FK",
+    "names": {
+      "en": "Falkland Islands",
+      "ja": "フォークランド諸島"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "FM",
+    "names": {
+      "en": "Micronesia",
+      "ja": "ミクロネシア連邦"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "FO",
+    "names": {
+      "en": "Faroe Islands",
+      "ja": "フェロー諸島"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "FR",
+    "names": {
+      "en": "France",
+      "ja": "フランス"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "GA",
+    "names": {
+      "en": "Gabon",
+      "ja": "ガボン"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "GB",
+    "names": {
+      "en": "United Kingdom",
+      "ja": "イギリス"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "GD",
+    "names": {
+      "en": "Grenada",
+      "ja": "グレナダ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "GE",
+    "names": {
+      "en": "Georgia",
+      "ja": "ジョージア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "GF",
+    "names": {
+      "en": "French Guiana",
+      "ja": "仏領ギアナ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "GG",
+    "names": {
+      "en": "Guernsey",
+      "ja": "ガーンジー"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "GH",
+    "names": {
+      "en": "Ghana",
+      "ja": "ガーナ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "GI",
+    "names": {
+      "en": "Gibraltar",
+      "ja": "ジブラルタル"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "GL",
+    "names": {
+      "en": "Greenland",
+      "ja": "グリーンランド"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "GM",
+    "names": {
+      "en": "Gambia",
+      "ja": "ガンビア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "GN",
+    "names": {
+      "en": "Guinea",
+      "ja": "ギニア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "GP",
+    "names": {
+      "en": "Guadeloupe",
+      "ja": "グアドループ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "GQ",
+    "names": {
+      "en": "Equatorial Guinea",
+      "ja": "赤道ギニア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "GR",
+    "names": {
+      "en": "Greece",
+      "ja": "ギリシャ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "GS",
+    "names": {
+      "en": "South Georgia & South Sandwich Islands",
+      "ja": "サウスジョージア・サウスサンドウィッチ諸島"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "GT",
+    "names": {
+      "en": "Guatemala",
+      "ja": "グアテマラ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "GU",
+    "names": {
+      "en": "Guam",
+      "ja": "グアム"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "GW",
+    "names": {
+      "en": "Guinea-Bissau",
+      "ja": "ギニアビサウ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "GY",
+    "names": {
+      "en": "Guyana",
+      "ja": "ガイアナ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "HK",
+    "names": {
+      "en": "Hong Kong SAR China",
+      "ja": "中華人民共和国香港特別行政区"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "HM",
+    "names": {
+      "en": "Heard & McDonald Islands",
+      "ja": "ハード島・マクドナルド諸島"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "HN",
+    "names": {
+      "en": "Honduras",
+      "ja": "ホンジュラス"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "HR",
+    "names": {
+      "en": "Croatia",
+      "ja": "クロアチア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "HT",
+    "names": {
+      "en": "Haiti",
+      "ja": "ハイチ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "HU",
+    "names": {
+      "en": "Hungary",
+      "ja": "ハンガリー"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "ID",
+    "names": {
+      "en": "Indonesia",
+      "ja": "インドネシア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "IE",
+    "names": {
+      "en": "Ireland",
+      "ja": "アイルランド"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "IL",
+    "names": {
+      "en": "Israel",
+      "ja": "イスラエル"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "IM",
+    "names": {
+      "en": "Isle of Man",
+      "ja": "マン島"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "IN",
+    "names": {
+      "en": "India",
+      "ja": "インド"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "IQ",
+    "names": {
+      "en": "Iraq",
+      "ja": "イラク"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "IR",
+    "names": {
+      "en": "Iran",
+      "ja": "イラン"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "IS",
+    "names": {
+      "en": "Iceland",
+      "ja": "アイスランド"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "IT",
+    "names": {
+      "en": "Italy",
+      "ja": "イタリア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "JE",
+    "names": {
+      "en": "Jersey",
+      "ja": "ジャージー"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "JM",
+    "names": {
+      "en": "Jamaica",
+      "ja": "ジャマイカ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "JO",
+    "names": {
+      "en": "Jordan",
+      "ja": "ヨルダン"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
     "iso2": "JP",
     "names": {
       "en": "Japan",
       "ja": "日本"
     },
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "KE",
+    "names": {
+      "en": "Kenya",
+      "ja": "ケニア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "KG",
+    "names": {
+      "en": "Kyrgyzstan",
+      "ja": "キルギス"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "KH",
+    "names": {
+      "en": "Cambodia",
+      "ja": "カンボジア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "KI",
+    "names": {
+      "en": "Kiribati",
+      "ja": "キリバス"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "KM",
+    "names": {
+      "en": "Comoros",
+      "ja": "コモロ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "KN",
+    "names": {
+      "en": "St. Kitts & Nevis",
+      "ja": "セントクリストファー・ネーヴィス"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "KP",
+    "names": {
+      "en": "North Korea",
+      "ja": "北朝鮮"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "KR",
+    "names": {
+      "en": "South Korea",
+      "ja": "韓国"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "KW",
+    "names": {
+      "en": "Kuwait",
+      "ja": "クウェート"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "KY",
+    "names": {
+      "en": "Cayman Islands",
+      "ja": "ケイマン諸島"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "KZ",
+    "names": {
+      "en": "Kazakhstan",
+      "ja": "カザフスタン"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "LA",
+    "names": {
+      "en": "Laos",
+      "ja": "ラオス"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "LB",
+    "names": {
+      "en": "Lebanon",
+      "ja": "レバノン"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "LC",
+    "names": {
+      "en": "St. Lucia",
+      "ja": "セントルシア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "LI",
+    "names": {
+      "en": "Liechtenstein",
+      "ja": "リヒテンシュタイン"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "LK",
+    "names": {
+      "en": "Sri Lanka",
+      "ja": "スリランカ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "LR",
+    "names": {
+      "en": "Liberia",
+      "ja": "リベリア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "LS",
+    "names": {
+      "en": "Lesotho",
+      "ja": "レソト"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "LT",
+    "names": {
+      "en": "Lithuania",
+      "ja": "リトアニア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "LU",
+    "names": {
+      "en": "Luxembourg",
+      "ja": "ルクセンブルク"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "LV",
+    "names": {
+      "en": "Latvia",
+      "ja": "ラトビア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "LY",
+    "names": {
+      "en": "Libya",
+      "ja": "リビア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "MA",
+    "names": {
+      "en": "Morocco",
+      "ja": "モロッコ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "MC",
+    "names": {
+      "en": "Monaco",
+      "ja": "モナコ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "MD",
+    "names": {
+      "en": "Moldova",
+      "ja": "モルドバ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "ME",
+    "names": {
+      "en": "Montenegro",
+      "ja": "モンテネグロ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "MF",
+    "names": {
+      "en": "St. Martin",
+      "ja": "サン・マルタン"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "MG",
+    "names": {
+      "en": "Madagascar",
+      "ja": "マダガスカル"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "MH",
+    "names": {
+      "en": "Marshall Islands",
+      "ja": "マーシャル諸島"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "MK",
+    "names": {
+      "en": "North Macedonia",
+      "ja": "北マケドニア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "ML",
+    "names": {
+      "en": "Mali",
+      "ja": "マリ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "MM",
+    "names": {
+      "en": "Myanmar (Burma)",
+      "ja": "ミャンマー (ビルマ)"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "MN",
+    "names": {
+      "en": "Mongolia",
+      "ja": "モンゴル"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "MO",
+    "names": {
+      "en": "Macao SAR China",
+      "ja": "中華人民共和国マカオ特別行政区"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "MP",
+    "names": {
+      "en": "Northern Mariana Islands",
+      "ja": "北マリアナ諸島"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "MQ",
+    "names": {
+      "en": "Martinique",
+      "ja": "マルティニーク"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "MR",
+    "names": {
+      "en": "Mauritania",
+      "ja": "モーリタニア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "MS",
+    "names": {
+      "en": "Montserrat",
+      "ja": "モントセラト"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "MT",
+    "names": {
+      "en": "Malta",
+      "ja": "マルタ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "MU",
+    "names": {
+      "en": "Mauritius",
+      "ja": "モーリシャス"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "MV",
+    "names": {
+      "en": "Maldives",
+      "ja": "モルディブ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "MW",
+    "names": {
+      "en": "Malawi",
+      "ja": "マラウイ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "MX",
+    "names": {
+      "en": "Mexico",
+      "ja": "メキシコ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "MY",
+    "names": {
+      "en": "Malaysia",
+      "ja": "マレーシア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "MZ",
+    "names": {
+      "en": "Mozambique",
+      "ja": "モザンビーク"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "NA",
+    "names": {
+      "en": "Namibia",
+      "ja": "ナミビア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "NC",
+    "names": {
+      "en": "New Caledonia",
+      "ja": "ニューカレドニア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "NE",
+    "names": {
+      "en": "Niger",
+      "ja": "ニジェール"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "NF",
+    "names": {
+      "en": "Norfolk Island",
+      "ja": "ノーフォーク島"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "NG",
+    "names": {
+      "en": "Nigeria",
+      "ja": "ナイジェリア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "NI",
+    "names": {
+      "en": "Nicaragua",
+      "ja": "ニカラグア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "NL",
+    "names": {
+      "en": "Netherlands",
+      "ja": "オランダ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "NO",
+    "names": {
+      "en": "Norway",
+      "ja": "ノルウェー"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "NP",
+    "names": {
+      "en": "Nepal",
+      "ja": "ネパール"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "NR",
+    "names": {
+      "en": "Nauru",
+      "ja": "ナウル"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "NU",
+    "names": {
+      "en": "Niue",
+      "ja": "ニウエ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "NZ",
+    "names": {
+      "en": "New Zealand",
+      "ja": "ニュージーランド"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "OM",
+    "names": {
+      "en": "Oman",
+      "ja": "オマーン"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "PA",
+    "names": {
+      "en": "Panama",
+      "ja": "パナマ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "PE",
+    "names": {
+      "en": "Peru",
+      "ja": "ペルー"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "PF",
+    "names": {
+      "en": "French Polynesia",
+      "ja": "仏領ポリネシア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "PG",
+    "names": {
+      "en": "Papua New Guinea",
+      "ja": "パプアニューギニア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "PH",
+    "names": {
+      "en": "Philippines",
+      "ja": "フィリピン"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "PK",
+    "names": {
+      "en": "Pakistan",
+      "ja": "パキスタン"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "PL",
+    "names": {
+      "en": "Poland",
+      "ja": "ポーランド"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "PM",
+    "names": {
+      "en": "St. Pierre & Miquelon",
+      "ja": "サンピエール島・ミクロン島"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "PN",
+    "names": {
+      "en": "Pitcairn Islands",
+      "ja": "ピトケアン諸島"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "PR",
+    "names": {
+      "en": "Puerto Rico",
+      "ja": "プエルトリコ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "PS",
+    "names": {
+      "en": "Palestinian Territories",
+      "ja": "パレスチナ自治区"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "PT",
+    "names": {
+      "en": "Portugal",
+      "ja": "ポルトガル"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "PW",
+    "names": {
+      "en": "Palau",
+      "ja": "パラオ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "PY",
+    "names": {
+      "en": "Paraguay",
+      "ja": "パラグアイ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "QA",
+    "names": {
+      "en": "Qatar",
+      "ja": "カタール"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "RE",
+    "names": {
+      "en": "Réunion",
+      "ja": "レユニオン"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "RO",
+    "names": {
+      "en": "Romania",
+      "ja": "ルーマニア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "RS",
+    "names": {
+      "en": "Serbia",
+      "ja": "セルビア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "RU",
+    "names": {
+      "en": "Russia",
+      "ja": "ロシア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "RW",
+    "names": {
+      "en": "Rwanda",
+      "ja": "ルワンダ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "SA",
+    "names": {
+      "en": "Saudi Arabia",
+      "ja": "サウジアラビア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "SB",
+    "names": {
+      "en": "Solomon Islands",
+      "ja": "ソロモン諸島"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "SC",
+    "names": {
+      "en": "Seychelles",
+      "ja": "セーシェル"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "SD",
+    "names": {
+      "en": "Sudan",
+      "ja": "スーダン"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "SE",
+    "names": {
+      "en": "Sweden",
+      "ja": "スウェーデン"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "SG",
+    "names": {
+      "en": "Singapore",
+      "ja": "シンガポール"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "SH",
+    "names": {
+      "en": "St. Helena",
+      "ja": "セントヘレナ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "SI",
+    "names": {
+      "en": "Slovenia",
+      "ja": "スロベニア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "SJ",
+    "names": {
+      "en": "Svalbard & Jan Mayen",
+      "ja": "スバールバル諸島・ヤンマイエン島"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "SK",
+    "names": {
+      "en": "Slovakia",
+      "ja": "スロバキア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "SL",
+    "names": {
+      "en": "Sierra Leone",
+      "ja": "シエラレオネ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "SM",
+    "names": {
+      "en": "San Marino",
+      "ja": "サンマリノ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "SN",
+    "names": {
+      "en": "Senegal",
+      "ja": "セネガル"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "SO",
+    "names": {
+      "en": "Somalia",
+      "ja": "ソマリア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "SR",
+    "names": {
+      "en": "Suriname",
+      "ja": "スリナム"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "SS",
+    "names": {
+      "en": "South Sudan",
+      "ja": "南スーダン"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "ST",
+    "names": {
+      "en": "São Tomé & Príncipe",
+      "ja": "サントメ・プリンシペ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "SV",
+    "names": {
+      "en": "El Salvador",
+      "ja": "エルサルバドル"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "SX",
+    "names": {
+      "en": "Sint Maarten",
+      "ja": "シント・マールテン"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "SY",
+    "names": {
+      "en": "Syria",
+      "ja": "シリア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "SZ",
+    "names": {
+      "en": "Eswatini",
+      "ja": "エスワティニ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "TC",
+    "names": {
+      "en": "Turks & Caicos Islands",
+      "ja": "タークス・カイコス諸島"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "TD",
+    "names": {
+      "en": "Chad",
+      "ja": "チャド"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "TF",
+    "names": {
+      "en": "French Southern Territories",
+      "ja": "仏領極南諸島"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "TG",
+    "names": {
+      "en": "Togo",
+      "ja": "トーゴ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "TH",
+    "names": {
+      "en": "Thailand",
+      "ja": "タイ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "TJ",
+    "names": {
+      "en": "Tajikistan",
+      "ja": "タジキスタン"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "TK",
+    "names": {
+      "en": "Tokelau",
+      "ja": "トケラウ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "TL",
+    "names": {
+      "en": "Timor-Leste",
+      "ja": "東ティモール"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "TM",
+    "names": {
+      "en": "Turkmenistan",
+      "ja": "トルクメニスタン"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "TN",
+    "names": {
+      "en": "Tunisia",
+      "ja": "チュニジア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "TO",
+    "names": {
+      "en": "Tonga",
+      "ja": "トンガ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "TR",
+    "names": {
+      "en": "Türkiye",
+      "ja": "トルコ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "TT",
+    "names": {
+      "en": "Trinidad & Tobago",
+      "ja": "トリニダード・トバゴ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "TV",
+    "names": {
+      "en": "Tuvalu",
+      "ja": "ツバル"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "TW",
+    "names": {
+      "en": "Taiwan",
+      "ja": "台湾"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "TZ",
+    "names": {
+      "en": "Tanzania",
+      "ja": "タンザニア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "UA",
+    "names": {
+      "en": "Ukraine",
+      "ja": "ウクライナ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "UG",
+    "names": {
+      "en": "Uganda",
+      "ja": "ウガンダ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "UM",
+    "names": {
+      "en": "U.S. Outlying Islands",
+      "ja": "合衆国領有小離島"
+    },
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "US",
@@ -13,6 +1837,134 @@
       "en": "United States",
       "ja": "アメリカ合衆国"
     },
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "UY",
+    "names": {
+      "en": "Uruguay",
+      "ja": "ウルグアイ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "UZ",
+    "names": {
+      "en": "Uzbekistan",
+      "ja": "ウズベキスタン"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "VA",
+    "names": {
+      "en": "Vatican City",
+      "ja": "バチカン市国"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "VC",
+    "names": {
+      "en": "St. Vincent & Grenadines",
+      "ja": "セントビンセント及びグレナディーン諸島"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "VE",
+    "names": {
+      "en": "Venezuela",
+      "ja": "ベネズエラ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "VG",
+    "names": {
+      "en": "British Virgin Islands",
+      "ja": "英領ヴァージン諸島"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "VI",
+    "names": {
+      "en": "U.S. Virgin Islands",
+      "ja": "米領ヴァージン諸島"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "VN",
+    "names": {
+      "en": "Vietnam",
+      "ja": "ベトナム"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "VU",
+    "names": {
+      "en": "Vanuatu",
+      "ja": "バヌアツ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "WF",
+    "names": {
+      "en": "Wallis & Futuna",
+      "ja": "ウォリス・フツナ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "WS",
+    "names": {
+      "en": "Samoa",
+      "ja": "サモア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "YE",
+    "names": {
+      "en": "Yemen",
+      "ja": "イエメン"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "YT",
+    "names": {
+      "en": "Mayotte",
+      "ja": "マヨット"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "ZA",
+    "names": {
+      "en": "South Africa",
+      "ja": "南アフリカ"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "ZM",
+    "names": {
+      "en": "Zambia",
+      "ja": "ザンビア"
+    },
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "ZW",
+    "names": {
+      "en": "Zimbabwe",
+      "ja": "ジンバブエ"
+    },
+    "updatedAt": "2026-06-08"
   }
 ]

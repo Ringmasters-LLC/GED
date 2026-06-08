@@ -8,7 +8,23 @@
     "alternateCalendars": [
       "islamic"
     ],
-    "updatedAt": "2026-06-07"
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "locale": "de-CH",
+    "dateFormat": "DD.MM.YYYY",
+    "timeCycle": "h23",
+    "weekStart": "monday",
+    "calendar": "gregorian",
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "locale": "en-CA",
+    "dateFormat": "YYYY-MM-DD",
+    "timeCycle": "h12",
+    "weekStart": "sunday",
+    "calendar": "gregorian",
+    "updatedAt": "2026-06-08"
   },
   {
     "locale": "en-GB",
@@ -16,7 +32,7 @@
     "timeCycle": "h23",
     "weekStart": "monday",
     "calendar": "gregorian",
-    "updatedAt": "2026-06-07"
+    "updatedAt": "2026-06-08"
   },
   {
     "locale": "en-US",
@@ -24,7 +40,7 @@
     "timeCycle": "h12",
     "weekStart": "sunday",
     "calendar": "gregorian",
-    "updatedAt": "2026-06-07"
+    "updatedAt": "2026-06-08"
   },
   {
     "locale": "es-ES",
@@ -32,7 +48,7 @@
     "timeCycle": "h23",
     "weekStart": "monday",
     "calendar": "gregorian",
-    "updatedAt": "2026-06-07"
+    "updatedAt": "2026-06-08"
   },
   {
     "locale": "es-MX",
@@ -40,7 +56,26 @@
     "timeCycle": "h12",
     "weekStart": "sunday",
     "calendar": "gregorian",
-    "updatedAt": "2026-06-07"
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "locale": "fr-CA",
+    "dateFormat": "YYYY-MM-DD",
+    "timeCycle": "h24",
+    "weekStart": "sunday",
+    "calendar": "gregorian",
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "locale": "he-IL",
+    "dateFormat": "DD/MM/YYYY",
+    "timeCycle": "h24",
+    "weekStart": "sunday",
+    "calendar": "gregorian",
+    "alternateCalendars": [
+      "hebrew"
+    ],
+    "updatedAt": "2026-06-08"
   },
   {
     "locale": "it-IT",
@@ -48,7 +83,7 @@
     "timeCycle": "h23",
     "weekStart": "monday",
     "calendar": "gregorian",
-    "updatedAt": "2026-06-07"
+    "updatedAt": "2026-06-08"
   },
   {
     "locale": "ja-JP",
@@ -59,7 +94,7 @@
     "alternateCalendars": [
       "japanese"
     ],
-    "updatedAt": "2026-06-07"
+    "updatedAt": "2026-06-08"
   },
   {
     "locale": "ko-KR",
@@ -70,7 +105,15 @@
     "alternateCalendars": [
       "dangi"
     ],
-    "updatedAt": "2026-06-07"
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "locale": "nl-BE",
+    "dateFormat": "DD/MM/YYYY",
+    "timeCycle": "h23",
+    "weekStart": "monday",
+    "calendar": "gregorian",
+    "updatedAt": "2026-06-08"
   },
   {
     "locale": "nl-NL",
@@ -78,7 +121,7 @@
     "timeCycle": "h23",
     "weekStart": "monday",
     "calendar": "gregorian",
-    "updatedAt": "2026-06-07"
+    "updatedAt": "2026-06-08"
   },
   {
     "locale": "sv-SE",
@@ -86,7 +129,7 @@
     "timeCycle": "h23",
     "weekStart": "monday",
     "calendar": "gregorian",
-    "updatedAt": "2026-06-07"
+    "updatedAt": "2026-06-08"
   },
   {
     "locale": "zh-HK",
@@ -97,7 +140,7 @@
     "alternateCalendars": [
       "chinese"
     ],
-    "updatedAt": "2026-06-07"
+    "updatedAt": "2026-06-08"
   },
   {
     "locale": "zh-TW",
@@ -109,6 +152,6 @@
       "chinese",
       "roc"
     ],
-    "updatedAt": "2026-06-07"
+    "updatedAt": "2026-06-08"
   }
 ]

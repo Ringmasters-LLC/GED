@@ -1,20 +1,104 @@
 [
   {
+    "locale": "ar",
+    "script": "Arab",
+    "direction": "rtl",
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "locale": "ar-AE",
+    "script": "Arab",
+    "direction": "rtl",
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "locale": "ar-IL",
+    "script": "Arab",
+    "direction": "rtl",
+    "updatedAt": "2026-06-08"
+  },
+  {
     "locale": "ar-SA",
     "script": "Arab",
     "direction": "rtl",
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "locale": "de",
+    "script": "Latn",
+    "direction": "ltr",
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "locale": "en",
+    "script": "Latn",
+    "direction": "ltr",
+    "updatedAt": "2026-06-08"
   },
   {
     "locale": "en-US",
     "script": "Latn",
     "direction": "ltr",
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "locale": "fr",
+    "script": "Latn",
+    "direction": "ltr",
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "locale": "he",
+    "script": "Hebr",
+    "direction": "rtl",
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "locale": "he-IL",
+    "script": "Hebr",
+    "direction": "rtl",
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "locale": "it",
+    "script": "Latn",
+    "direction": "ltr",
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "locale": "ja",
+    "script": "Jpan",
+    "direction": "ltr",
+    "updatedAt": "2026-06-08"
   },
   {
     "locale": "ja-JP",
     "script": "Jpan",
     "direction": "ltr",
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "locale": "nl",
+    "script": "Latn",
+    "direction": "ltr",
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "locale": "rm",
+    "script": "Latn",
+    "direction": "ltr",
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "locale": "zh",
+    "script": "Hant",
+    "direction": "ltr",
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "locale": "zh-HK",
+    "script": "Hant",
+    "direction": "ltr",
+    "updatedAt": "2026-06-08"
   }
 ]

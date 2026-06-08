@@ -1,40 +1,9348 @@
 [
   {
-    "iso2": "CA",
+    "iso2": "AD",
     "locales": [
       {
-        "locale": "en-CA",
+        "locale": "ca",
         "official": true,
         "default": true
       },
       {
-        "locale": "fr-CA",
+        "locale": "es",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fr",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "AE",
+    "locales": [
+      {
+        "locale": "ar",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "bal",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "en",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fa",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ml",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ps",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "AF",
+    "locales": [
+      {
+        "locale": "bgn",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "fa",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "haz",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kaa",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kk-Arab",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "prd",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ps",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "tk",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ug",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "uz-Arab",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "AG",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "pt",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "AI",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "AL",
+    "locales": [
+      {
+        "locale": "el",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "mk",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sq",
         "official": true,
         "default": false
       }
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "AM",
+    "locales": [
+      {
+        "locale": "az",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "hy",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "ku",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ku-Cyrl",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ru",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "AO",
+    "locales": [
+      {
+        "locale": "kmb",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "ln",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "pt",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "umb",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "AQ",
+    "locales": [
+      {
+        "locale": "und",
+        "official": false,
+        "default": true
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "AR",
+    "locales": [
+      {
+        "locale": "cy",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "en",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "es",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "gn",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "AS",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "sm",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "AT",
+    "locales": [
+      {
+        "locale": "bar",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "de",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "en",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "hr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "hu",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "it",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sl",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "AU",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "hnj",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "it",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "wbp",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "zh-Hant",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "AW",
+    "locales": [
+      {
+        "locale": "en",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "nl",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "pap",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "AX",
+    "locales": [
+      {
+        "locale": "sv",
+        "official": true,
+        "default": true
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "AZ",
+    "locales": [
+      {
+        "locale": "az",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "az-Cyrl",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "ku",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ku-Cyrl",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "tkr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "tly",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ttt",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "BA",
+    "locales": [
+      {
+        "locale": "bs",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "bs-Cyrl",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "en",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "hr",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "sr",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "sr-Latn",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "BB",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "BD",
+    "locales": [
+      {
+        "locale": "bn",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "ccp",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "en",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "grt",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mni",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mro",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "my",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "rhg",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "rkt",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "syl",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "BE",
+    "locales": [
+      {
+        "locale": "de",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "en",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fr",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "nl",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "vls",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "wa",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "BF",
+    "locales": [
+      {
+        "locale": "dyu",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "ff",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ff-Adlm",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fr",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "mos",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "BG",
+    "locales": [
+      {
+        "locale": "bg",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "de",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "en",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ru",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "tr",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "BH",
+    "locales": [
+      {
+        "locale": "ar",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "ml",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "BI",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "fr",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "rn",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "sw",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "BJ",
+    "locales": [
+      {
+        "locale": "blo",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "fon",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fr",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "yo",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "BL",
+    "locales": [
+      {
+        "locale": "fr",
+        "official": true,
+        "default": true
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "BM",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "BN",
+    "locales": [
+      {
+        "locale": "en",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "ms",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "ms-Arab",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "zh-Hant",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "BO",
+    "locales": [
+      {
+        "locale": "aro",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "ay",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "es",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "gn",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "qu",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "BR",
+    "locales": [
+      {
+        "locale": "de",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "en",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "es",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "gub",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "it",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ja",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kgp",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ko",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "pt",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "vec",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "xav",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "yrl",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "BS",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "BT",
+    "locales": [
+      {
+        "locale": "dz",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "en",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "lep",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ne",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "tsj",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "BW",
+    "locales": [
+      {
+        "locale": "af",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "en",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "tn",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "BY",
+    "locales": [
+      {
+        "locale": "be",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "ru",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "BZ",
+    "locales": [
+      {
+        "locale": "bzj",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "cab",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "en",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "es",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kek",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mop",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "CA",
+    "locales": [
+      {
+        "locale": "ar",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "atj",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "bla",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "bn",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "chp",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "clc",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "cr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "crg",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "crk",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "crl",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "csw",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "dak",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "de",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "den",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "dgr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "el",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "en",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "es",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fa",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fil",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fr",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "gu",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "gwi",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "hi",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "hr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "hu",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "hur",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "it",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "iu",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "iu-Latn",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ja",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ko",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kwk",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "lil",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mic",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "moe",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "moh",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "nl",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "nsk",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "oj",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ojs",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ojw",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "oka",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "pa",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "pdt",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "pl",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "pqm",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "pt",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ro",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ru",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "so",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ta",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "tr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "uk",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ur",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "vi",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "war",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "yue",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "zh",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "CC",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "ms-Arab",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "CD",
+    "locales": [
+      {
+        "locale": "fr",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "kg",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ln",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "lol",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "lu",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "lua",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "rw",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sw",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "CF",
+    "locales": [
+      {
+        "locale": "fr",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "ln",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sg",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "CG",
+    "locales": [
+      {
+        "locale": "fr",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "ln",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "CH",
+    "locales": [
+      {
+        "locale": "de",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "en",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fr",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "gsw",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "it",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "lmo",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "pt",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "rm",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "rmo",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "wae",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "CI",
+    "locales": [
+      {
+        "locale": "bci",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "bqv",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "dnj",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fr",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "kfo",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sef",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "CK",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "CL",
+    "locales": [
+      {
+        "locale": "arn",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "en",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "es",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "CM",
+    "locales": [
+      {
+        "locale": "agq",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "ar",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "bas",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "bax",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "bbj",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "bfd",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "bkm",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "bss",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "bum",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "byv",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "dua",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "en",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "ewo",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ff",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ff-Adlm",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fr",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "ha-Arab",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "jgo",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ken",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kkj",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ksf",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "maf",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mgo",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mua",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "nmg",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "nnh",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "yav",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ybb",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "CN",
+    "locales": [
+      {
+        "locale": "bo",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "en",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "gan",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "hak",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "hnj",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "hsn",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ii",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "khb",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kk-Arab",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ko",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ky-Arab",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "lcp",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "lis",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "lzh",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mn-Mong",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mww",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "nan",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "nxq",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ru",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "stu-Tale",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "tdd",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ug",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "uz-Cyrl",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "vi",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "wuu",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "yue",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "yue-Hans",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "za",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "zh",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "CO",
+    "locales": [
+      {
+        "locale": "es",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "guc",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "yrl",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "CR",
+    "locales": [
+      {
+        "locale": "es",
+        "official": true,
+        "default": true
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "CU",
+    "locales": [
+      {
+        "locale": "es",
+        "official": true,
+        "default": true
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "CV",
+    "locales": [
+      {
+        "locale": "kea",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "pt",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "CW",
+    "locales": [
+      {
+        "locale": "es",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "nl",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "pap",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "CX",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "CY",
+    "locales": [
+      {
+        "locale": "ar",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "ecy",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "el",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "en",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "hy",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "tr",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "CZ",
+    "locales": [
+      {
+        "locale": "cs",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "de",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "en",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "pl",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sk",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "DE",
+    "locales": [
+      {
+        "locale": "bar",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "da",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "de",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "dsb",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "el",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "en",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "es",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "frr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "frs",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "gsw",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "hr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "hsb",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "it",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ksh",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ku",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "nds",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "nl",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "pfl",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "pl",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ru",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "stq",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "swg",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "tr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "vmf",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "DJ",
+    "locales": [
+      {
+        "locale": "aa",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "ar",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "fr",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "so",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "DK",
+    "locales": [
+      {
+        "locale": "da",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "de",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "en",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fo",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "jut",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kl",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sv",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "DM",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "DO",
+    "locales": [
+      {
+        "locale": "en",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "es",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "DZ",
+    "locales": [
+      {
+        "locale": "ar",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "arq",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "en",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fr",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "grr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kab",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mey",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mzb",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "EC",
+    "locales": [
+      {
+        "locale": "es",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "qu",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "qug",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "EE",
+    "locales": [
+      {
+        "locale": "en",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "et",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "fi",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ie",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ru",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "vro",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "EG",
+    "locales": [
+      {
+        "locale": "ar",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "arz",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "cop",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "el",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "en",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "EH",
+    "locales": [
+      {
+        "locale": "ar",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "mey",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "ER",
+    "locales": [
+      {
+        "locale": "aa",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "ar",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "byn",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "en",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "ssy",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ti",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "tig",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "ES",
+    "locales": [
+      {
+        "locale": "an",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "ast",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ca",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "en",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "es",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "eu",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ext",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "gl",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "oc",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "ET",
+    "locales": [
+      {
+        "locale": "aa",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "am",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "en",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "gez",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "om",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sid",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "so",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ti",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "wal",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "FI",
+    "locales": [
+      {
+        "locale": "de",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "en",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "et",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fi",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "rmf",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ru",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "se",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "smn",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sms",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sv",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "FJ",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "fj",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "hi",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "hif",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "rtm",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "FK",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "FM",
+    "locales": [
+      {
+        "locale": "chk",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "en",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "kos",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "pon",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "uli",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "yap",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "FO",
+    "locales": [
+      {
+        "locale": "fo",
+        "official": true,
+        "default": true
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "FR",
+    "locales": [
+      {
+        "locale": "br",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "ca",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "co",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "de",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "en",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "es",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "eu",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fr",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "frp",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "gsw",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "hnj",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ia",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "it",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mww",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "nl",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "oc",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "pcd",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "pt",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "GA",
+    "locales": [
+      {
+        "locale": "fr",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "puu",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "GB",
+    "locales": [
+      {
+        "locale": "ar",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "bn",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "cy",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "de",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "en",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "en-Shaw",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "es",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ga",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "gd",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "gu",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "it",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kw",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "lt",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "pa",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "pi",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "pl",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "pt",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ro",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sco",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "so",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ta",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "tr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ur",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "zh-Hant",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "GD",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "GE",
+    "locales": [
+      {
+        "locale": "ab",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "hy",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ka",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "ku-Cyrl",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "lzz-Geor",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "os",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ru",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "xmf",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "GF",
+    "locales": [
+      {
+        "locale": "fr",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "gcr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "hnj",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "zh-Hant",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "GG",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "GH",
+    "locales": [
+      {
+        "locale": "abr",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "ada",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ak",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ee",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "en",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "ff",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ff-Adlm",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "gaa",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "gur",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ha",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "nzi",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "saf",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "GI",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "es",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "GL",
+    "locales": [
+      {
+        "locale": "da",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "kl",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "GM",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "ff",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ff-Adlm",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "man",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "man-Nkoo",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "GN",
+    "locales": [
+      {
+        "locale": "ff",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "ff-Adlm",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fr",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "kpe",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "man",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "man-Nkoo",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "nqo",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sus",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "GP",
+    "locales": [
+      {
+        "locale": "fr",
+        "official": true,
+        "default": true
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "GQ",
+    "locales": [
+      {
+        "locale": "bvb",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "es",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "fan",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fr",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "pt",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "GR",
+    "locales": [
+      {
+        "locale": "bg",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "de",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "el",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "en",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "gmy",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "grc",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mk",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "pnt",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sq",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "tr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "tsd",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "GS",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "GT",
+    "locales": [
+      {
+        "locale": "acr",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "agu",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "caa",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "cab",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "cac",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "cak",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ckz",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "en",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "es",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "itz",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ixl",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "jac",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kek",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kjb",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "knj",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mam",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mop",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "poc",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "poh",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "quc",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "qum",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "quv",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ttc",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "tzj",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "usp",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "xin",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "GU",
+    "locales": [
+      {
+        "locale": "ch",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "en",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "GW",
+    "locales": [
+      {
+        "locale": "ff",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "ff-Adlm",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "knf",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "pt",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "GY",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "HK",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "yue",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "zh",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "zh-Hant",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "HM",
+    "locales": [
+      {
+        "locale": "und",
+        "official": false,
+        "default": true
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "HN",
+    "locales": [
+      {
+        "locale": "cab",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "en",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "es",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "HR",
+    "locales": [
+      {
+        "locale": "en",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "hr",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "it",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "vec",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "HT",
+    "locales": [
+      {
+        "locale": "fr",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "ht",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "HU",
+    "locales": [
+      {
+        "locale": "de",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "en",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "hr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "hu",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "ro",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sk",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sl",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "ID",
+    "locales": [
+      {
+        "locale": "ace",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "aoz",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ban",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ban-Bali",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "bbc",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "bew",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "bjn",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "bug",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "gay",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "gor",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "id",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "jv",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kaw",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kge",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kvr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "lbw",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ljp",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mad",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mak",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mdr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "min",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ms",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ms-Arab",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mwv",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "nij",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "rej",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "rob",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sas",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sly",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "su",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sxn",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "zh-Hant",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "IE",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "fr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ga",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "IL",
+    "locales": [
+      {
+        "locale": "am",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "apc",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ar",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "en",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "he",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "hu",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "lad",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ml",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "pl",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ro",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ru",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ti",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "yi",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "IM",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "gv",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "IN",
+    "locales": [
+      {
+        "locale": "as",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "awa",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "bfq",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "bft",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "bfy",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "bgc",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "bhb",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "bhi",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "bho",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "bjj",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "bn",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "bo",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "bpy",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "bra",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "brx",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "btv",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ccp",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "dcc",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "doi",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "dv",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "dz",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "en",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "gbm",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "gon",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "grt",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "gu",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "hi",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "hi-Latn",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "hne",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "hoc",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "hoj",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kfr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kfy",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kha",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "khn",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kht",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kn",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "knn",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kok",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kru",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ks",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kxv",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "lah",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "lep",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "lif",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "lmn",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mag",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mai",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ml",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mni",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mtr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mwr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ne",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "njo",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "noe",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "or",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "pa",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "pi-Deva",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "raj",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ria",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "rkt",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sa",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sat",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "saz",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sck",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sd",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sd-Deva",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "srx",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "swv",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ta",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "tcy",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "te",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "unr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "unx",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ur",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "wbq",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "wbr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "wtm",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "xnr",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "IQ",
+    "locales": [
+      {
+        "locale": "ar",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "az-Arab",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ckb",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "en",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fa",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ku-Arab",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "lrc",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "syr",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "IR",
+    "locales": [
+      {
+        "locale": "ar",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "az-Arab",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "bal",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "bgn",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "bqi",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ckb",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fa",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "gbz",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "glk",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "hy",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ka",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kaa",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kk-Arab",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ku-Arab",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "lki",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "lrc",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "luz",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mzn",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "prd",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ps",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "rmt",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sdh",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "tk",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "IS",
+    "locales": [
+      {
+        "locale": "da",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "is",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "IT",
+    "locales": [
+      {
+        "locale": "ca",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "de",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "egl",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "el",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "en",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fur",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "hr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "it",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "lij",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "lld",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "lmo",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mhn",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "nap",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "pms",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "rgn",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sc",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "scn",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sdc",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sl",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "vec",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "JE",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "JM",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "jam",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "JO",
+    "locales": [
+      {
+        "locale": "apc",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "ar",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "en",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "JP",
     "locales": [
       {
-        "locale": "ja-JP",
+        "locale": "ja",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "ko",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ryu",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "KE",
+    "locales": [
+      {
+        "locale": "ar",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "dav",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ebu",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "en",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "gu",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "guz",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kam",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ki",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kln",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "luo",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "luy",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mas",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mer",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "om",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "pa",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "pko",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "saq",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "so",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sw",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "teo",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "KG",
+    "locales": [
+      {
+        "locale": "kaa",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "ky",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "ru",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "KH",
+    "locales": [
+      {
+        "locale": "cja",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "kdt",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "km",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "KI",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "gil",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "KM",
+    "locales": [
+      {
+        "locale": "ar",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "fr",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "wni",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "zdj",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "KN",
+    "locales": [
+      {
+        "locale": "en",
         "official": true,
         "default": true
       }
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "KP",
+    "locales": [
+      {
+        "locale": "ko",
+        "official": true,
+        "default": true
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "KR",
+    "locales": [
+      {
+        "locale": "ko",
+        "official": true,
+        "default": true
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "KW",
+    "locales": [
+      {
+        "locale": "ar",
+        "official": true,
+        "default": true
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "KY",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "KZ",
+    "locales": [
+      {
+        "locale": "de",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "en",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kaa",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kk",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "ru",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "ug-Cyrl",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "LA",
+    "locales": [
+      {
+        "locale": "hnj",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "kdt",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kjg",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "lo",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "mww",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "LB",
+    "locales": [
+      {
+        "locale": "apc",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "ar",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "en",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "hy",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ku-Arab",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "LC",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "LI",
+    "locales": [
+      {
+        "locale": "de",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "gsw",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "wae",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "LK",
+    "locales": [
+      {
+        "locale": "en",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "pi-Sinh",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "si",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "ta",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "LR",
+    "locales": [
+      {
+        "locale": "bsq",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "bza",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "dnj",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "en",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "ff",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ff-Adlm",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "grb",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kpe",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kro",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kss",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "lir",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "men",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mev",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "vai",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "vai-Latn",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "LS",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "ss",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "st",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "xh",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "zu",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "LT",
+    "locales": [
+      {
+        "locale": "de",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "en",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "lt",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "ru",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sgs",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "LU",
+    "locales": [
+      {
+        "locale": "de",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "en",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fr",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "lb",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "pt",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "LV",
+    "locales": [
+      {
+        "locale": "en",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "ltg",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "lv",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "ru",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "LY",
+    "locales": [
+      {
+        "locale": "ar",
+        "official": true,
+        "default": true
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "MA",
+    "locales": [
+      {
+        "locale": "ar",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "ary",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "en",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "es",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fr",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "mey",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "rif",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "rif-Tfng",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "shi",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "shi-Latn",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "tzm",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "zgh",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "MC",
+    "locales": [
+      {
+        "locale": "fr",
+        "official": true,
+        "default": true
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "MD",
+    "locales": [
+      {
+        "locale": "bg",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "gag",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ro",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "ru",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "uk",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "ME",
+    "locales": [
+      {
+        "locale": "sq",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "sr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sr-Latn",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "MF",
+    "locales": [
+      {
+        "locale": "fr",
+        "official": true,
+        "default": true
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "MG",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "fr",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "mg",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "MH",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "mh",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "MK",
+    "locales": [
+      {
+        "locale": "mk",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "sq",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "tr",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "ML",
+    "locales": [
+      {
+        "locale": "ar",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "bm",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "bm-Nkoo",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "bmq",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "bze",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "dtm",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ffm",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fr",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "kao",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "khq",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mwk",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ses",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "snk",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "tmh",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "MM",
+    "locales": [
+      {
+        "locale": "hnj",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "kac",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kht",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mnw",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "my",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "pi-Mymr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "rhg",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "shn",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "stu",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "MN",
+    "locales": [
+      {
+        "locale": "kk-Arab",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "mn",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "ru",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ug-Cyrl",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "zh",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "MO",
+    "locales": [
+      {
+        "locale": "en",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "fil",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "nan-Hant",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "pt",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "yue",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "zh",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "zh-Hant",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "MP",
+    "locales": [
+      {
+        "locale": "ch",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "en",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "MQ",
+    "locales": [
+      {
+        "locale": "fr",
+        "official": true,
+        "default": true
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "MR",
+    "locales": [
+      {
+        "locale": "ar",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "ff",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ff-Adlm",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mey",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "wo",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "MS",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "MT",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "fr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "it",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mt",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "MU",
+    "locales": [
+      {
+        "locale": "bho",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "en",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "fr",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "mfe",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ta",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ur",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "MV",
+    "locales": [
+      {
+        "locale": "dv",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "en",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "MW",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "ny",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "tog",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "tum",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "zu",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "MX",
+    "locales": [
+      {
+        "locale": "en",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "es",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "maz",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "nch",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "nhe",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "nhw",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sei",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "vec",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "yua",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "MY",
+    "locales": [
+      {
+        "locale": "bjn",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "bug",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "dtp",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "en",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "iba",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "jv",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ml",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ms",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "ta",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "zh",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "zmi",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "MZ",
+    "locales": [
+      {
+        "locale": "mgh",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "ndc",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ngl",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ny",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "pt",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "rng",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "seh",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sw",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ts",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "vmw",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "yao",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "zu",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "NA",
+    "locales": [
+      {
+        "locale": "af",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "de",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "en",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "hz",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kj",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "naq",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ng",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "tn",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "NC",
+    "locales": [
+      {
+        "locale": "fr",
+        "official": true,
+        "default": true
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "NE",
+    "locales": [
+      {
+        "locale": "ar",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "dje",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ff",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ff-Adlm",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fr",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "fuq",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ha",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "tmh",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "twq",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "NF",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "NG",
+    "locales": [
+      {
+        "locale": "amo",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "ann",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ar",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "bin",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "cch",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "efi",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "en",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "ff",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ff-Adlm",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fuv",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ha",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ha-Arab",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ibb",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ig",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kaj",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kcg",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "pcm",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "tiv",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "yo",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "NI",
+    "locales": [
+      {
+        "locale": "es",
+        "official": true,
+        "default": true
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "NL",
+    "locales": [
+      {
+        "locale": "de",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "en",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fy",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "gos",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "id",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "li",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "nds",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "nl",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "rif",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "tr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "zea",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "NO",
+    "locales": [
+      {
+        "locale": "nb",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "nn",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "no",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "se",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "NP",
+    "locales": [
+      {
+        "locale": "awa",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "bap",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "bfy",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "bho",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "bn",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "bo",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "dty",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "en",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "gvr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "hi",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "jml",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "lep",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "lif",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mai",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mgp",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mrd",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ne",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "new",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "rjs",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "suz",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "taj",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "tdg",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "tdh",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "thl",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "thq",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "thr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "tkt",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "unr-Deva",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "xsr",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "NR",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "na",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "NU",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "niu",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "NZ",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "mi",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "OM",
+    "locales": [
+      {
+        "locale": "ar",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "bal",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fa",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "PA",
+    "locales": [
+      {
+        "locale": "en",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "es",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "zh-Hant",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "PE",
+    "locales": [
+      {
+        "locale": "ay",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "es",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "qu",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "PF",
+    "locales": [
+      {
+        "locale": "fr",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "ty",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "zh-Hant",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "PG",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "ho",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "tpi",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "PH",
+    "locales": [
+      {
+        "locale": "bik",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "bku",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "bto",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ceb",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "cps",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "en",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "es",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fbl",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fil",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "hil",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "hnn",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ilo",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "krj",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mdh",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "pag",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "pam",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "tbw",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "tsg",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "war",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "zh-Hant",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "PK",
+    "locales": [
+      {
+        "locale": "bal",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "bft",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "bgn",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "brh",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "btv",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "en",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "fa",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "gjk",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "gju",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "hnd",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "hno",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "khw",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ks",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kvx",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kxp",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "lah",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mvy",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "pa-Arab",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ps",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sd",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "skr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "tg-Arab",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "trw",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ur",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "PL",
+    "locales": [
+      {
+        "locale": "be",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "csb",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "de",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "en",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "lt",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "pl",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "prg",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ru",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sli",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "szl",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "uk",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "PM",
+    "locales": [
+      {
+        "locale": "en",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "fr",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "PN",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "PR",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "es",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "PS",
+    "locales": [
+      {
+        "locale": "apc",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "ar",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "PT",
+    "locales": [
+      {
+        "locale": "en",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "es",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "gl",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "pt",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "PW",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "pau",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "PY",
+    "locales": [
+      {
+        "locale": "de",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "es",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "gn",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "QA",
+    "locales": [
+      {
+        "locale": "ar",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "fa",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ml",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "RE",
+    "locales": [
+      {
+        "locale": "fr",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "rcf",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ta",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "RO",
+    "locales": [
+      {
+        "locale": "bg",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "de",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "el",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "en",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "es",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "hu",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "pl",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ro",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "sr-Latn",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "tr",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "RS",
+    "locales": [
+      {
+        "locale": "hr",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "hu",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ro",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sk",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sq",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sr",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "sr-Latn",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "uk",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "RU",
+    "locales": [
+      {
+        "locale": "abq",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "ady",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "alt",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "av",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "az-Cyrl",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ba",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "bua",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ce",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "chm",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "cu",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "cv",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "dar",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fi",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "hy",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "inh",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "izh",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kaa",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kbd",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "koi",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "krc",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "krl",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kum",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kv",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "lbe",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "lez",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mdf",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mn",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mrj",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "myv",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "os",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "pnt-Cyrl",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ru",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "sah",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "tt",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "tyv",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "udm",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "vep",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "vot",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "RW",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "fr",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "rw",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "SA",
+    "locales": [
+      {
+        "locale": "ar",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "ars",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "SB",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "pis",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "rug",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "SC",
+    "locales": [
+      {
+        "locale": "crs",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "en",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "fr",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "SD",
+    "locales": [
+      {
+        "locale": "apd",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "ar",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "bej",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "en",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "fia",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fvr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ha-Arab",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mls",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "zag",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "SE",
+    "locales": [
+      {
+        "locale": "en",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "fi",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fit",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ia",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "rmu",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "se",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sma",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "smj",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sv",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "yi",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "SG",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "ml",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ms",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "pa",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ta",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "zh",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "SH",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "SI",
+    "locales": [
+      {
+        "locale": "de",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "en",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "hr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "hu",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "it",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sl",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "vec",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "SJ",
+    "locales": [
+      {
+        "locale": "nb",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "ru",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "SK",
+    "locales": [
+      {
+        "locale": "cs",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "de",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "en",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "hu",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "pl",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sk",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "uk",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "SL",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "ff",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ff-Adlm",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kri",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "men",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "tem",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "SM",
+    "locales": [
+      {
+        "locale": "eo",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "it",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "SN",
+    "locales": [
+      {
+        "locale": "bjt",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "bsc",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "dyo",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ff",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ff-Adlm",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fr",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "knf",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mey-Latn",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mfv",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sav",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "snf",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "srr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "tnr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "wo",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "SO",
+    "locales": [
+      {
+        "locale": "ar",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "om",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "so",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "sw",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "SR",
+    "locales": [
+      {
+        "locale": "hnj",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "nl",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "srn",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "zh-Hant",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "SS",
+    "locales": [
+      {
+        "locale": "ar",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "en",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "nus",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "ST",
+    "locales": [
+      {
+        "locale": "fr",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "pt",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "SV",
+    "locales": [
+      {
+        "locale": "ccr",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "es",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "len",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ppl",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "SX",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "es",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "nl",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "vic",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "SY",
+    "locales": [
+      {
+        "locale": "apc",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "ar",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "fr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "hy",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ku",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "syr",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "SZ",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "ss",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "ts",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "zu",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "TC",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "TD",
+    "locales": [
+      {
+        "locale": "ar",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "fr",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "TF",
+    "locales": [
+      {
+        "locale": "fr",
+        "official": false,
+        "default": true
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "TG",
+    "locales": [
+      {
+        "locale": "blo",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "ee",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fr",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "ife",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "TH",
+    "locales": [
+      {
+        "locale": "en",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "hnj",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kdt",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kxm",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "lcp",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "lwl",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mfa",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mnw",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mww",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "nod",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "pi-Thai",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "shn",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sou",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "th",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "tts",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "zh-Hant",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "TJ",
+    "locales": [
+      {
+        "locale": "ar",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "fa",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ru",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "tg",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "TK",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "sm",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "tkl",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "TL",
+    "locales": [
+      {
+        "locale": "pt",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "tet",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "TM",
+    "locales": [
+      {
+        "locale": "kaa",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "ku-Cyrl",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ru",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "tk",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "uz",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "TN",
+    "locales": [
+      {
+        "locale": "aeb",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "ar",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "fr",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "TO",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "to",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "TR",
+    "locales": [
+      {
+        "locale": "ab",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "abq-Latn",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ady",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "apc",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ar",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "az",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "az-Arab",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "bg",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "bgx",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "el",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "en",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "hy",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ka",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kaa",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kbd",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kiu",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kk",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ku",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ky-Latn",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "lzz",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "pnt-Latn",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sq",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sr-Latn",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "tr",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "tru",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "uz",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "zza",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "TT",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "es",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "TV",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "tvl",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "TW",
+    "locales": [
+      {
+        "locale": "hak-Hant",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "nan-Hant",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "trv",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "zh-Hant",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "TZ",
+    "locales": [
+      {
+        "locale": "asa",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "bez",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "en",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "jmc",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "kde",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ksb",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "lag",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mas",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mgy",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "nym",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "rof",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "rwk",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sbp",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "suk",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sw",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "vun",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "UA",
+    "locales": [
+      {
+        "locale": "be",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "bg",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "crh",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "el",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "hu",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "pl",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ro",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ru",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "rue",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "tr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "uk",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "yi",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "UG",
+    "locales": [
+      {
+        "locale": "ach",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "cgg",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "en",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "hi",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "laj",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "lg",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "myx",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "nyn",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "rw",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sw",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "teo",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ttj",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "xog",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "UM",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      }
+    ],
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "US",
     "locales": [
       {
-        "locale": "en-US",
+        "locale": "cad",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "cho",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "chr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "cic",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "dak",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "de",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "en",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "es",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "esu",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fil",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "fr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "frc",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "haw",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "hnj",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ik",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "io",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "it",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "jbo",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ko",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "lkt",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mus",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mww",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "nv",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "oka",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "osa",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "pdc",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ru",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "vi",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "yi",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "zh-Hant",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "UY",
+    "locales": [
+      {
+        "locale": "es",
         "official": true,
         "default": true
       }
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "UZ",
+    "locales": [
+      {
+        "locale": "kaa",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "ru",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "tr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "uz",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "uz-Cyrl",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "VA",
+    "locales": [
+      {
+        "locale": "it",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "la",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "VC",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "VE",
+    "locales": [
+      {
+        "locale": "es",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "yrl",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "VG",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "VI",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "VN",
+    "locales": [
+      {
+        "locale": "blt",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "cjm",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "hnj",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mww",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "vi",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "zh-Hant",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "VU",
+    "locales": [
+      {
+        "locale": "bi",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "en",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "fr",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "WF",
+    "locales": [
+      {
+        "locale": "fr",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "fud",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "wls",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "WS",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "sm",
+        "official": true,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "YE",
+    "locales": [
+      {
+        "locale": "ar",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "en",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "YT",
+    "locales": [
+      {
+        "locale": "buc",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "fr",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "sw",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "swb",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "ZA",
+    "locales": [
+      {
+        "locale": "af",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "en",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "hi",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "nr",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "nso",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ss",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "st",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sw",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "tn",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ts",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ve",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "xh",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "zu",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "ZM",
+    "locales": [
+      {
+        "locale": "bem",
+        "official": false,
+        "default": true
+      },
+      {
+        "locale": "en",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "kqn",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "leb",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "loz",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "lue",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "lun",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "nse",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ny",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "toi",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "tum",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "ZW",
+    "locales": [
+      {
+        "locale": "en",
+        "official": true,
+        "default": true
+      },
+      {
+        "locale": "kck",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "mxc",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "nd",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "ndc",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ny",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "sn",
+        "official": true,
+        "default": false
+      },
+      {
+        "locale": "tn",
+        "official": false,
+        "default": false
+      },
+      {
+        "locale": "ve",
+        "official": false,
+        "default": false
+      }
+    ],
+    "updatedAt": "2026-06-08"
   }
 ]
