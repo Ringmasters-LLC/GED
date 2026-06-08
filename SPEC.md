@@ -6,7 +6,7 @@ GED is a **behavior metadata layer**. It normalizes global reference patterns in
 
 ## 2. Global Entry Philosophy
 
-Core thesis: Most global forms are domestic assumptions with international patches. This repo starts from global variance first.
+Core thesis: Most global software is domestic assumption with international patches. GED starts from global variance first.
 
 - **Synthesis Layer**: Normalize complex upstream standards (CLDR, libaddressinput, libphonenumber) into human-readable behavior.
 - **Integration over Ownership**: Use domain authorities where they exist; normalize for developers.
@@ -41,15 +41,15 @@ Core principle: Do not start from a US address, identity, commerce, or naming mo
 - **US customary units are not globally neutral.**
 - **One dropdown cannot serve shipping, billing, residence, citizenship, and phone country equally.**
 
-## 4. Non-Goals
+## 4. Non-Goals (Core)
 
 No full global postal-code database in core. No geocoding. No address verification. No shipping-grade validation. No tax/legal compliance. No runtime network dependencies. No paid APIs.
 
-## 4. Target Consumers
+## 5. Target Consumers
 
 Web forms. Booking systems. WordPress plugins. Mobile apps. Admin tools. Offline-first applications.
 
-## 5. Data Sets
+## 6. Data Sets
 
 - **Country Lists**: ISO 3166-1 alpha-2, names.
 - **Phone Codes**: E.164 calling codes.
@@ -73,7 +73,7 @@ Web forms. Booking systems. WordPress plugins. Mobile apps. Admin tools. Offline
 - **Localized Country Names**: Multi-language translations for iso2 codes.
 - **Country Display Order**: Sorting rules (alphabetical, popular, regional).
 
-## 6. Package Outputs
+## 7. Package Outputs
 
 - NPM package (@ringmasters/global-entry-data).
 - JSON files (canonical source).
@@ -87,7 +87,7 @@ Web forms. Booking systems. WordPress plugins. Mobile apps. Admin tools. Offline
 - ESM and CJS bundles.
 - JSON Schemas.
 
-## 7. Public API
+## 8. Public API (v0.1.x)
 
 ```ts
 getCountries(): Country[]
@@ -111,8 +111,11 @@ getEntryRules(iso2: string, profile: string): EntryRules
 getTerritoryType(iso2: string): string
 getFormBehavior(iso2: string): FormBehavior
 getPostalCodeBehavior(iso2: string, profile: string): PostalBehavior
-getNameFormat(iso2: string): NameFormat | null
-getNameFields(iso2: string, profile: string): NameField[]
+```
+
+## 9. Public API (v0.2.x i18n Planned)
+
+```ts
 getWritingSystem(locale: string): WritingSystem | null
 isRtlLocale(locale: string): boolean
 getLocalesByCountry(iso2: string): LocaleMetadata[]
@@ -124,10 +127,11 @@ getMeasurementSystem(iso2: string): MeasurementSystem | null
 getDateTimeFormat(locale: string): DateTimeFormat | null
 getMarketBehavior(iso2: string): MarketBehavior | null
 getLocalizedCountryName(iso2: string, locale: string): string | null
+getLocalizedLanguageName(languageCode: string, locale: string): string | null
 sortCountries(countries: Country[], options: SortOptions): Country[]
 ```
 
-## 8. Schema Rules
+## 10. Schema Rules
 
 - Every country requires `iso2`.
 - `iso2` must be unique.
@@ -141,238 +145,118 @@ sortCountries(countries: Country[], options: SortOptions): Country[]
   - `iso2`, `iso3`, `numeric`, `territoryType`, `parentTerritory`, `commerceSelectable`
   - `phone.callingCodes` (array), `phone.recommendedLibrary`, `phone.normalizationTarget`
   - `postalCode.used`, `postalCode.requiredForConsumerForms`, `postalCode.requiredForShipping`, `postalCode.label`, `postalCode.regex`, `postalCode.examples` (array)
-  - `address.requiredFields` (e.g. `["addressLine", "locality", "administrativeArea"]`), `address.fieldOrder` (array of strings)
-  - `address.order` (e.g., "L-S", "S-L"), `address.administrativeAreaLabel` (e.g. "State", "Province"), `address.postalCodePosition`, `address.addressLinesRecommended`
-  - `name.supportsSingleName`, `name.requiresFamilyName`, `name.nameOrder` (e.g. `given_family`)
+  - `address.requiredFields` (array), `address.fieldOrder` (array)
+  - `address.order` (L-S vs S-L), `address.administrativeAreaLabel`, `address.postalCodePosition`
+  - `name.supportsSingleName`, `name.requiresFamilyName`, `name.nameOrder`
   - `confidence` (0.0 - 1.0), `sources` (array)
 
-## 9. Postal Source Matrix (Large Dataset)
-
-For `@ringmasters/global-entry-postal-codes`, we maintain a source matrix to track data provenance and licensing.
-
-### 9.1 Source Confidence Policy
-
-- **1.0**: Official government/postal authority API or verified download.
-- **0.8**: Official lookup tool (manually verified or scraped with permission).
-- **0.7**: High-quality open dataset (e.g., GeoNames).
-- **0.5**: Supplemental geospatial data (e.g., OpenStreetMap).
-- **0.3**: Community-maintained or unverified sources.
-- **0.0**: Placeholder or known unreliable data.
-
-### 9.2 Adapter Naming Convention
-
-Adapters must follow the pattern `<source_id>_<iso2>`.
-
-- Examples: `jppost_jp`, `geonames_global`, `osm_fr`.
-
-### 9.3 Coverage Status
-
-- `official_api_available`: Direct machine access to authority.
-- `official_download_available`: Authority provides bulk data.
-- `official_lookup_only`: Authority only provides web search.
-- `open_dataset_available`: Third-party open data exists.
-- `partial_open_dataset`: Incomplete or community-only data.
-- `commercial_only`: Data requires paid license.
-- `not_used`: Country does not use postal codes.
-- `unknown`: Status not yet determined.
-
-## 10. Markdown Distribution Rules
+## 11. Markdown Distribution Rules
 
 - MD files are generated artifacts.
-- MD files are not canonical data.
-- MD files are not the primary machine format.
 - Never hand-edit MD data tables.
 - Generate strictly from canonical JSON.
-- Must use stable column order and deterministic sorting.
-- Must include a short header.
-- Use Markdown tables.
-- Stay small enough for GitHub browsing.
-- No MD files for full postal-code directories.
-- **Required MD Outputs**:
-  - `dist/md/countries.md`
-  - `dist/md/phone-codes.md`
-  - `dist/md/postal-rules.md`
-  - `dist/md/currencies.md`
-  - `dist/md/languages.md`
-  - `dist/md/timezones.md`
-  - `dist/md/address-formats.md`
-  - `dist/md/form-behavior.md`
-  - `dist/md/anti-patterns.md`
+- **Required MD Outputs**: `countries.md`, `phone-codes.md`, `postal-rules.md`, `currencies.md`, `languages.md`, `timezones.md`, `address-formats.md`, `form-behavior.md`, `anti-patterns.md`.
 
-## 11. Source and Attribution Policy
+## 12. Source and Attribution Policy
 
-- **ISO 3166-compatible** country codes and names.
-- **Google libphonenumber-compatible** phone metadata and discipline.
-- **Google libaddressinput-compatible** address templates and required fields.
-- **CLDR-compatible** locale, territory, language, and currency data.
-- **GeoNames-compatible** broad geographic baseline and attribution.
-- **OurAirports-compatible** open airport data discipline.
-- **WMO/ISC-compatible** hazard alert metadata models.
-- **Schema.org-compatible** semantic naming conventions.
-- Manually reviewed rules for gaps.
 - Use: "compatible with", "derived from", "normalized against".
 - Avoid: "official", "guaranteed", "authoritative".
+- Sources: ISO 3166, libphonenumber, libaddressinput, CLDR, GeoNames.
 
-## 12. Licensing
-
-- **Code**: MIT.
-- **Data**: Source-dependent. Attribution required per source. No full CC0 claim.
-
-## 13. Versioning
-
-- **MAJOR**: Breaking schema or API changes.
-- **MINOR**: New datasets or new fields.
-- **PATCH**: Data corrections or monthly refreshes.
-
-## 14. Repository Structure
-
-```text
-global-entry-data/
-  data/
-    canonical/
-  dist/
-    json/
-    tsv/
-    csv/
-    txt/
-    md/
-    sql/
-    sqlite/
-  docs/
-    philosophy.md
-    anti_patterns.md
-    form_failures.md
-  packages/
-    core/
-    postal-codes/
-  schemas/
-  scripts/
-  tests/
-  .github/workflows/
-```
-
-## 15. Build Pipeline
-
-1. Ingest raw data from sources to `data/canonical/*.json`.
-2. Normalize against schemas.
-3. Validate data integrity.
-4. Generate outputs.
-5. Build TypeScript distribution (ESM/CJS).
-6. Verify deterministic output.
-
-## 16. CI Requirements
+## 13. Build & CI
 
 - Lint code and schemas.
 - Run unit tests for API and data validation.
-- Verify every JSON file against its schema.
 - Fail on non-deterministic generation.
+- Monthly automated ingest via `data-refresh.yml`.
 
-## 17. Data Refresh Policy
+## 14. Internationalization (i18n) Architecture (v0.2.0)
 
-- Monthly automated ingest.
-- Automated validation.
-- Manual review for major discrepancies.
-- Patch release for every refresh.
+i18n is core architecture, not a cosmetic layer.
 
-## 18. MVP Release Scope (v0.1.0)
-
-- Canonical JSON datasets (`countries.json`, `phone-codes.json`, etc.).
-- `address-formats.json`, `form-behavior.json`, `territory-types.json`, `entry-profiles.json`.
-- Generated outputs: JSON, TSV, CSV, TXT, MD, SQL, SQLite.
-- `countries.md`, `phone-codes.md`, `postal-rules.md`, `currencies.md`, `languages.md`, `timezones.md`, `address-formats.md`, `form-behavior.md`, `anti-patterns.md`.
-- TypeScript helpers and schemas.
-- Basic tests and documentation.
-
-## 19. Internationalization (i18n) Architecture (v0.2.0)
-
-i18n is core architecture in GED, not a cosmetic layer. It ensures global entry behavior respects local language, script, and cultural norms.
-
-### 19.1 Core Principles
+### 14.1 Core Principles
 
 - **Separate country, locale, language, script, timezone, currency, market, and display behavior.**
-- Do not treat country as locale.
-- Do not hardcode English country names.
-- Do not assume Latin script or LTR layout.
-- Do not assume Gregorian-only display.
-- Support multiple official locales per country.
+- **Must Not Do**:
+  - Do not treat country as locale.
+  - Do not treat language as country.
+  - Do not hardcode English country names.
+  - Do not assume Latin script or LTR layout.
+  - Do not assume Gregorian-only display.
+  - Do not assume one country has one language.
+  - Do not assume one locale has one country.
 
-### 19.2 i18n Core Modules
+### 14.2 i18n Core Modules
 
-- **localized-country-names.json**: Country names indexed by locale.
-- **country-locales.json**: Mapping of countries to official, default, and common locales.
-- **locale-writing.json**: Script identifiers, direction (LTR/RTL), and native-script requirements.
-- **date-time-formats.json**: Localized date patterns, time cycles (12h/24h), week start days, and calendar preferences.
-- **country-display-order.json**: Sorting logic for country pickers based on user locale and market context.
-- **language-names.json**: Localized names for languages.
+- **localized-country-names.json**: Country names by locale.
+- **country-locales.json**: Official/default/common locales by country.
+- **locale-writing.json**: Script, direction, native-script behavior.
+- **date-time-formats.json**: Date pattern, time cycle, week start, calendar preference.
+- **country-display-order.json**: Sorting rules by locale/market.
+- **language-names.json**: Localized language names.
 
-### 19.3 Boundaries
+### 14.3 Implementation Requirements
 
-- **Belongs in Core**: Locale mapping, localized country/language names, script direction, date/time display metadata, week start, country picker display behavior.
-- **Separate Later Package (@ringmasters/global-entry-locales)**: Full translation bundles, full CLDR mirror, ICU message formatting, application copy translations.
+- **i18n Zod contracts** for every module.
+- **i18n API helpers** (as defined in Section 9).
+- **Test cases** for: JP, US, CA, CH, BE, AE, IL, HK.
 
-## 20. Package Family Roadmap
+## 15. Finance & Commerce Roadmap (Satellite Packages)
 
-GED is a multi-package ecosystem. The core package remains a lean behavior layer.
+### 15.1 @ringmasters/global-entry-commerce (P7)
 
-### 20.1 Core & v0.2 Expansion
+Static commerce reference metadata.
 
-- **Internationalization (i18n)**: Detailed in Section 19.
-- **Timezone Expansion**: Detailed country-wide zone lists and defaults.
-- **Basic Measurement Preferences**: Country-level preference for system (Metric/Imperial).
+- **Datasets**: `currencies.json`, `currency-behavior.json`, `cash-rounding.json`, `payment-method-preferences.json`, `tax-labels.json`, `market-behavior.json`.
 
-### 20.2 Finance & Commerce Satellite Packages
+### 15.2 @ringmasters/global-entry-fx (P7)
 
-- **@ringmasters/global-entry-commerce**: Static commerce metadata (currencies, tax labels, cash rounding).
-- **@ringmasters/global-entry-fx**: Forex normalization adapters (no live rates).
-- **@ringmasters/global-entry-assets**: Metadata for coins, tokens, stocks, and ETFs.
-- **@ringmasters/global-entry-finance-i18n**: Market-specific semantic translations for financial jargon.
+Forex metadata and conversion adapters.
 
-### 19.3 Other Domain Satellite Packages
+- **Datasets**: `currency-pairs.json`, `fx-provider-metadata.json`, `conversion-rules.json`, `rate-freshness-policy.json`, `historical-rate-policy.json`.
+- **Model**: Adapter-based. GED normalizes shape; app chooses provider. No live rate claims.
 
-- **@ringmasters/global-entry-postal-codes**: Full global postal-code directory.
-- **@ringmasters/global-entry-airports**: Airport metadata (IATA, ICAO, scheduled services).
-- **@ringmasters/global-entry-hazards**: Natural hazard metadata (WMO/CAP compatible).
-- **@ringmasters/global-entry-media**: Media station metadata (TV/Radio stations, markets).
-- **@ringmasters/global-entry-identity**: Identity document metadata (Passports, IDs, VISAs).
-- **@ringmasters/ged-lifestyle**: Laundry care symbols and clothing size conversions.
+### 15.3 @ringmasters/global-entry-assets (P7)
 
-## 21. Risk Controls & Non-Goals (Detailed)
+Metadata for coins, tokens, stocks, and ETFs.
 
-- **Source Policy**: Use CLDR-compatible public locale data. Track source per row.
-- **No Official Authority**: Never claim to be the official CLDR mirror or an official broadcast/financial authority.
-- **Separation of Concerns**: Keep live/time-sensitive data (FX rates, program schedules) out of static JSON packages.
-- **No Legal/Financial Advice**: Not for tax, legal, or investment compliance.
-- **No Emergency Infrastructure**: Not a replacement for official warning systems.
-- **No Fit Guarantees**: Clothing/shoe conversions are approximate.
+- **Datasets**: `asset-types.json`, `crypto-assets.json`, `fiat-currencies.json`, `commodity-units.json`, `exchange-codes.json`, `ticker-symbol-rules.json`.
+- **Constraint**: Do not treat crypto symbols like ISO currency codes. Chains and contract addresses required.
 
-## 22. Developer User Stories
+### 15.4 @ringmasters/global-entry-finance-i18n (P7)
 
-- Developer can get country names by locale.
-- Developer can detect RTL locale.
-- Developer can detect official/default locales by country.
-- Developer can distinguish locale from country.
-- Developer can sort country picker by locale.
-- Developer can filter scheduled-service airports.
-- Developer can look up phone calling codes and recommended parsers.
-- Developer can retrieve human-readable address templates for any country.
-- A developer can build a form without `firstName`/`lastName` assumption.
-- A developer can build a form without `state`/`province` assumption.
-- A developer can hide postal code where not used.
-- A developer can render Japan address order correctly.
-- A developer can support RTL locales.
-- A developer can distinguish country from market.
-- A developer can distinguish locale from country.
-- A developer can sort country names by user locale.
-- A developer can choose strict checkout rules and loose CRM rules.
-- A developer can inspect confidence and sources for each rule.
-- A developer can look up typhoon as a tropical cyclone hazard.
-- A developer can map typhoon to CAP category Met.
-- A developer can distinguish severity, urgency, and certainty.
-- A developer can list disaster alert systems by country.
-- A developer can build disaster-aware UI without live alert authority.
-- A developer understands this is metadata, not emergency infrastructure.
-- 100% schema validation.
-- 0 runtime dependencies.
-- Full type safety for TS users.
-- Deterministic builds.
-- Clear attribution in `ATTRIBUTION.md`.
+Market-specific semantic translations for financial jargon.
+
+- **Datasets**: `finance-terms.json`, `stock-market-jargon.json`, `order-types.json`, `asset-class-labels.json`, `risk-term-labels.json`, `localized-market-terms.json`.
+
+## 16. Media Metadata Roadmap (Satellite Packages)
+
+### 16.1 @ringmasters/global-entry-media (P7)
+
+TV and radio station reference metadata.
+
+- **Datasets**: `tv-stations.json`, `radio-stations.json`, `broadcast-networks.json`, `station-affiliations.json`, `media-markets.json`, `broadcast-bands.json`, `call-sign-rules.json`, `country-broadcast-systems.json`, `public-broadcasters.json`, `emergency-broadcast-systems.json`.
+- **Station Fields**: `id`, `name`, `legalName`, `callSign`, `type`, `medium`, `network`, `affiliations`, `iso2`, `region`, `market`, `city`, `timezone`, `languages`, `frequency`, `channel`, `band`, `website`, `status`, `sources`, `updatedAt`, `confidence`.
+- **Non-Goals**:
+  - No live program schedules.
+  - No EPG scraping.
+  - No broadcast authority claims.
+  - No redistribution of proprietary station databases without license.
+  - No live programming schedules in static package.
+  - No assumption of station name permanence.
+
+## 17. Risk Controls (Consolidated)
+
+- **Source Policy**: CLDR-compatible. Track source per row.
+- **No Official Authority**: Never claim to be official authority for CLDR, finance, or media.
+- **Separation of Concerns**: Live/time-sensitive data (rates, schedules) must be adapters, not static JSON truth.
+- **No fit guarantees** for lifestyle; **no investment advice** for finance; **no emergency infrastructure** for hazards/media.
+
+## 18. Developer User Stories (v0.2+)
+
+- Developer can render Japan as 日本 for ja locale.
+- Developer can detect that ar locales are RTL.
+- Developer can distinguish CA has en-CA and fr-CA.
+- Developer can detect that CH has multiple official locales.
+- Developer can sort country picker by user locale.
+- Developer can detect Hong Kong is not forced into one language or postal-code assumption.

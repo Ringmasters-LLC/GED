@@ -15,8 +15,7 @@ export const dateTimeFormats: DateTimeFormat[] = dateTimeData as any as DateTime
 export const countryLocales: CountryLocales[] = countryLocaleData as any as CountryLocales[];
 export const localizedCountryNames: LocalizedCountryNames[] =
   localizedNameData as any as LocalizedCountryNames[];
-export const writingSystems: WritingSystem[] =
-  writingSystemData as any as WritingSystem[];
+export const writingSystems: WritingSystem[] = writingSystemData as any as WritingSystem[];
 
 export const getDateTimeFormat = (locale: string): DateTimeFormat | null => {
   return dateTimeFormats.find((f) => f.locale === locale) || null;
@@ -36,13 +35,8 @@ export const getCalendarPreferences = (locale: string): CalendarPreferences | nu
   };
 };
 
-export const getLocalizedCountryName = (
-  iso2: string,
-  locale: string,
-): string | null => {
-  const data = localizedCountryNames.find(
-    (c) => c.iso2.toUpperCase() === iso2.toUpperCase(),
-  );
+export const getLocalizedCountryName = (iso2: string, locale: string): string | null => {
+  const data = localizedCountryNames.find((c) => c.iso2.toUpperCase() === iso2.toUpperCase());
   if (!data) return null;
 
   // Try full locale first (e.g. en-US)
