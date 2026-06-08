@@ -118,6 +118,11 @@ export const MeasurementSystemSchema = z.object({
   temperature: z.enum(['celsius', 'fahrenheit']).optional(),
   distance: z.enum(['kilometer', 'mile']).optional(),
   weight: z.enum(['kilogram', 'pound']).optional(),
+  height: z.enum(['centimeter', 'inch', 'foot']).optional(),
+  paperSize: z.enum(['A-series', 'Letter']).optional(),
+  traditionalSystems: z.array(z.string()).optional(),
+  confidence: z.number().min(0).max(1),
+  sources: z.array(z.string()),
   updatedAt: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
 });
 

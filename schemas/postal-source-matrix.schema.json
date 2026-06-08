@@ -33,7 +33,14 @@
             "id": { "type": "string" },
             "type": {
               "type": "string",
-              "enum": ["official_api", "official_download", "lookup_only", "open_dataset", "commercial_only", "unknown"]
+              "enum": [
+                "official_api",
+                "official_download",
+                "lookup_only",
+                "open_dataset",
+                "commercial_only",
+                "unknown"
+              ]
             },
             "url": { "type": "string", "format": "uri" },
             "license": { "type": "string" },

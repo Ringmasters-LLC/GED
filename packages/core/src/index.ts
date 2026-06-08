@@ -6,3 +6,4 @@ export * from './address';
 export * from './forms';
 export * from './timezone';
 export * from './locales';
+export * from './units';

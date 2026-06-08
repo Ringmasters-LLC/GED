@@ -3,13 +3,18 @@
   "type": "array",
   "items": {
     "type": "object",
-    "required": ["iso2", "measurementSystem", "updatedAt"],
+    "required": ["iso2", "measurementSystem", "sources", "updatedAt", "confidence"],
     "properties": {
       "iso2": { "type": "string", "pattern": "^[A-Z]{2}$" },
       "measurementSystem": { "enum": ["metric", "imperial", "us_customary"] },
       "temperature": { "enum": ["celsius", "fahrenheit"] },
       "distance": { "enum": ["kilometer", "mile"] },
       "weight": { "enum": ["kilogram", "pound"] },
+      "height": { "enum": ["centimeter", "inch", "foot"] },
+      "paperSize": { "enum": ["A-series", "Letter"] },
+      "traditionalSystems": { "type": "array", "items": { "type": "string" } },
+      "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+      "sources": { "type": "array", "items": { "type": "string" } },
       "updatedAt": { "type": "string", "format": "date" }
     }
   }

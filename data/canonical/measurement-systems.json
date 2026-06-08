@@ -1,17 +1,87 @@
 [
   {
+    "iso2": "AU",
+    "measurementSystem": "metric",
+    "temperature": "celsius",
+    "distance": "kilometer",
+    "weight": "kilogram",
+    "height": "centimeter",
+    "paperSize": "A-series",
+    "confidence": 1.0,
+    "sources": ["CLDR"],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "CA",
+    "measurementSystem": "metric",
+    "temperature": "celsius",
+    "distance": "kilometer",
+    "weight": "kilogram",
+    "height": "centimeter",
+    "paperSize": "Letter",
+    "confidence": 0.9,
+    "sources": ["CLDR", "Manual Review"],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "DE",
+    "measurementSystem": "metric",
+    "temperature": "celsius",
+    "distance": "kilometer",
+    "weight": "kilogram",
+    "height": "centimeter",
+    "paperSize": "A-series",
+    "confidence": 1.0,
+    "sources": ["CLDR"],
+    "updatedAt": "2026-06-08"
+  },
+  {
+    "iso2": "FR",
+    "measurementSystem": "metric",
+    "temperature": "celsius",
+    "distance": "kilometer",
+    "weight": "kilogram",
+    "height": "centimeter",
+    "paperSize": "A-series",
+    "confidence": 1.0,
+    "sources": ["CLDR"],
+    "updatedAt": "2026-06-08"
+  },
+  {
     "iso2": "GB",
     "measurementSystem": "metric",
-    "updatedAt": "2026-06-05"
+    "temperature": "celsius",
+    "distance": "mile",
+    "weight": "kilogram",
+    "height": "centimeter",
+    "paperSize": "A-series",
+    "confidence": 0.9,
+    "sources": ["CLDR", "Manual Review"],
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "JP",
     "measurementSystem": "metric",
-    "updatedAt": "2026-06-05"
+    "temperature": "celsius",
+    "distance": "kilometer",
+    "weight": "kilogram",
+    "height": "centimeter",
+    "paperSize": "A-series",
+    "traditionalSystems": ["japanese_traditional"],
+    "confidence": 1.0,
+    "sources": ["CLDR", "Manual Review"],
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "US",
     "measurementSystem": "us_customary",
-    "updatedAt": "2026-06-05"
+    "temperature": "fahrenheit",
+    "distance": "mile",
+    "weight": "pound",
+    "height": "foot",
+    "paperSize": "Letter",
+    "confidence": 1.0,
+    "sources": ["CLDR"],
+    "updatedAt": "2026-06-08"
   }
 ]

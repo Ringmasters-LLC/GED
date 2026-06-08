@@ -91,3 +91,27 @@ export interface CalendarPreferences {
   calendar: string;
   alternateCalendars?: string[];
 }
+
+export type MeasurementSystemType = 'metric' | 'imperial' | 'us_customary';
+
+export interface MeasurementSystem {
+  iso2: string;
+  measurementSystem: MeasurementSystemType;
+  temperature?: 'celsius' | 'fahrenheit';
+  distance?: 'kilometer' | 'mile';
+  weight?: 'kilogram' | 'pound';
+  height?: 'centimeter' | 'inch' | 'foot';
+  paperSize?: 'A-series' | 'Letter';
+  traditionalSystems?: string[];
+  confidence: number;
+  sources: string[];
+  updatedAt: string;
+}
+
+export interface PreferredUnits {
+  temperature: 'celsius' | 'fahrenheit';
+  distance: 'kilometer' | 'mile';
+  weight: 'kilogram' | 'pound';
+  height: 'centimeter' | 'inch' | 'foot';
+  paperSize: 'A-series' | 'Letter';
+}

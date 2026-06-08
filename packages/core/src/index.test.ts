@@ -5,6 +5,8 @@ import {
   validatePostalCode,
   getCallingCode,
   getAddressFields,
+  getMeasurementSystem,
+  getPreferredUnits,
 } from './index';
 
 describe('Global Entry Data Core API', () => {
@@ -34,5 +36,31 @@ describe('Global Entry Data Core API', () => {
     const jpFields = getAddressFields('JP');
     expect(jpFields).toBeDefined();
     expect(Array.isArray(jpFields)).toBe(true);
+  });
+
+  describe('Measurement Systems', () => {
+    it('should get measurement system for JP', () => {
+      const ms = getMeasurementSystem('JP');
+      expect(ms).toBeDefined();
+      expect(ms?.measurementSystem).toBe('metric');
+      expect(ms?.traditionalSystems).toContain('japanese_traditional');
+    });
+
+    it('should get preferred units for US', () => {
+      const units = getPreferredUnits('US');
+      expect(units).toBeDefined();
+      expect(units?.temperature).toBe('fahrenheit');
+      expect(units?.distance).toBe('mile');
+      expect(units?.weight).toBe('pound');
+      expect(units?.height).toBe('foot');
+      expect(units?.paperSize).toBe('Letter');
+    });
+
+    it('should get preferred units for GB (mixed/imperial context)', () => {
+      const units = getPreferredUnits('GB');
+      expect(units).toBeDefined();
+      expect(units?.distance).toBe('mile');
+      expect(units?.weight).toBe('kilogram'); // Based on my canonical data entry
+    });
   });
 });

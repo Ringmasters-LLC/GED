@@ -80,16 +80,30 @@ Fetch data directly via GitHub or jsDelivr:
 
 JSON and TSV are preferred for automated scripts. Markdown files are intended for human or AI-agent context.
 
+## Internationalization (i18n)
+
+i18n is core architecture in GED. We maintain strict separation between country, locale, language, and script.
+
+- **Localized Names**: Fetch country and language names in the user's preferred locale.
+- **Script & Direction**: Detect RTL (Right-to-Left) layouts and script requirements (e.g., Arabic, Hanzi, Devanagari).
+- **Date & Time**: Access localized patterns, time cycles (12h/24h), and week-start metadata.
+- **Display Order**: Sort country pickers based on locale-specific sorting rules.
+
 ## Package Boundaries
 
-- **@ringmasters/global-entry-data**: Core form-entry metadata (Current).
+- **@ringmasters/global-entry-data**: Core form-entry & i18n metadata (Current).
+- **@ringmasters/global-entry-commerce**: Static commerce & tax metadata (Planned).
+- **@ringmasters/global-entry-fx**: Forex normalization adapters (Planned).
+- **@ringmasters/global-entry-assets**: Crypto, tokens, and stock metadata (Planned).
+- **@ringmasters/global-entry-media**: TV and radio station metadata (Planned).
 - **@ringmasters/global-entry-airports**: Airport metadata (Planned).
 - **@ringmasters/global-entry-hazards**: Natural hazard metadata (Planned).
 - **@ringmasters/global-entry-identity**: Identity document metadata (Planned).
-- **@ringmasters/global-entry-commerce**: Tax labels and payment metadata (Planned).
 - **@ringmasters/global-entry-lifestyle**: Laundry care and clothing sizes (Planned).
 
 ## Data Refresh Status
+
+...
 
 - **Status**: MVP certified.
 - **Validation**: Strict schema and deterministic build validation are implemented.
