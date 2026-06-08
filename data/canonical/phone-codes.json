@@ -6,7 +6,7 @@
     ],
     "recommendedLibrary": "libphonenumber-compatible",
     "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "AE",
@@ -15,7 +15,7 @@
     ],
     "recommendedLibrary": "libphonenumber-compatible",
     "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "AF",
@@ -24,7 +24,7 @@
     ],
     "recommendedLibrary": "libphonenumber-compatible",
     "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "AL",
@@ -33,7 +33,7 @@
     ],
     "recommendedLibrary": "libphonenumber-compatible",
     "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "AO",
@@ -42,7 +42,7 @@
     ],
     "recommendedLibrary": "libphonenumber-compatible",
     "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "AR",
@@ -51,7 +51,7 @@
     ],
     "recommendedLibrary": "libphonenumber-compatible",
     "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "AS",
@@ -60,7 +60,7 @@
     ],
     "recommendedLibrary": "libphonenumber-compatible",
     "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "AT",
@@ -69,7 +69,7 @@
     ],
     "recommendedLibrary": "libphonenumber-compatible",
     "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "AU",
@@ -78,7 +78,7 @@
     ],
     "recommendedLibrary": "libphonenumber-compatible",
     "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "BE",
@@ -87,7 +87,7 @@
     ],
     "recommendedLibrary": "libphonenumber-compatible",
     "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "BR",
@@ -96,7 +96,7 @@
     ],
     "recommendedLibrary": "libphonenumber-compatible",
     "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "CA",
@@ -105,7 +105,7 @@
     ],
     "recommendedLibrary": "libphonenumber-compatible",
     "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "CH",
@@ -114,7 +114,7 @@
     ],
     "recommendedLibrary": "libphonenumber-compatible",
     "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "CN",
@@ -123,7 +123,7 @@
     ],
     "recommendedLibrary": "libphonenumber-compatible",
     "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "DE",
@@ -132,7 +132,7 @@
     ],
     "recommendedLibrary": "libphonenumber-compatible",
     "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "DZ",
@@ -141,7 +141,7 @@
     ],
     "recommendedLibrary": "libphonenumber-compatible",
     "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "ES",
@@ -150,7 +150,7 @@
     ],
     "recommendedLibrary": "libphonenumber-compatible",
     "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "FR",
@@ -159,7 +159,7 @@
     ],
     "recommendedLibrary": "libphonenumber-compatible",
     "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "GB",
@@ -168,7 +168,7 @@
     ],
     "recommendedLibrary": "libphonenumber-compatible",
     "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "ID",
@@ -177,7 +177,7 @@
     ],
     "recommendedLibrary": "libphonenumber-compatible",
     "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "IN",
@@ -186,7 +186,7 @@
     ],
     "recommendedLibrary": "libphonenumber-compatible",
     "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "IT",
@@ -195,7 +195,7 @@
     ],
     "recommendedLibrary": "libphonenumber-compatible",
     "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "JP",
@@ -204,7 +204,7 @@
     ],
     "recommendedLibrary": "libphonenumber-compatible",
     "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "MX",
@@ -213,7 +213,7 @@
     ],
     "recommendedLibrary": "libphonenumber-compatible",
     "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "NL",
@@ -222,7 +222,7 @@
     ],
     "recommendedLibrary": "libphonenumber-compatible",
     "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "NZ",
@@ -231,7 +231,7 @@
     ],
     "recommendedLibrary": "libphonenumber-compatible",
     "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "RU",
@@ -240,7 +240,7 @@
     ],
     "recommendedLibrary": "libphonenumber-compatible",
     "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "SA",
@@ -249,7 +249,7 @@
     ],
     "recommendedLibrary": "libphonenumber-compatible",
     "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "SG",
@@ -258,7 +258,7 @@
     ],
     "recommendedLibrary": "libphonenumber-compatible",
     "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "TR",
@@ -267,7 +267,7 @@
     ],
     "recommendedLibrary": "libphonenumber-compatible",
     "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "US",
@@ -276,7 +276,7 @@
     ],
     "recommendedLibrary": "libphonenumber-compatible",
     "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "ZA",
@@ -285,6 +285,6 @@
     ],
     "recommendedLibrary": "libphonenumber-compatible",
     "normalizationTarget": "E.164",
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   }
 ]

@@ -143,12 +143,12 @@ Risk estimates measure maintenance, licensing, and supply-chain exposure.
 | GED-P6-004 |    P6 | P6       | M          | MEDIUM | DONE     | Codex  | add test check                                                     | verify unit tests                                 |
 | GED-P6-005 |    P6 | P6       | M          | MEDIUM | DONE     | Codex  | add build check                                                    | verify artifacts generate                         |
 | GED-P6-006 |    P6 | P6       | M          | MEDIUM | DONE     | Codex  | add validation check                                               | verify data integrity                             |
-| GED-P6-007 |    P6 | P6       | L          | HIGH   | PARTIAL  | Codex  | add data-refresh workflow                                          | placeholder echo logic only                       |
+| GED-P6-007 |    P6 | P6       | L          | HIGH   | DONE     | Codex  | add data-refresh workflow                                          | workflow runs refresh ingestion and opens PR      |
 | GED-P6-008 |    P6 | P6       | L          | HIGH   | DONE     | Manual | add release workflow                                               | publishes to npm                                  |
 | GED-P6-009 |    P6 | P6       | L          | HIGH   | DONE     | Codex  | add npm publish dry run                                            | verify package assets                             |
 | GED-P6-010 |    P6 | P6       | S          | HIGH   | DONE     | Manual | add changelog gate                                                 | verify release notes                              |
 | GED-P6-011 |    P6 | P6       | M          | MEDIUM | DONE     | Codex  | Add root pnpm lint script                                          | pnpm lint exists and passes in CI                 |
-| GED-P6-012 |    P6 | P6       | L          | HIGH   | TODO     | Codex  | Replace placeholder data-refresh workflow with real ingestion plan | workflow opens PR with results                    |
+| GED-P6-012 |    P6 | P6       | L          | HIGH   | DONE     | Codex  | Replace placeholder data-refresh workflow with real ingestion plan | workflow opens PR with results                    |
 | GED-P6-013 |    P6 | P6       | M          | MEDIUM | DONE     | Codex  | Verify better-sqlite3 CI portability                               | CI proves build on GH runner                      |
 | GED-P7-001 |    P7 | P7       | XL         | HIGH   | DEFERRED | Gemini | create @ringmasters/global-entry-postal-codes package              | separate large package                            |
 | GED-P7-002 |    P7 | P7       | XL         | HIGH   | DEFERRED | Gemini | import GeoNames-compatible postal directory                        | data ingestion                                    |

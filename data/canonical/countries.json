@@ -11,7 +11,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "AE",
@@ -25,7 +25,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "AF",
@@ -39,13 +39,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "AG",
     "iso3": "ATG",
     "numeric": "028",
-    "name": "Antigua and Barbuda",
+    "name": "Antigua & Barbuda",
     "territoryType": "sovereign",
     "commerceSelectable": true,
     "confidence": 1,
@@ -53,7 +53,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "AI",
@@ -68,7 +68,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "AL",
@@ -82,7 +82,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "AM",
@@ -96,7 +96,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "AO",
@@ -110,7 +110,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "AQ",
@@ -124,7 +124,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "AR",
@@ -138,7 +138,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "AS",
@@ -153,7 +153,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "AT",
@@ -167,7 +167,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "AU",
@@ -181,7 +181,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "AW",
@@ -196,7 +196,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "AX",
@@ -211,7 +211,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "AZ",
@@ -225,13 +225,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "BA",
     "iso3": "BIH",
     "numeric": "070",
-    "name": "Bosnia and Herzegovina",
+    "name": "Bosnia & Herzegovina",
     "territoryType": "sovereign",
     "commerceSelectable": true,
     "confidence": 1,
@@ -239,7 +239,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "BB",
@@ -253,7 +253,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "BD",
@@ -267,7 +267,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "BE",
@@ -281,7 +281,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "BF",
@@ -295,7 +295,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "BG",
@@ -309,7 +309,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "BH",
@@ -323,7 +323,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "BI",
@@ -337,7 +337,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "BJ",
@@ -351,13 +351,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "BL",
     "iso3": "BLM",
     "numeric": "652",
-    "name": "Saint Barthélemy",
+    "name": "St. Barthélemy",
     "territoryType": "dependent",
     "parentTerritory": "FR",
     "commerceSelectable": true,
@@ -366,7 +366,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "BM",
@@ -381,13 +381,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "BN",
     "iso3": "BRN",
     "numeric": "096",
-    "name": "Brunei Darussalam",
+    "name": "Brunei",
     "territoryType": "sovereign",
     "commerceSelectable": true,
     "confidence": 1,
@@ -395,7 +395,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "BO",
@@ -409,7 +409,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "BR",
@@ -423,7 +423,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "BS",
@@ -437,7 +437,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "BT",
@@ -451,7 +451,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "BW",
@@ -465,7 +465,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "BY",
@@ -479,7 +479,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "BZ",
@@ -493,7 +493,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "CA",
@@ -507,7 +507,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "CC",
@@ -522,13 +522,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "CD",
     "iso3": "COD",
     "numeric": "180",
-    "name": "Congo (Democratic Republic of the)",
+    "name": "Congo - Kinshasa",
     "territoryType": "sovereign",
     "commerceSelectable": true,
     "confidence": 1,
@@ -536,7 +536,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "CF",
@@ -550,13 +550,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "CG",
     "iso3": "COG",
     "numeric": "178",
-    "name": "Congo",
+    "name": "Congo - Brazzaville",
     "territoryType": "sovereign",
     "commerceSelectable": true,
     "confidence": 1,
@@ -564,7 +564,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "CH",
@@ -578,13 +578,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "CI",
     "iso3": "CIV",
     "numeric": "384",
-    "name": "Côte d'Ivoire",
+    "name": "Côte d’Ivoire",
     "territoryType": "sovereign",
     "commerceSelectable": true,
     "confidence": 1,
@@ -592,7 +592,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "CK",
@@ -607,7 +607,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "CL",
@@ -621,7 +621,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "CM",
@@ -635,7 +635,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "CN",
@@ -649,7 +649,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "CO",
@@ -663,7 +663,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "CR",
@@ -677,7 +677,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "CU",
@@ -691,7 +691,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "CV",
@@ -705,7 +705,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "CW",
@@ -720,7 +720,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "CX",
@@ -735,7 +735,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "CY",
@@ -749,13 +749,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "CZ",
     "iso3": "CZE",
     "numeric": "203",
-    "name": "Czech Republic",
+    "name": "Czechia",
     "territoryType": "sovereign",
     "commerceSelectable": true,
     "confidence": 1,
@@ -763,7 +763,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "DE",
@@ -777,7 +777,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "DJ",
@@ -791,7 +791,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "DK",
@@ -805,7 +805,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "DM",
@@ -819,7 +819,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "DO",
@@ -833,7 +833,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "DZ",
@@ -847,7 +847,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "EC",
@@ -861,7 +861,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "EE",
@@ -875,7 +875,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "EG",
@@ -889,7 +889,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "EH",
@@ -903,7 +903,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "ER",
@@ -917,7 +917,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "ES",
@@ -931,7 +931,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "ET",
@@ -945,7 +945,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "FI",
@@ -959,7 +959,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "FJ",
@@ -973,13 +973,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "FK",
     "iso3": "FLK",
     "numeric": "238",
-    "name": "Falkland Islands (Malvinas)",
+    "name": "Falkland Islands",
     "territoryType": "dependent",
     "parentTerritory": "GB",
     "commerceSelectable": true,
@@ -988,13 +988,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "FM",
     "iso3": "FSM",
     "numeric": "583",
-    "name": "Micronesia (Federated States of)",
+    "name": "Micronesia",
     "territoryType": "sovereign",
     "commerceSelectable": true,
     "confidence": 1,
@@ -1002,7 +1002,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "FO",
@@ -1017,7 +1017,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "FR",
@@ -1031,7 +1031,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "GA",
@@ -1045,7 +1045,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "GB",
@@ -1059,7 +1059,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "GD",
@@ -1073,7 +1073,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "GE",
@@ -1087,7 +1087,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "GF",
@@ -1102,7 +1102,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "GG",
@@ -1117,7 +1117,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "GH",
@@ -1131,7 +1131,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "GI",
@@ -1146,7 +1146,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "GL",
@@ -1161,7 +1161,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "GM",
@@ -1175,7 +1175,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "GN",
@@ -1189,7 +1189,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "GP",
@@ -1204,7 +1204,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "GQ",
@@ -1218,7 +1218,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "GR",
@@ -1232,13 +1232,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "GS",
     "iso3": "SGS",
     "numeric": "239",
-    "name": "South Georgia and the South Sandwich Islands",
+    "name": "South Georgia & South Sandwich Islands",
     "territoryType": "dependent",
     "parentTerritory": "GB",
     "commerceSelectable": false,
@@ -1247,7 +1247,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "GT",
@@ -1261,7 +1261,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "GU",
@@ -1276,7 +1276,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "GW",
@@ -1290,7 +1290,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "GY",
@@ -1304,13 +1304,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "HK",
     "iso3": "HKG",
     "numeric": "344",
-    "name": "Hong Kong",
+    "name": "Hong Kong SAR China",
     "territoryType": "dependent",
     "parentTerritory": "CN",
     "commerceSelectable": true,
@@ -1319,13 +1319,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "HM",
     "iso3": "HMD",
     "numeric": "334",
-    "name": "Heard Island and McDonald Islands",
+    "name": "Heard & McDonald Islands",
     "territoryType": "dependent",
     "parentTerritory": "AU",
     "commerceSelectable": false,
@@ -1334,7 +1334,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "HN",
@@ -1348,7 +1348,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "HR",
@@ -1362,7 +1362,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "HT",
@@ -1376,7 +1376,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "HU",
@@ -1390,7 +1390,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "ID",
@@ -1404,7 +1404,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "IE",
@@ -1418,7 +1418,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "IL",
@@ -1432,7 +1432,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "IM",
@@ -1447,7 +1447,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "IN",
@@ -1461,7 +1461,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "IQ",
@@ -1475,13 +1475,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "IR",
     "iso3": "IRN",
     "numeric": "364",
-    "name": "Iran (Islamic Republic of)",
+    "name": "Iran",
     "territoryType": "sovereign",
     "commerceSelectable": true,
     "confidence": 1,
@@ -1489,7 +1489,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "IS",
@@ -1503,7 +1503,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "IT",
@@ -1517,7 +1517,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "JE",
@@ -1532,7 +1532,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "JM",
@@ -1546,7 +1546,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "JO",
@@ -1560,7 +1560,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "JP",
@@ -1574,7 +1574,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "KE",
@@ -1588,7 +1588,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "KG",
@@ -1602,7 +1602,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "KH",
@@ -1616,7 +1616,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "KI",
@@ -1630,7 +1630,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "KM",
@@ -1644,13 +1644,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "KN",
     "iso3": "KNA",
     "numeric": "659",
-    "name": "Saint Kitts and Nevis",
+    "name": "St. Kitts & Nevis",
     "territoryType": "sovereign",
     "commerceSelectable": true,
     "confidence": 1,
@@ -1658,13 +1658,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "KP",
     "iso3": "PRK",
     "numeric": "408",
-    "name": "Korea (Democratic People's Republic of)",
+    "name": "North Korea",
     "territoryType": "sovereign",
     "commerceSelectable": true,
     "confidence": 1,
@@ -1672,13 +1672,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "KR",
     "iso3": "KOR",
     "numeric": "410",
-    "name": "Korea (Republic of)",
+    "name": "South Korea",
     "territoryType": "sovereign",
     "commerceSelectable": true,
     "confidence": 1,
@@ -1686,7 +1686,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "KW",
@@ -1700,7 +1700,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "KY",
@@ -1715,7 +1715,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "KZ",
@@ -1729,13 +1729,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "LA",
     "iso3": "LAO",
     "numeric": "418",
-    "name": "Lao People's Democratic Republic",
+    "name": "Laos",
     "territoryType": "sovereign",
     "commerceSelectable": true,
     "confidence": 1,
@@ -1743,7 +1743,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "LB",
@@ -1757,13 +1757,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "LC",
     "iso3": "LCA",
     "numeric": "662",
-    "name": "Saint Lucia",
+    "name": "St. Lucia",
     "territoryType": "sovereign",
     "commerceSelectable": true,
     "confidence": 1,
@@ -1771,7 +1771,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "LI",
@@ -1785,7 +1785,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "LK",
@@ -1799,7 +1799,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "LR",
@@ -1813,7 +1813,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "LS",
@@ -1827,7 +1827,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "LT",
@@ -1841,7 +1841,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "LU",
@@ -1855,7 +1855,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "LV",
@@ -1869,7 +1869,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "LY",
@@ -1883,7 +1883,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "MA",
@@ -1897,7 +1897,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "MC",
@@ -1911,13 +1911,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "MD",
     "iso3": "MDA",
     "numeric": "498",
-    "name": "Moldova (Republic of)",
+    "name": "Moldova",
     "territoryType": "sovereign",
     "commerceSelectable": true,
     "confidence": 1,
@@ -1925,7 +1925,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "ME",
@@ -1939,13 +1939,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "MF",
     "iso3": "MAF",
     "numeric": "663",
-    "name": "Saint Martin (French part)",
+    "name": "St. Martin",
     "territoryType": "dependent",
     "parentTerritory": "FR",
     "commerceSelectable": true,
@@ -1954,7 +1954,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "MG",
@@ -1968,7 +1968,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "MH",
@@ -1982,7 +1982,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "MK",
@@ -1996,7 +1996,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "ML",
@@ -2010,13 +2010,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "MM",
     "iso3": "MMR",
     "numeric": "104",
-    "name": "Myanmar",
+    "name": "Myanmar (Burma)",
     "territoryType": "sovereign",
     "commerceSelectable": true,
     "confidence": 1,
@@ -2024,7 +2024,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "MN",
@@ -2038,13 +2038,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "MO",
     "iso3": "MAC",
     "numeric": "446",
-    "name": "Macao",
+    "name": "Macao SAR China",
     "territoryType": "dependent",
     "parentTerritory": "CN",
     "commerceSelectable": true,
@@ -2053,7 +2053,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "MP",
@@ -2068,7 +2068,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "MQ",
@@ -2083,7 +2083,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "MR",
@@ -2097,7 +2097,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "MS",
@@ -2112,7 +2112,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "MT",
@@ -2126,7 +2126,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "MU",
@@ -2140,7 +2140,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "MV",
@@ -2154,7 +2154,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "MW",
@@ -2168,7 +2168,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "MX",
@@ -2182,7 +2182,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "MY",
@@ -2196,7 +2196,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "MZ",
@@ -2210,7 +2210,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "NA",
@@ -2224,7 +2224,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "NC",
@@ -2239,7 +2239,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "NE",
@@ -2253,7 +2253,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "NF",
@@ -2268,7 +2268,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "NG",
@@ -2282,7 +2282,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "NI",
@@ -2296,7 +2296,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "NL",
@@ -2310,7 +2310,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "NO",
@@ -2324,7 +2324,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "NP",
@@ -2338,7 +2338,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "NR",
@@ -2352,7 +2352,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "NU",
@@ -2367,7 +2367,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "NZ",
@@ -2381,7 +2381,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "OM",
@@ -2395,7 +2395,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "PA",
@@ -2409,7 +2409,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "PE",
@@ -2423,7 +2423,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "PF",
@@ -2438,7 +2438,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "PG",
@@ -2452,7 +2452,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "PH",
@@ -2466,7 +2466,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "PK",
@@ -2480,7 +2480,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "PL",
@@ -2494,13 +2494,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "PM",
     "iso3": "SPM",
     "numeric": "666",
-    "name": "Saint Pierre and Miquelon",
+    "name": "St. Pierre & Miquelon",
     "territoryType": "dependent",
     "parentTerritory": "FR",
     "commerceSelectable": true,
@@ -2509,13 +2509,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "PN",
     "iso3": "PCN",
     "numeric": "612",
-    "name": "Pitcairn",
+    "name": "Pitcairn Islands",
     "territoryType": "dependent",
     "parentTerritory": "GB",
     "commerceSelectable": true,
@@ -2524,7 +2524,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "PR",
@@ -2539,13 +2539,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "PS",
     "iso3": "PSE",
     "numeric": "275",
-    "name": "Palestine, State of",
+    "name": "Palestinian Territories",
     "territoryType": "sovereign",
     "commerceSelectable": true,
     "confidence": 1,
@@ -2553,7 +2553,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "PT",
@@ -2567,7 +2567,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "PW",
@@ -2581,7 +2581,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "PY",
@@ -2595,7 +2595,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "QA",
@@ -2609,7 +2609,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "RE",
@@ -2624,7 +2624,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "RO",
@@ -2638,7 +2638,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "RS",
@@ -2652,13 +2652,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "RU",
     "iso3": "RUS",
     "numeric": "643",
-    "name": "Russian Federation",
+    "name": "Russia",
     "territoryType": "sovereign",
     "commerceSelectable": true,
     "confidence": 1,
@@ -2666,7 +2666,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "RW",
@@ -2680,7 +2680,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "SA",
@@ -2694,7 +2694,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "SB",
@@ -2708,7 +2708,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "SC",
@@ -2722,12 +2722,12 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "SD",
     "iso3": "SDN",
-    "numeric": "736",
+    "numeric": "729",
     "name": "Sudan",
     "territoryType": "sovereign",
     "commerceSelectable": true,
@@ -2736,7 +2736,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "SE",
@@ -2750,7 +2750,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "SG",
@@ -2764,13 +2764,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "SH",
     "iso3": "SHN",
     "numeric": "654",
-    "name": "Saint Helena, Ascension and Tristan da Cunha",
+    "name": "St. Helena",
     "territoryType": "dependent",
     "parentTerritory": "GB",
     "commerceSelectable": true,
@@ -2779,7 +2779,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "SI",
@@ -2793,13 +2793,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "SJ",
     "iso3": "SJM",
     "numeric": "744",
-    "name": "Svalbard and Jan Mayen",
+    "name": "Svalbard & Jan Mayen",
     "territoryType": "dependent",
     "parentTerritory": "NO",
     "commerceSelectable": true,
@@ -2808,7 +2808,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "SK",
@@ -2822,7 +2822,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "SL",
@@ -2836,7 +2836,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "SM",
@@ -2850,7 +2850,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "SN",
@@ -2864,7 +2864,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "SO",
@@ -2878,7 +2878,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "SR",
@@ -2892,7 +2892,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "SS",
@@ -2906,13 +2906,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "ST",
     "iso3": "STP",
     "numeric": "678",
-    "name": "Sao Tome and Principe",
+    "name": "São Tomé & Príncipe",
     "territoryType": "sovereign",
     "commerceSelectable": true,
     "confidence": 1,
@@ -2920,7 +2920,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "SV",
@@ -2934,13 +2934,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "SX",
     "iso3": "SXM",
     "numeric": "534",
-    "name": "Sint Maarten (Dutch part)",
+    "name": "Sint Maarten",
     "territoryType": "dependent",
     "parentTerritory": "NL",
     "commerceSelectable": true,
@@ -2949,13 +2949,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "SY",
     "iso3": "SYR",
     "numeric": "760",
-    "name": "Syrian Arab Republic",
+    "name": "Syria",
     "territoryType": "sovereign",
     "commerceSelectable": true,
     "confidence": 1,
@@ -2963,13 +2963,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "SZ",
     "iso3": "SWZ",
     "numeric": "748",
-    "name": "Swaziland",
+    "name": "Eswatini",
     "territoryType": "sovereign",
     "commerceSelectable": true,
     "confidence": 1,
@@ -2977,13 +2977,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "TC",
     "iso3": "TCA",
     "numeric": "796",
-    "name": "Turks and Caicos Islands",
+    "name": "Turks & Caicos Islands",
     "territoryType": "dependent",
     "parentTerritory": "GB",
     "commerceSelectable": true,
@@ -2992,7 +2992,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "TD",
@@ -3006,7 +3006,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "TF",
@@ -3021,7 +3021,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "TG",
@@ -3035,7 +3035,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "TH",
@@ -3049,7 +3049,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "TJ",
@@ -3063,7 +3063,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "TK",
@@ -3078,7 +3078,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "TL",
@@ -3092,7 +3092,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "TM",
@@ -3106,7 +3106,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "TN",
@@ -3120,7 +3120,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "TO",
@@ -3134,13 +3134,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "TR",
     "iso3": "TUR",
     "numeric": "792",
-    "name": "Turkey",
+    "name": "Türkiye",
     "territoryType": "sovereign",
     "commerceSelectable": true,
     "confidence": 1,
@@ -3148,13 +3148,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "TT",
     "iso3": "TTO",
     "numeric": "780",
-    "name": "Trinidad and Tobago",
+    "name": "Trinidad & Tobago",
     "territoryType": "sovereign",
     "commerceSelectable": true,
     "confidence": 1,
@@ -3162,7 +3162,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "TV",
@@ -3176,13 +3176,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "TW",
     "iso3": "TWN",
     "numeric": "158",
-    "name": "Taiwan, Province of China",
+    "name": "Taiwan",
     "territoryType": "disputed",
     "commerceSelectable": true,
     "confidence": 1,
@@ -3190,13 +3190,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "TZ",
     "iso3": "TZA",
     "numeric": "834",
-    "name": "Tanzania, United Republic of",
+    "name": "Tanzania",
     "territoryType": "sovereign",
     "commerceSelectable": true,
     "confidence": 1,
@@ -3204,7 +3204,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "UA",
@@ -3218,7 +3218,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "UG",
@@ -3232,13 +3232,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "UM",
     "iso3": "UMI",
     "numeric": "581",
-    "name": "United States Minor Outlying Islands",
+    "name": "U.S. Outlying Islands",
     "territoryType": "dependent",
     "parentTerritory": "US",
     "commerceSelectable": false,
@@ -3247,7 +3247,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "US",
@@ -3261,7 +3261,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "UY",
@@ -3275,7 +3275,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "UZ",
@@ -3289,13 +3289,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "VA",
     "iso3": "VAT",
     "numeric": "336",
-    "name": "Holy See (Vatican City State)",
+    "name": "Vatican City",
     "territoryType": "sovereign",
     "commerceSelectable": true,
     "confidence": 1,
@@ -3303,13 +3303,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "VC",
     "iso3": "VCT",
     "numeric": "670",
-    "name": "Saint Vincent and the Grenadines",
+    "name": "St. Vincent & Grenadines",
     "territoryType": "sovereign",
     "commerceSelectable": true,
     "confidence": 1,
@@ -3317,13 +3317,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "VE",
     "iso3": "VEN",
     "numeric": "862",
-    "name": "Venezuela (Bolivarian Republic of)",
+    "name": "Venezuela",
     "territoryType": "sovereign",
     "commerceSelectable": true,
     "confidence": 1,
@@ -3331,13 +3331,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "VG",
     "iso3": "VGB",
     "numeric": "092",
-    "name": "Virgin Islands (British)",
+    "name": "British Virgin Islands",
     "territoryType": "dependent",
     "parentTerritory": "GB",
     "commerceSelectable": true,
@@ -3346,13 +3346,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "VI",
     "iso3": "VIR",
     "numeric": "850",
-    "name": "Virgin Islands (U.S.)",
+    "name": "U.S. Virgin Islands",
     "territoryType": "dependent",
     "parentTerritory": "US",
     "commerceSelectable": true,
@@ -3361,13 +3361,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "VN",
     "iso3": "VNM",
     "numeric": "704",
-    "name": "Viet Nam",
+    "name": "Vietnam",
     "territoryType": "sovereign",
     "commerceSelectable": true,
     "confidence": 1,
@@ -3375,7 +3375,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "VU",
@@ -3389,13 +3389,13 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "WF",
     "iso3": "WLF",
     "numeric": "876",
-    "name": "Wallis and Futuna",
+    "name": "Wallis & Futuna",
     "territoryType": "dependent",
     "parentTerritory": "FR",
     "commerceSelectable": true,
@@ -3404,7 +3404,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "WS",
@@ -3418,7 +3418,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "YE",
@@ -3432,7 +3432,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "YT",
@@ -3447,7 +3447,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "ZA",
@@ -3461,7 +3461,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "ZM",
@@ -3475,7 +3475,7 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   },
   {
     "iso2": "ZW",
@@ -3489,6 +3489,6 @@
       "iso3166",
       "cldr"
     ],
-    "updatedAt": "2026-06-05"
+    "updatedAt": "2026-06-08"
   }
 ]

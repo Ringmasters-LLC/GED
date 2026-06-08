@@ -8,7 +8,8 @@
     "test": "pnpm -r run test",
     "lint": "eslint . && prettier --check .",
     "format": "prettier --write .",
-    "validate": "tsx scripts/validate.ts"
+    "validate": "tsx scripts/validate.ts",
+    "refresh:data": "tsx scripts/refresh-data.ts"
   },
   "keywords": [
     "country",
@@ -40,6 +41,9 @@
     "typescript": "^5.9.3"
   },
   "dependencies": {
+    "@types/node-fetch": "^2.6.13",
+    "fast-xml-parser": "^5.8.0",
+    "node-fetch": "^2.7.0",
     "ts-node": "^10.9.2",
     "zod": "^4.4.3"
   }
